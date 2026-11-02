@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "json_schema_definitions_validated": 9,
+  "representative_records_validated": 1600,
+  "records_per_layer": {
+    "corpus": 200,
+    "role_tasks": 200,
+    "case_corrections": 200,
+    "orthography_tasks": 200,
+    "source_statistics/wordforms": 200,
+    "source_statistics/adjacent_pairs": 200,
+    "source_statistics/context_pairs": 200,
+    "source_statistics/character_fragments": 100,
+    "source_statistics/affix_statistics": 100
+  },
+  "validator": "jsonschema Draft202012Validator",
+  "cff_yaml_parse_and_version_checks": "PASS",
+  "full_data_field_and_value_audits": "reports/primary_validation.json and reports/support_validation.json"
+}

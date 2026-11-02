@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "primary_shards_changed": 0,
+  "role_task_questions_updated": 1730310,
+  "role_task_answers_changed": 0,
+  "role_task_context_links_changed": 0,
+  "role_task_ids_changed": 0,
+  "all_new_task_shards_roundtripped": true,
+  "seconds": 82.27
+}

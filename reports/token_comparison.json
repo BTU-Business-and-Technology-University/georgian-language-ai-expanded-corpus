@@ -1,0 +1,10 @@
+{
+  "encoding": "o200k_base",
+  "current_primary_georgian_lexical_token_occurrences": 150080748,
+  "previous_stage_communication_estimate": 15000000,
+  "ratio_to_previous_communication_estimate": 10.005383,
+  "previous_measured_primary_text_tokens": 3906838,
+  "previous_measured_linguistic_field_tokens": 10578193,
+  "ratio_to_previous_measured_linguistic_fields": 14.187749,
+  "comparison_scope": "Size only. The earlier resource includes translations and annotations. The new headline counts Georgian words in distinct normalized primary sentences/utterances, excluding metadata, punctuation and auxiliary tasks. No quality or information multiplier is claimed."
+}

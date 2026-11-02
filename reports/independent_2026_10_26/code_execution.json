@@ -1,0 +1,10 @@
+{
+  "revision_unittest_cases": 2,
+  "revision_unittest_status": "PASS",
+  "export_mode_split_combinations_tested": 9,
+  "legacy_structural_tests_passed": 12,
+  "legacy_tokenizer_test_skipped": 1,
+  "full_tokenizer_test_suite_completed": false,
+  "model_training_completed": false,
+  "raw_data_shards_byte_identical": 339
+}

@@ -1,0 +1,16 @@
+{
+  "test": {
+    "wordforms": 859,
+    "wordforms_also_in_train": 841,
+    "rule_families": 5516,
+    "rule_families_also_in_train": 5516,
+    "target_groups_shared_with_train": 0
+  },
+  "validation": {
+    "wordforms": 688,
+    "wordforms_also_in_train": 678,
+    "rule_families": 2494,
+    "rule_families_also_in_train": 2494,
+    "target_groups_shared_with_train": 0
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Orthographic prefix/suffix statistics; not morphological gold",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "origin": {
+      "const": "source_aggregate"
+    },
+    "position": {
+      "enum": [
+        "prefix",
+        "suffix"
+      ]
+    },
+    "fragment": {
+      "type": "string",
+      "pattern": "^[ა-ჰ]{2,30}$"
+    },
+    "char_length": {
+      "type": "integer",
+      "minimum": 2,
+      "maximum": 30
+    },
+    "distinct_wordforms": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "required": [
+    "id",
+    "origin",
+    "position",
+    "fragment",
+    "char_length",
+    "distinct_wordforms"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Linked synthetic span-extraction task",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^qa[0-9]{8}$"
+    },
+    "context_id": {
+      "type": "string",
+      "pattern": "^ka[0-9]{8}$"
+    },
+    "task": {
+      "const": "extract_role"
+    },
+    "role": {
+      "type": "string",
+      "minLength": 1
+    },
+    "question_ka": {
+      "type": "string",
+      "minLength": 1
+    },
+    "answer_ka": {
+      "type": "string",
+      "minLength": 1
+    },
+    "origin": {
+      "const": "derived_from_synthetic"
+    }
+  },
+  "required": [
+    "id",
+    "context_id",
+    "task",
+    "role",
+    "question_ka",
+    "answer_ka",
+    "origin"
+  ]
+}

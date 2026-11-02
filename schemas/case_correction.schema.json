@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Intentionally incorrect input with linked positive target",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^fix[0-9]{7}$"
+    },
+    "context_id": {
+      "type": "string",
+      "pattern": "^ka[0-9]{8}$"
+    },
+    "task": {
+      "const": "correct_agent_case"
+    },
+    "question_ka": {
+      "type": "string",
+      "minLength": 1
+    },
+    "incorrect_text_ka": {
+      "type": "string",
+      "minLength": 1
+    },
+    "correct_agent_ka": {
+      "type": "string",
+      "minLength": 1
+    },
+    "origin": {
+      "const": "deliberate_negative_from_synthetic"
+    },
+    "include_in_plain_language_training": {
+      "const": false
+    }
+  },
+  "required": [
+    "id",
+    "context_id",
+    "task",
+    "question_ka",
+    "incorrect_text_ka",
+    "correct_agent_ka",
+    "origin",
+    "include_in_plain_language_training"
+  ]
+}

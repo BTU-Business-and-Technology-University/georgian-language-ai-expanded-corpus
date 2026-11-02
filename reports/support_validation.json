@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "source_aggregate_records_checked": 1680609,
+  "orthography_tasks_checked": 180627,
+  "component_counts": {
+    "source_statistics/wordforms": 128182,
+    "source_statistics/adjacent_pairs": 261931,
+    "source_statistics/context_pairs": 1264393,
+    "source_statistics/character_fragments": 19781,
+    "source_statistics/affix_statistics": 6322,
+    "orthography_tasks": 180627
+  },
+  "format_or_field_errors": 0,
+  "orthographic_answer_errors": 0,
+  "duplicate_feature_or_exercise_keys": 0,
+  "included_in_primary_150m_token_headline": false,
+  "gold_spelling_dictionary_claim": false
+}

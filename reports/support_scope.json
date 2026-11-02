@@ -1,0 +1,34 @@
+{
+  "source_aggregate_records": 1680609,
+  "orthographic_source_wordforms": 60209,
+  "orthography_task_records": 180627,
+  "known_nonstandard_plural_examples_excluded_from_orthographic_task_seeds": [
+    "დერეფანები",
+    "დერეფანებს",
+    "კალამები",
+    "კალამებს",
+    "მიზანები",
+    "მიზანებს",
+    "ნაჭერები",
+    "ნაჭერებს",
+    "ფანქარები",
+    "ფანქარებს",
+    "ფიცარები",
+    "ფიცარებს",
+    "ფურცელები",
+    "ფურცელებს",
+    "ჩანგალები",
+    "ჩანგალებს"
+  ],
+  "orthographic_answers": "computed string transformations; no normative spelling or semantic-definition claim",
+  "known_name_suppression_applied": true,
+  "suppressed_records_by_layer": {
+    "wordforms": 182,
+    "adjacent_pairs": 204,
+    "context_pairs": 794,
+    "character_fragments": 7,
+    "affix_statistics": 7
+  },
+  "name_filter_scope": "Known personal and literary name forms were suppressed; this is not a complete named-entity anonymization proof.",
+  "included_in_primary_150m_token_count": false
+}

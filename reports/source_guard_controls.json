@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "source_guard_known_positive_controls": 100,
+  "accepted_synthetic_negative_controls": 100,
+  "registered_target_phrases": 12568,
+  "original_source_excerpts_published": false
+}

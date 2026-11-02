@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "input_zip_sha256": "8afa8e706ff61bf1214c1804c9e6939bbe933199aba52d032bea6e1fea95a484",
+  "compared_to_version": "2.0.0",
+  "unchanged_non_QA_data_shards": 269,
+  "primary_compressed_shards_compared": 243,
+  "primary_compressed_shard_hashes_identical": true,
+  "all_component_record_counts_preserved": true,
+  "role_tasks_compared_field_by_field": 1730310,
+  "role_task_questions_changed": 1730310,
+  "role_task_other_field_changes": 0,
+  "primary_records_added_or_removed": 0,
+  "headline_tokens_added_or_removed": 0
+}

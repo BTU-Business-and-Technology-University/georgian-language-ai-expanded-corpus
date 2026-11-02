@@ -1,0 +1,14 @@
+{
+  "base_generation_seed": 20261026,
+  "base_target_tokens": 150000000,
+  "conditional_enrichment_seed": 20261127,
+  "conditional_enrichment_record_ranges": [
+    [
+      4644378,
+      4650000
+    ]
+  ],
+  "compression": "zstandard",
+  "compression_level": 14,
+  "uncompressed_payload_hashes_verified": true
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pooled character fragment",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "origin": {
+      "const": "source_aggregate"
+    },
+    "fragment": {
+      "type": "string",
+      "pattern": "^[ა-ჰ]{2,30}$"
+    },
+    "char_length": {
+      "type": "integer",
+      "minimum": 2,
+      "maximum": 30
+    },
+    "distinct_wordforms": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "clipped_occurrence_weight_band": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      }
+    }
+  },
+  "required": [
+    "id",
+    "origin",
+    "fragment",
+    "char_length",
+    "distinct_wordforms",
+    "clipped_occurrence_weight_band"
+  ]
+}

@@ -1,0 +1,639 @@
+{
+  "seed": 2026102601,
+  "layers": {
+    "corpus": {
+      "counts": {
+        "records": 6056086,
+        "georgian_word_occurrences": 57484948,
+        "stored_lexical_tokens_sum": 150080748,
+        "stored_text_tokens_sum": 158055340,
+        "duplicate_core_ids": 0,
+        "duplicate_normalized_clauses": 0,
+        "clauses": 6805704,
+        "ordinal_plural_review": 356342
+      },
+      "fields": {
+        "id": 6056086,
+        "synthetic_core_id": 6056086,
+        "text_ka": 6056086,
+        "origin": 6056086,
+        "construction": 6056086,
+        "rule_family": 6056086,
+        "domain": 6056086,
+        "features": 6056086,
+        "roles": 6056086,
+        "lexical_tokens": 6056086,
+        "text_tokens": 6056086
+      },
+      "types": {
+        "id:str": 6056086,
+        "synthetic_core_id:str": 6056086,
+        "text_ka:str": 6056086,
+        "origin:str": 6056086,
+        "construction:str": 6056086,
+        "rule_family:str": 6056086,
+        "domain:str": 6056086,
+        "features:dict": 6056086,
+        "roles:dict": 6056086,
+        "lexical_tokens:int": 6056086,
+        "text_tokens:int": 6056086
+      }
+    },
+    "role_tasks": {
+      "counts": {
+        "records": 1730310,
+        "split_train": 1661762,
+        "split_test": 44230,
+        "split_validation": 24318
+      },
+      "fields": {
+        "id": 1730310,
+        "context_id": 1730310,
+        "task": 1730310,
+        "role": 1730310,
+        "question_ka": 1730310,
+        "answer_ka": 1730310,
+        "origin": 1730310
+      },
+      "types": {
+        "id:str": 1730310,
+        "context_id:str": 1730310,
+        "task:str": 1730310,
+        "role:str": 1730310,
+        "question_ka:str": 1730310,
+        "answer_ka:str": 1730310,
+        "origin:str": 1730310
+      }
+    },
+    "case_corrections": {
+      "counts": {
+        "records": 42368,
+        "split_train": 40769,
+        "split_validation": 465,
+        "split_test": 1134
+      },
+      "fields": {
+        "id": 42368,
+        "context_id": 42368,
+        "task": 42368,
+        "question_ka": 42368,
+        "incorrect_text_ka": 42368,
+        "correct_agent_ka": 42368,
+        "origin": 42368,
+        "include_in_plain_language_training": 42368
+      },
+      "types": {
+        "id:str": 42368,
+        "context_id:str": 42368,
+        "task:str": 42368,
+        "question_ka:str": 42368,
+        "incorrect_text_ka:str": 42368,
+        "correct_agent_ka:str": 42368,
+        "origin:str": 42368,
+        "include_in_plain_language_training:bool": 42368
+      }
+    },
+    "source_statistics/wordforms": {
+      "counts": {
+        "records": 128182
+      },
+      "fields": {
+        "id": 128182,
+        "form": 128182,
+        "char_length": 128182,
+        "document_frequency_band": 128182,
+        "clipped_occurrence_band": 128182,
+        "origin": 128182
+      },
+      "types": {
+        "id:str": 128182,
+        "form:str": 128182,
+        "char_length:int": 128182,
+        "document_frequency_band:list": 128182,
+        "clipped_occurrence_band:list": 128182,
+        "origin:str": 128182
+      }
+    },
+    "source_statistics/adjacent_pairs": {
+      "counts": {
+        "records": 261931
+      },
+      "fields": {
+        "id": 261931,
+        "left": 261931,
+        "right": 261931,
+        "document_frequency_band": 261931,
+        "clipped_occurrence_band": 261931,
+        "origin": 261931
+      },
+      "types": {
+        "id:str": 261931,
+        "left:str": 261931,
+        "right:str": 261931,
+        "document_frequency_band:list": 261931,
+        "clipped_occurrence_band:list": 261931,
+        "origin:str": 261931
+      }
+    },
+    "source_statistics/context_pairs": {
+      "counts": {
+        "records": 1264393
+      },
+      "fields": {
+        "id": 1264393,
+        "word_a": 1264393,
+        "word_b": 1264393,
+        "document_frequency_band": 1264393,
+        "clipped_occurrence_band": 1264393,
+        "dice_from_band_midpoints": 1264393,
+        "origin": 1264393
+      },
+      "types": {
+        "id:str": 1264393,
+        "word_a:str": 1264393,
+        "word_b:str": 1264393,
+        "document_frequency_band:list": 1264393,
+        "clipped_occurrence_band:list": 1264393,
+        "dice_from_band_midpoints:float": 1264332,
+        "origin:str": 1264393,
+        "dice_from_band_midpoints:int": 61
+      }
+    },
+    "source_statistics/character_fragments": {
+      "counts": {
+        "records": 19781
+      },
+      "fields": {
+        "id": 19781,
+        "fragment": 19781,
+        "char_length": 19781,
+        "distinct_wordforms": 19781,
+        "clipped_occurrence_weight_band": 19781,
+        "origin": 19781
+      },
+      "types": {
+        "id:str": 19781,
+        "fragment:str": 19781,
+        "char_length:int": 19781,
+        "distinct_wordforms:int": 19781,
+        "clipped_occurrence_weight_band:list": 19781,
+        "origin:str": 19781
+      }
+    },
+    "source_statistics/affix_statistics": {
+      "counts": {
+        "records": 6322
+      },
+      "fields": {
+        "id": 6322,
+        "position": 6322,
+        "fragment": 6322,
+        "char_length": 6322,
+        "distinct_wordforms": 6322,
+        "origin": 6322
+      },
+      "types": {
+        "id:str": 6322,
+        "position:str": 6322,
+        "fragment:str": 6322,
+        "char_length:int": 6322,
+        "distinct_wordforms:int": 6322,
+        "origin:str": 6322
+      }
+    },
+    "orthography_tasks": {
+      "counts": {
+        "records": 180627
+      },
+      "fields": {
+        "id": 180627,
+        "task": 180627,
+        "wordform": 180627,
+        "question_ka": 180627,
+        "answer_ka": 180627,
+        "origin": 180627,
+        "spelling_gold": 180627,
+        "included_in_primary_token_headline": 180627
+      },
+      "types": {
+        "id:str": 180627,
+        "task:str": 180627,
+        "wordform:str": 180627,
+        "question_ka:str": 180627,
+        "answer_ka:str": 180627,
+        "origin:str": 180627,
+        "spelling_gold:bool": 180627,
+        "included_in_primary_token_headline:bool": 180627
+      }
+    }
+  },
+  "errors": [],
+  "unique_normalized_clauses": 6805704,
+  "unique_wordforms": 1886,
+  "rule_families": 13783,
+  "domains": {
+    "education": 1377924,
+    "office": 2100167,
+    "technical": 843868,
+    "everyday": 836887,
+    "mobility": 125753,
+    "craft": 617866,
+    "home": 153621
+  },
+  "split_counts": {
+    "train": 5817195,
+    "test": 154358,
+    "validation": 84533
+  },
+  "target_groups": {
+    "noun:პროგრამა": "train",
+    "noun:ანკეტა": "train",
+    "noun:მონაცემი": "train",
+    "noun:პასუხი": "train",
+    "noun:საკითხი": "train",
+    "noun:ფანჯარა": "train",
+    "noun:ანგარიში": "train",
+    "noun:ტერმინი": "train",
+    "noun:კატალოგი": "train",
+    "motion_destination:სამუშაო ოთახში": "train",
+    "noun:სია": "train",
+    "noun:მოსაზრება": "train",
+    "noun:დოკუმენტი": "train",
+    "noun:ნიმუში": "train",
+    "noun:კარი": "train",
+    "noun:მოწყობილობა": "train",
+    "noun:გაკვეთილი": "train",
+    "noun:დავალება": "test",
+    "noun:გრაფიკი": "train",
+    "noun:მოდელი": "train",
+    "motion_destination:ოფისში": "train",
+    "noun:ჩანაწერი": "train",
+    "noun:განრიგი": "train",
+    "noun:მოთხოვნა": "test",
+    "noun:ნაწილი": "train",
+    "noun:ფოტო": "train",
+    "noun:წიგნი": "train",
+    "noun:ვერსია": "train",
+    "noun:ხელშეკრულება": "train",
+    "noun:ყუთი": "train",
+    "noun:ოთახი": "train",
+    "noun:ფორმა": "train",
+    "noun:რეზიუმე": "train",
+    "motion_destination:ბიბლიოთეკაში": "train",
+    "noun:ქსოვილი": "train",
+    "noun:რეკომენდაცია": "train",
+    "noun:მაგიდა": "train",
+    "noun:სიტყვა": "train",
+    "noun:წესი": "train",
+    "noun:განცხადება": "train",
+    "noun:მიდგომა": "train",
+    "noun:სტაფილო": "train",
+    "noun:მოხსენება": "train",
+    "noun:ხელსაწყო": "train",
+    "motion_destination:სასწავლო ცენტრში": "train",
+    "noun:მაკეტი": "train",
+    "noun:განმარტება": "train",
+    "noun:იდეა": "train",
+    "noun:შედეგი": "train",
+    "noun:ექსპერიმენტი": "train",
+    "noun:ვარჯიში": "train",
+    "noun:ფანქარი": "train",
+    "motion_destination:სახელოსნოში": "train",
+    "noun:ტელეფონი": "train",
+    "noun:თოკი": "train",
+    "noun:შენიშვნა": "train",
+    "noun:ქაღალდი": "train",
+    "noun:განაცხადი": "train",
+    "noun:სურათი": "train",
+    "noun:წინადადება": "train",
+    "noun:ბოთლი": "train",
+    "motion_destination:სკოლაში": "train",
+    "noun:არქივი": "train",
+    "noun:პაროლი": "train",
+    "noun:მასალა": "train",
+    "noun:ტანსაცმელი": "train",
+    "noun:კარადა": "train",
+    "noun:ფაილი": "train",
+    "noun:შეკითხვა": "train",
+    "noun:ნაჭერი": "train",
+    "noun:მეთოდი": "train",
+    "noun:დეტალი": "train",
+    "noun:თემა": "train",
+    "noun:პირობა": "train",
+    "noun:ცნება": "validation",
+    "noun:კამერა": "train",
+    "motion_destination:სტუდიაში": "train",
+    "noun:ფიცარი": "train",
+    "noun:შეტყობინება": "train",
+    "noun:ტექსტი": "train",
+    "noun:მაგალითი": "train",
+    "noun:დისკუსია": "train",
+    "noun:რვეული": "train",
+    "noun:პრინციპი": "train",
+    "noun:დერეფანი": "train",
+    "noun:დასკვნა": "train",
+    "noun:გვერდი": "train",
+    "noun:ჩანგალი": "train",
+    "noun:ბმული": "train",
+    "noun:სისტემა": "train",
+    "noun:პომიდორი": "train",
+    "noun:მოქმედება": "train",
+    "noun:კვანძი": "train",
+    "motion_destination:სამკითხველო დარბაზში": "train",
+    "noun:მიმოხილვა": "train",
+    "noun:გეგმა": "train",
+    "noun:პირსახოცი": "train",
+    "noun:თარო": "train",
+    "noun:სტატია": "train",
+    "noun:კითხვარი": "train",
+    "motion_destination:ლაბორატორიაში": "train",
+    "noun:ამოცანა": "train",
+    "noun:წერილი": "train",
+    "noun:ქვაბი": "train",
+    "noun:ჩანთა": "train",
+    "noun:სკამი": "train",
+    "noun:სქემა": "validation",
+    "noun:ინსტრუქცია": "train",
+    "noun:კომპიუტერი": "train",
+    "motion_destination:შეხვედრის ოთახში": "train",
+    "noun:საქაღალდე": "train",
+    "noun:დანა": "train",
+    "noun:აპლიკაცია": "train",
+    "noun:აქტივობა": "train",
+    "noun:ნახაზი": "train",
+    "noun:ჭიქა": "train",
+    "noun:ბიულეტენი": "train",
+    "noun:ბარათი": "train",
+    "noun:ჩარჩო": "test",
+    "noun:ცნობა": "train",
+    "noun:ჯოხი": "train",
+    "noun:რესურსი": "train",
+    "noun:შეთანხმება": "train",
+    "noun:სამუშაო": "train",
+    "noun:მსხალი": "test",
+    "noun:კონვერტი": "train",
+    "noun:შეხვედრა": "train",
+    "motion_destination:უნივერსიტეტში": "train",
+    "noun:ლამპა": "train",
+    "noun:სახლი": "train",
+    "noun:შემოწმება": "train",
+    "noun:ჩანართი": "train",
+    "noun:ილუსტრაცია": "train",
+    "noun:აქტი": "validation",
+    "noun:რეცენზია": "train",
+    "noun:ინტერფეისი": "train",
+    "noun:დაკვირვება": "train",
+    "noun:ცდა": "train",
+    "noun:აღწერა": "train",
+    "noun:პური": "train",
+    "noun:მონახაზი": "train",
+    "noun:კოდი": "train",
+    "noun:ესკიზი": "train",
+    "noun:სერტიფიკატი": "train",
+    "noun:პლატფორმა": "train",
+    "noun:საქმიანობა": "train",
+    "noun:კონსტრუქცია": "train",
+    "noun:შენობა": "train",
+    "noun:ლენტი": "train",
+    "noun:გამოცდა": "train",
+    "noun:დაფა": "train",
+    "noun:რუკა": "train",
+    "noun:ბლოკი": "train",
+    "noun:მიზანი": "train",
+    "noun:ცხრილი": "train",
+    "motion_destination:სახლში": "test",
+    "noun:ფურცელი": "train",
+    "noun:შეფასება": "train",
+    "noun:ჯამი": "train",
+    "noun:სახელოსნო": "train",
+    "noun:ეკრანი": "train",
+    "noun:ეზო": "train",
+    "noun:სათავსო": "train",
+    "noun:კლავიატურა": "train",
+    "noun:სიგნალი": "train",
+    "noun:ღონისძიება": "train",
+    "noun:პროცესი": "train",
+    "noun:კონსულტაცია": "train",
+    "noun:თეფში": "train",
+    "noun:პრინტერი": "train",
+    "noun:კოვზი": "train",
+    "noun:კალამი": "train",
+    "noun:კაბელი": "test",
+    "noun:სემინარი": "train",
+    "noun:ვაშლი": "train",
+    "noun:განყოფილება": "train",
+    "noun:კარტოფილი": "train"
+  },
+  "semantic_signature_definition": [
+    "construction",
+    "predicate_or_subtype",
+    "target_head",
+    "tense",
+    "polarity"
+  ],
+  "semantic_signatures": 18736,
+  "largest_signature": 2880,
+  "signature_top20": [
+    {
+      "key": [
+        "temporal",
+        "study",
+        "noun:შედეგი",
+        "past_then_future",
+        "positive"
+      ],
+      "n": 2880
+    },
+    {
+      "key": [
+        "temporal",
+        "study",
+        "noun:თემა",
+        "past_then_future",
+        "positive"
+      ],
+      "n": 2869
+    },
+    {
+      "key": [
+        "temporal",
+        "study",
+        "noun:მიდგომა",
+        "past_then_future",
+        "positive"
+      ],
+      "n": 2861
+    },
+    {
+      "key": [
+        "temporal",
+        "study",
+        "noun:პროცესი",
+        "past_then_future",
+        "positive"
+      ],
+      "n": 2850
+    },
+    {
+      "key": [
+        "temporal",
+        "study",
+        "noun:საკითხი",
+        "past_then_future",
+        "positive"
+      ],
+      "n": 2839
+    },
+    {
+      "key": [
+        "temporal",
+        "study",
+        "noun:მონაცემი",
+        "past_then_future",
+        "positive"
+      ],
+      "n": 2629
+    },
+    {
+      "key": [
+        "modal",
+        "recall",
+        "noun:შეკითხვა",
+        "present_modal",
+        "positive"
+      ],
+      "n": 2446
+    },
+    {
+      "key": [
+        "temporal",
+        "study",
+        "noun:ნიმუში",
+        "past_then_future",
+        "positive"
+      ],
+      "n": 2382
+    },
+    {
+      "key": [
+        "modal",
+        "recall",
+        "noun:მაგალითი",
+        "present_modal",
+        "positive"
+      ],
+      "n": 2262
+    },
+    {
+      "key": [
+        "modal",
+        "recall",
+        "noun:გაკვეთილი",
+        "present_modal",
+        "positive"
+      ],
+      "n": 2244
+    },
+    {
+      "key": [
+        "temporal",
+        "study",
+        "noun:პირობა",
+        "past_then_future",
+        "positive"
+      ],
+      "n": 2212
+    },
+    {
+      "key": [
+        "temporal",
+        "check",
+        "noun:დასკვნა",
+        "past_then_future",
+        "positive"
+      ],
+      "n": 2202
+    },
+    {
+      "key": [
+        "modal",
+        "combine",
+        "noun:სია",
+        "present_modal",
+        "positive"
+      ],
+      "n": 2191
+    },
+    {
+      "key": [
+        "temporal",
+        "check",
+        "noun:განცხადება",
+        "past_then_future",
+        "positive"
+      ],
+      "n": 2188
+    },
+    {
+      "key": [
+        "active",
+        "recall",
+        "noun:შეკითხვა",
+        "present",
+        "positive"
+      ],
+      "n": 2186
+    },
+    {
+      "key": [
+        "temporal",
+        "write",
+        "noun:სტატია",
+        "past_then_future",
+        "positive"
+      ],
+      "n": 2181
+    },
+    {
+      "key": [
+        "temporal",
+        "write",
+        "noun:აღწერა",
+        "past_then_future",
+        "positive"
+      ],
+      "n": 2177
+    },
+    {
+      "key": [
+        "temporal",
+        "check",
+        "noun:შეტყობინება",
+        "past_then_future",
+        "positive"
+      ],
+      "n": 2177
+    },
+    {
+      "key": [
+        "temporal",
+        "write",
+        "noun:განცხადება",
+        "past_then_future",
+        "positive"
+      ],
+      "n": 2170
+    },
+    {
+      "key": [
+        "temporal",
+        "check",
+        "noun:წერილი",
+        "past_then_future",
+        "positive"
+      ],
+      "n": 2170
+    }
+  ],
+  "elapsed_seconds": 149.5596218109131
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.part
+.commit-*
+.work/
+private/
+raw/
+*.bloom
+*.so
+.DS_Store

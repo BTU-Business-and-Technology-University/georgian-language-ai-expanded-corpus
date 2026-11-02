@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "version": "2.0.1",
+  "release_state": "prepared_for_research_publication",
+  "publication_performed": false,
+  "primary_lexical_tokens": 150080748,
+  "primary_records": 6056086,
+  "all_component_records": 9690000,
+  "all_data_counts_preserved_from_v2_0_0": true,
+  "all_data_changes_limited_to_neutral_role_question_wording": true,
+  "full_primary_and_support_audits": "PASS",
+  "functional_regression_tests": 13,
+  "source_guard_positive_and_negative_controls": "PASS",
+  "gzip_export_mode_split_checks": 9,
+  "json_schema_definitions_validated": 9,
+  "representative_records_json_schema_validated": 1600,
+  "independent_human_linguist_review": false,
+  "model_improvement_measured": false,
+  "formal_non_reidentification_proof": false
+}

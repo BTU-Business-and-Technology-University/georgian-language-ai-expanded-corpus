@@ -1,0 +1,746 @@
+{
+  "policy": "target-head-v1",
+  "primary_records": {
+    "train": 5817195,
+    "test": 154358,
+    "validation": 84533
+  },
+  "primary_lexical_tokens": {
+    "train": 144339048,
+    "test": 3718730,
+    "validation": 2022970
+  },
+  "role_tasks": {
+    "train": 1661762,
+    "test": 44230,
+    "validation": 24318
+  },
+  "case_corrections": {
+    "train": 40769,
+    "validation": 465,
+    "test": 1134
+  },
+  "target_groups": {
+    "motion_destination:ბიბლიოთეკაში": {
+      "split": "train",
+      "primary_records": 10353
+    },
+    "motion_destination:ლაბორატორიაში": {
+      "split": "train",
+      "primary_records": 10376
+    },
+    "motion_destination:ოფისში": {
+      "split": "train",
+      "primary_records": 10340
+    },
+    "motion_destination:სამკითხველო დარბაზში": {
+      "split": "train",
+      "primary_records": 11173
+    },
+    "motion_destination:სამუშაო ოთახში": {
+      "split": "train",
+      "primary_records": 10363
+    },
+    "motion_destination:სასწავლო ცენტრში": {
+      "split": "train",
+      "primary_records": 10344
+    },
+    "motion_destination:სახელოსნოში": {
+      "split": "train",
+      "primary_records": 10347
+    },
+    "motion_destination:სახლში": {
+      "split": "test",
+      "primary_records": 10293
+    },
+    "motion_destination:სკოლაში": {
+      "split": "train",
+      "primary_records": 10351
+    },
+    "motion_destination:სტუდიაში": {
+      "split": "train",
+      "primary_records": 10386
+    },
+    "motion_destination:უნივერსიტეტში": {
+      "split": "train",
+      "primary_records": 10328
+    },
+    "motion_destination:შეხვედრის ოთახში": {
+      "split": "train",
+      "primary_records": 11099
+    },
+    "noun:ამოცანა": {
+      "split": "train",
+      "primary_records": 30767
+    },
+    "noun:ანგარიში": {
+      "split": "train",
+      "primary_records": 77934
+    },
+    "noun:ანკეტა": {
+      "split": "train",
+      "primary_records": 43104
+    },
+    "noun:აპლიკაცია": {
+      "split": "train",
+      "primary_records": 33447
+    },
+    "noun:არქივი": {
+      "split": "train",
+      "primary_records": 30210
+    },
+    "noun:აქტი": {
+      "split": "validation",
+      "primary_records": 45107
+    },
+    "noun:აქტივობა": {
+      "split": "train",
+      "primary_records": 16734
+    },
+    "noun:აღწერა": {
+      "split": "train",
+      "primary_records": 43400
+    },
+    "noun:ბარათი": {
+      "split": "train",
+      "primary_records": 78984
+    },
+    "noun:ბიულეტენი": {
+      "split": "train",
+      "primary_records": 30165
+    },
+    "noun:ბლოკი": {
+      "split": "train",
+      "primary_records": 11446
+    },
+    "noun:ბმული": {
+      "split": "train",
+      "primary_records": 20443
+    },
+    "noun:ბოთლი": {
+      "split": "train",
+      "primary_records": 9667
+    },
+    "noun:გაკვეთილი": {
+      "split": "train",
+      "primary_records": 56720
+    },
+    "noun:გამოცდა": {
+      "split": "train",
+      "primary_records": 16835
+    },
+    "noun:განაცხადი": {
+      "split": "train",
+      "primary_records": 51451
+    },
+    "noun:განმარტება": {
+      "split": "train",
+      "primary_records": 45060
+    },
+    "noun:განრიგი": {
+      "split": "train",
+      "primary_records": 36337
+    },
+    "noun:განყოფილება": {
+      "split": "train",
+      "primary_records": 6875
+    },
+    "noun:განცხადება": {
+      "split": "train",
+      "primary_records": 82918
+    },
+    "noun:გეგმა": {
+      "split": "train",
+      "primary_records": 71360
+    },
+    "noun:გვერდი": {
+      "split": "train",
+      "primary_records": 58863
+    },
+    "noun:გრაფიკი": {
+      "split": "train",
+      "primary_records": 36510
+    },
+    "noun:დავალება": {
+      "split": "test",
+      "primary_records": 67838
+    },
+    "noun:დაკვირვება": {
+      "split": "train",
+      "primary_records": 17188
+    },
+    "noun:დანა": {
+      "split": "train",
+      "primary_records": 12811
+    },
+    "noun:დასკვნა": {
+      "split": "train",
+      "primary_records": 72277
+    },
+    "noun:დაფა": {
+      "split": "train",
+      "primary_records": 11403
+    },
+    "noun:დერეფანი": {
+      "split": "train",
+      "primary_records": 12197
+    },
+    "noun:დეტალი": {
+      "split": "train",
+      "primary_records": 52209
+    },
+    "noun:დისკუსია": {
+      "split": "train",
+      "primary_records": 16892
+    },
+    "noun:დოკუმენტი": {
+      "split": "train",
+      "primary_records": 94738
+    },
+    "noun:ეზო": {
+      "split": "train",
+      "primary_records": 12171
+    },
+    "noun:ეკრანი": {
+      "split": "train",
+      "primary_records": 19884
+    },
+    "noun:ესკიზი": {
+      "split": "train",
+      "primary_records": 41435
+    },
+    "noun:ექსპერიმენტი": {
+      "split": "train",
+      "primary_records": 29172
+    },
+    "noun:ვარჯიში": {
+      "split": "train",
+      "primary_records": 61348
+    },
+    "noun:ვაშლი": {
+      "split": "train",
+      "primary_records": 3666
+    },
+    "noun:ვერსია": {
+      "split": "train",
+      "primary_records": 29692
+    },
+    "noun:თარო": {
+      "split": "train",
+      "primary_records": 44431
+    },
+    "noun:თემა": {
+      "split": "train",
+      "primary_records": 33884
+    },
+    "noun:თეფში": {
+      "split": "train",
+      "primary_records": 12844
+    },
+    "noun:თოკი": {
+      "split": "train",
+      "primary_records": 30225
+    },
+    "noun:იდეა": {
+      "split": "train",
+      "primary_records": 35330
+    },
+    "noun:ილუსტრაცია": {
+      "split": "train",
+      "primary_records": 29425
+    },
+    "noun:ინსტრუქცია": {
+      "split": "train",
+      "primary_records": 38903
+    },
+    "noun:ინტერფეისი": {
+      "split": "train",
+      "primary_records": 19032
+    },
+    "noun:კაბელი": {
+      "split": "test",
+      "primary_records": 11476
+    },
+    "noun:კალამი": {
+      "split": "train",
+      "primary_records": 13029
+    },
+    "noun:კამერა": {
+      "split": "train",
+      "primary_records": 11375
+    },
+    "noun:კარადა": {
+      "split": "train",
+      "primary_records": 43852
+    },
+    "noun:კარი": {
+      "split": "train",
+      "primary_records": 45581
+    },
+    "noun:კარტოფილი": {
+      "split": "train",
+      "primary_records": 3726
+    },
+    "noun:კატალოგი": {
+      "split": "train",
+      "primary_records": 26290
+    },
+    "noun:კვანძი": {
+      "split": "train",
+      "primary_records": 11428
+    },
+    "noun:კითხვარი": {
+      "split": "train",
+      "primary_records": 47290
+    },
+    "noun:კლავიატურა": {
+      "split": "train",
+      "primary_records": 19989
+    },
+    "noun:კოდი": {
+      "split": "train",
+      "primary_records": 43888
+    },
+    "noun:კოვზი": {
+      "split": "train",
+      "primary_records": 12945
+    },
+    "noun:კომპიუტერი": {
+      "split": "train",
+      "primary_records": 11385
+    },
+    "noun:კონვერტი": {
+      "split": "train",
+      "primary_records": 20891
+    },
+    "noun:კონსტრუქცია": {
+      "split": "train",
+      "primary_records": 22950
+    },
+    "noun:კონსულტაცია": {
+      "split": "train",
+      "primary_records": 16736
+    },
+    "noun:ლამპა": {
+      "split": "train",
+      "primary_records": 11251
+    },
+    "noun:ლენტი": {
+      "split": "train",
+      "primary_records": 30237
+    },
+    "noun:მაგალითი": {
+      "split": "train",
+      "primary_records": 41192
+    },
+    "noun:მაგიდა": {
+      "split": "train",
+      "primary_records": 49769
+    },
+    "noun:მაკეტი": {
+      "split": "train",
+      "primary_records": 17552
+    },
+    "noun:მასალა": {
+      "split": "train",
+      "primary_records": 35078
+    },
+    "noun:მეთოდი": {
+      "split": "train",
+      "primary_records": 66031
+    },
+    "noun:მიდგომა": {
+      "split": "train",
+      "primary_records": 63334
+    },
+    "noun:მიზანი": {
+      "split": "train",
+      "primary_records": 26503
+    },
+    "noun:მიმოხილვა": {
+      "split": "train",
+      "primary_records": 29869
+    },
+    "noun:მოდელი": {
+      "split": "train",
+      "primary_records": 76671
+    },
+    "noun:მოთხოვნა": {
+      "split": "test",
+      "primary_records": 43058
+    },
+    "noun:მონაცემი": {
+      "split": "train",
+      "primary_records": 82687
+    },
+    "noun:მონახაზი": {
+      "split": "train",
+      "primary_records": 29957
+    },
+    "noun:მოსაზრება": {
+      "split": "train",
+      "primary_records": 24152
+    },
+    "noun:მოქმედება": {
+      "split": "train",
+      "primary_records": 28941
+    },
+    "noun:მოწყობილობა": {
+      "split": "train",
+      "primary_records": 47450
+    },
+    "noun:მოხსენება": {
+      "split": "train",
+      "primary_records": 46056
+    },
+    "noun:მსხალი": {
+      "split": "test",
+      "primary_records": 3710
+    },
+    "noun:ნაწილი": {
+      "split": "train",
+      "primary_records": 46775
+    },
+    "noun:ნაჭერი": {
+      "split": "train",
+      "primary_records": 1944
+    },
+    "noun:ნახაზი": {
+      "split": "train",
+      "primary_records": 25466
+    },
+    "noun:ნიმუში": {
+      "split": "train",
+      "primary_records": 58270
+    },
+    "noun:ოთახი": {
+      "split": "train",
+      "primary_records": 19412
+    },
+    "noun:პაროლი": {
+      "split": "train",
+      "primary_records": 27520
+    },
+    "noun:პასუხი": {
+      "split": "train",
+      "primary_records": 97955
+    },
+    "noun:პირობა": {
+      "split": "train",
+      "primary_records": 54147
+    },
+    "noun:პირსახოცი": {
+      "split": "train",
+      "primary_records": 15379
+    },
+    "noun:პლატფორმა": {
+      "split": "train",
+      "primary_records": 40505
+    },
+    "noun:პომიდორი": {
+      "split": "train",
+      "primary_records": 3738
+    },
+    "noun:პრინტერი": {
+      "split": "train",
+      "primary_records": 11488
+    },
+    "noun:პრინციპი": {
+      "split": "train",
+      "primary_records": 27075
+    },
+    "noun:პროგრამა": {
+      "split": "train",
+      "primary_records": 79569
+    },
+    "noun:პროცესი": {
+      "split": "train",
+      "primary_records": 30659
+    },
+    "noun:პური": {
+      "split": "train",
+      "primary_records": 3925
+    },
+    "noun:რეზიუმე": {
+      "split": "train",
+      "primary_records": 36154
+    },
+    "noun:რეკომენდაცია": {
+      "split": "train",
+      "primary_records": 69994
+    },
+    "noun:რესურსი": {
+      "split": "train",
+      "primary_records": 50179
+    },
+    "noun:რეცენზია": {
+      "split": "train",
+      "primary_records": 38944
+    },
+    "noun:რვეული": {
+      "split": "train",
+      "primary_records": 27666
+    },
+    "noun:რუკა": {
+      "split": "train",
+      "primary_records": 22208
+    },
+    "noun:სათავსო": {
+      "split": "train",
+      "primary_records": 12028
+    },
+    "noun:საკითხი": {
+      "split": "train",
+      "primary_records": 50301
+    },
+    "noun:სამუშაო": {
+      "split": "train",
+      "primary_records": 51674
+    },
+    "noun:საქაღალდე": {
+      "split": "train",
+      "primary_records": 43450
+    },
+    "noun:საქმიანობა": {
+      "split": "train",
+      "primary_records": 16755
+    },
+    "noun:სახელოსნო": {
+      "split": "train",
+      "primary_records": 12120
+    },
+    "noun:სახლი": {
+      "split": "train",
+      "primary_records": 15827
+    },
+    "noun:სემინარი": {
+      "split": "train",
+      "primary_records": 6955
+    },
+    "noun:სერტიფიკატი": {
+      "split": "train",
+      "primary_records": 38039
+    },
+    "noun:სია": {
+      "split": "train",
+      "primary_records": 125132
+    },
+    "noun:სიგნალი": {
+      "split": "train",
+      "primary_records": 25239
+    },
+    "noun:სისტემა": {
+      "split": "train",
+      "primary_records": 55340
+    },
+    "noun:სიტყვა": {
+      "split": "train",
+      "primary_records": 63673
+    },
+    "noun:სკამი": {
+      "split": "train",
+      "primary_records": 31114
+    },
+    "noun:სტატია": {
+      "split": "train",
+      "primary_records": 71450
+    },
+    "noun:სტაფილო": {
+      "split": "train",
+      "primary_records": 1790
+    },
+    "noun:სურათი": {
+      "split": "train",
+      "primary_records": 34865
+    },
+    "noun:სქემა": {
+      "split": "validation",
+      "primary_records": 32773
+    },
+    "noun:ტანსაცმელი": {
+      "split": "train",
+      "primary_records": 4658
+    },
+    "noun:ტელეფონი": {
+      "split": "train",
+      "primary_records": 11478
+    },
+    "noun:ტერმინი": {
+      "split": "train",
+      "primary_records": 13268
+    },
+    "noun:ტექსტი": {
+      "split": "train",
+      "primary_records": 61502
+    },
+    "noun:ფაილი": {
+      "split": "train",
+      "primary_records": 39128
+    },
+    "noun:ფანქარი": {
+      "split": "train",
+      "primary_records": 13050
+    },
+    "noun:ფანჯარა": {
+      "split": "train",
+      "primary_records": 60990
+    },
+    "noun:ფიცარი": {
+      "split": "train",
+      "primary_records": 21677
+    },
+    "noun:ფორმა": {
+      "split": "train",
+      "primary_records": 73158
+    },
+    "noun:ფოტო": {
+      "split": "train",
+      "primary_records": 35744
+    },
+    "noun:ფურცელი": {
+      "split": "train",
+      "primary_records": 37416
+    },
+    "noun:ქაღალდი": {
+      "split": "train",
+      "primary_records": 16696
+    },
+    "noun:ქვაბი": {
+      "split": "train",
+      "primary_records": 12913
+    },
+    "noun:ქსოვილი": {
+      "split": "train",
+      "primary_records": 18538
+    },
+    "noun:ღონისძიება": {
+      "split": "train",
+      "primary_records": 16735
+    },
+    "noun:ყუთი": {
+      "split": "train",
+      "primary_records": 87673
+    },
+    "noun:შედეგი": {
+      "split": "train",
+      "primary_records": 41792
+    },
+    "noun:შეთანხმება": {
+      "split": "train",
+      "primary_records": 45548
+    },
+    "noun:შეკითხვა": {
+      "split": "train",
+      "primary_records": 83526
+    },
+    "noun:შემოწმება": {
+      "split": "train",
+      "primary_records": 16837
+    },
+    "noun:შენიშვნა": {
+      "split": "train",
+      "primary_records": 48799
+    },
+    "noun:შენობა": {
+      "split": "train",
+      "primary_records": 3759
+    },
+    "noun:შეტყობინება": {
+      "split": "train",
+      "primary_records": 65105
+    },
+    "noun:შეფასება": {
+      "split": "train",
+      "primary_records": 27053
+    },
+    "noun:შეხვედრა": {
+      "split": "train",
+      "primary_records": 21055
+    },
+    "noun:ჩანართი": {
+      "split": "train",
+      "primary_records": 19068
+    },
+    "noun:ჩანაწერი": {
+      "split": "train",
+      "primary_records": 58726
+    },
+    "noun:ჩანგალი": {
+      "split": "train",
+      "primary_records": 12846
+    },
+    "noun:ჩანთა": {
+      "split": "train",
+      "primary_records": 46600
+    },
+    "noun:ჩარჩო": {
+      "split": "test",
+      "primary_records": 17983
+    },
+    "noun:ცდა": {
+      "split": "train",
+      "primary_records": 24069
+    },
+    "noun:ცნება": {
+      "split": "validation",
+      "primary_records": 6653
+    },
+    "noun:ცნობა": {
+      "split": "train",
+      "primary_records": 44775
+    },
+    "noun:ცხრილი": {
+      "split": "train",
+      "primary_records": 29973
+    },
+    "noun:წერილი": {
+      "split": "train",
+      "primary_records": 100442
+    },
+    "noun:წესი": {
+      "split": "train",
+      "primary_records": 65639
+    },
+    "noun:წიგნი": {
+      "split": "train",
+      "primary_records": 104877
+    },
+    "noun:წინადადება": {
+      "split": "train",
+      "primary_records": 61949
+    },
+    "noun:ჭიქა": {
+      "split": "train",
+      "primary_records": 12850
+    },
+    "noun:ხელსაწყო": {
+      "split": "train",
+      "primary_records": 32911
+    },
+    "noun:ხელშეკრულება": {
+      "split": "train",
+      "primary_records": 56485
+    },
+    "noun:ჯამი": {
+      "split": "train",
+      "primary_records": 12806
+    },
+    "noun:ჯოხი": {
+      "split": "train",
+      "primary_records": 16425
+    }
+  },
+  "target_groups_shared_between_splits": 0,
+  "nominal_hash_bucket_fractions": {
+    "train": 0.9,
+    "validation": 0.05,
+    "test": 0.05
+  },
+  "observed_primary_record_fractions": {
+    "train": 0.960554,
+    "test": 0.025488,
+    "validation": 0.013958
+  },
+  "auxiliary_statistics_and_orthography_partitioned": false,
+  "gold_benchmark": false
+}

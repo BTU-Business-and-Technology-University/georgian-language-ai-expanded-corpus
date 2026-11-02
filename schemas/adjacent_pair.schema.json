@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pooled adjacent two-word feature",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "origin": {
+      "const": "source_aggregate"
+    },
+    "left": {
+      "type": "string",
+      "pattern": "^[ა-ჰ]{2,30}$"
+    },
+    "right": {
+      "type": "string",
+      "pattern": "^[ა-ჰ]{2,30}$"
+    },
+    "document_frequency_band": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
+    "clipped_occurrence_band": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      }
+    }
+  },
+  "required": [
+    "id",
+    "origin",
+    "left",
+    "right",
+    "document_frequency_band",
+    "clipped_occurrence_band"
+  ]
+}

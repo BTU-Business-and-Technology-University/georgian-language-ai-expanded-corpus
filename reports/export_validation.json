@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "gzip_cli_exports_checked": 9,
+  "mode_split_checks": [
+    {
+      "records_exported": 3,
+      "mode": "text",
+      "split": "train"
+    },
+    {
+      "records_exported": 3,
+      "mode": "text",
+      "split": "validation"
+    },
+    {
+      "records_exported": 3,
+      "mode": "text",
+      "split": "test"
+    },
+    {
+      "records_exported": 3,
+      "mode": "role_qa",
+      "split": "train"
+    },
+    {
+      "records_exported": 3,
+      "mode": "role_qa",
+      "split": "validation"
+    },
+    {
+      "records_exported": 3,
+      "mode": "role_qa",
+      "split": "test"
+    },
+    {
+      "records_exported": 3,
+      "mode": "case_correction",
+      "split": "train"
+    },
+    {
+      "records_exported": 3,
+      "mode": "case_correction",
+      "split": "validation"
+    },
+    {
+      "records_exported": 3,
+      "mode": "case_correction",
+      "split": "test"
+    }
+  ]
+}

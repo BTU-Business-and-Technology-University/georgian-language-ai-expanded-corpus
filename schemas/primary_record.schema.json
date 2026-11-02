@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BTU positive synthetic record",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "synthetic_core_id": {
+      "type": "string"
+    },
+    "text_ka": {
+      "type": "string"
+    },
+    "origin": {
+      "const": "rule_synthetic"
+    },
+    "construction": {
+      "type": "string"
+    },
+    "rule_family": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "features": {
+      "type": "object"
+    },
+    "roles": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "lexical_tokens": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "text_tokens": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "required": [
+    "id",
+    "synthetic_core_id",
+    "text_ka",
+    "origin",
+    "construction",
+    "rule_family",
+    "domain",
+    "features",
+    "roles",
+    "lexical_tokens",
+    "text_tokens"
+  ]
+}

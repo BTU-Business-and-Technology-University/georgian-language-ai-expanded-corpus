@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "tests": [
+    "unterminated_final_source_line_indexed",
+    "reload_replaces_old_index",
+    "failed_reload_fails_closed"
+  ],
+  "original_unterminated_line_result": "false negative: documents=0, match=0"
+}

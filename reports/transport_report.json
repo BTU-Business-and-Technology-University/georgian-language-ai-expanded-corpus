@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "primary_shards": 243,
+  "all_repacked_payloads_roundtripped": true,
+  "compression": "zstandard_with_checksum",
+  "data_bytes": 394598035,
+  "primary_records": 6056086,
+  "primary_georgian_lexical_tokens": 150080748
+}

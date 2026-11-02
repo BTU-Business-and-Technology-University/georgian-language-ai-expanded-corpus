@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "tests_run": 13,
+  "fixture_primary_records": 1000,
+  "checks": [
+    "transport corruption rejection",
+    "unexpected provenance-field rejection",
+    "normalized sentence duplicate rejection",
+    "token count rejection",
+    "role answer and neutral question-policy consistency",
+    "case correction changes only the actor case",
+    "manifest layer count consistency",
+    "target-head grouping across inflections and constructions",
+    "export split membership and exclusion of negative inputs from plain text",
+    "audit refusal when Python assertions are disabled",
+    "zero-limit export and overwrite protection under optimized Python"
+  ],
+  "human_linguist_review": false,
+  "model_utility_test": false
+}

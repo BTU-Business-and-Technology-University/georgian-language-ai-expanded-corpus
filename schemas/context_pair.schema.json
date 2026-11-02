@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pooled unordered context pair",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "origin": {
+      "const": "source_aggregate"
+    },
+    "word_a": {
+      "type": "string",
+      "pattern": "^[ა-ჰ]{2,30}$"
+    },
+    "word_b": {
+      "type": "string",
+      "pattern": "^[ა-ჰ]{2,30}$"
+    },
+    "document_frequency_band": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
+    "clipped_occurrence_band": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
+    "dice_from_band_midpoints": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    }
+  },
+  "required": [
+    "id",
+    "origin",
+    "word_a",
+    "word_b",
+    "document_frequency_band",
+    "clipped_occurrence_band",
+    "dice_from_band_midpoints"
+  ]
+}

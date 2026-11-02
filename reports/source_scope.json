@@ -1,0 +1,11 @@
+{
+  "partner": "Palitra Group",
+  "processed_input_word_occurrences": 70312697,
+  "processed_input_documents": 302499,
+  "unavailable_oversized_zip_containers": 5,
+  "complete_folder_coverage_verified": false,
+  "raw_source_documents_or_individual_work_mappings_distributed": false,
+  "primary_origin": "rule_synthetic",
+  "formal_non_reidentification_guarantee": false,
+  "source_types": "Pooled long-form and media text; no individual works or inventories distributed"
+}

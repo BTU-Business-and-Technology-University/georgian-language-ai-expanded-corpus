@@ -1,0 +1,6057 @@
+{
+  "basis": "Predicate-noun slots are semantically authored. Observed unordered context cooccurrence is supporting evidence, not a gold syntactic dependency or factual relation.",
+  "threshold_for_reported_cooccurrence": {
+    "minimum_documents": 5,
+    "minimum_collections": 2
+  },
+  "attested_slots": 484,
+  "authored_only_fallback_slots": 265,
+  "allowed_predicate_noun_pairs": {
+    "write": [
+      {
+        "noun": "ანგარიში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "აღწერა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "განმარტება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "განცხადება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          128,
+          256
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დასკვნა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პასუხი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "რეკომენდაცია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "რეცენზია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სტატია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ტექსტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეკითხვა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შენიშვნა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეტყობინება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ჩანაწერი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წერილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          128,
+          256
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წინადადება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "read": [
+      {
+        "noun": "განცხადება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "გვერდი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დასკვნა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დოკუმენტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ინსტრუქცია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოხსენება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პასუხი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "რეკომენდაცია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სტატია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ტექსტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეტყობინება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ჩანაწერი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წერილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წიგნი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          256,
+          512
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წინადადება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ხელშეკრულება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "prepare": [
+      {
+        "noun": "ანგარიში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "აქტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "გაკვეთილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "განცხადება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "გეგმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დავალება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დასკვნა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დოკუმენტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოდელი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოხსენება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ნიმუში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პასუხი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პროგრამა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "რეკომენდაცია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სტატია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ტექსტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ფორმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეთანხმება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შენიშვნა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წერილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წინადადება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ხელშეკრულება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "check": [
+      {
+        "noun": "ანგარიში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "განცხადება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "გვერდი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დავალება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დასკვნა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დოკუმენტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "კოდი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მონაცემი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოწყობილობა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ნაწილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ნიმუში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პასუხი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პლატფორმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "რეკომენდაცია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სერტიფიკატი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სისტემა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეკითხვა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეტყობინება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წერილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "correct": [
+      {
+        "noun": "ანგარიში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ფორმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ანკეტა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "აქტი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "აღწერა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ბიულეტენი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "განაცხადი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "განმარტება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "განრიგი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "განცხადება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "გეგმა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "გრაფიკი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "დასკვნა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "დოკუმენტი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ესკიზი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ინსტრუქცია",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "კითხვარი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "კოდი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მიმოხილვა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მონახაზი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მოხსენება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ნახაზი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "პასუხი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "რეზიუმე",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "რეკომენდაცია",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "რეცენზია",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სერტიფიკატი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სია",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სტატია",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სქემა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ტექსტი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "შეთანხმება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "შეკითხვა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "შენიშვნა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "შეტყობინება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ჩანაწერი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ცნობა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ცხრილი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "წერილი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "წინადადება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ხელშეკრულება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      }
+    ],
+    "fill": [
+      {
+        "noun": "ანკეტა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ბარათი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "განაცხადი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "კითხვარი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ფორმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "save": [
+      {
+        "noun": "ანგარიში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "არქივი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ბარათი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დეტალი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დოკუმენტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "კოდი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მასალა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოდელი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მონაცემი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ნიმუში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სურათი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ტექსტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ფორმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ფოტო",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ყუთი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ჩანაწერი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ჩანთა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ცნობა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წერილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წიგნი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "send": [
+      {
+        "noun": "ანგარიში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ბარათი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "განაცხადი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "განცხადება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დოკუმენტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პასუხი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "რეზიუმე",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სიგნალი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ფორმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ფოტო",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეტყობინება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წერილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "search": [
+      {
+        "noun": "განცხადება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "გეგმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "თემა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "იდეა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მეთოდი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მიდგომა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მიზანი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოდელი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოთხოვნა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პასუხი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პირობა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "საკითხი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სიტყვა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ფორმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შედეგი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წერილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წესი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წიგნი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "find": [
+      {
+        "noun": "ბარათი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "განცხადება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "გეგმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დავალება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დასკვნა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დეტალი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "თემა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "იდეა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მაგალითი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მეთოდი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მიდგომა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მიზანი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოდელი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პასუხი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პირობა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "საკითხი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სიტყვა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ფორმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ფურცელი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ყუთი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შედეგი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეტყობინება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ჩანაწერი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ჩანთა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ცნობა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წერილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წესი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წიგნი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ხელშეკრულება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "choose": [
+      {
+        "noun": "ამოცანა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ბარათი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "გაკვეთილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "გეგმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დავალება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დეტალი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ვარჯიში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "თემა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "იდეა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მეთოდი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მიდგომა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მიზანი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოდელი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოთხოვნა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პირობა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პრინციპი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პროგრამა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "საკითხი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სიტყვა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შედეგი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ჩანთა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წესი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წიგნი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "evaluate": [
+      {
+        "noun": "ანგარიში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "აღწერა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "განცხადება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "გეგმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დავალება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დასკვნა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დოკუმენტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "იდეა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "კითხვარი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მაგალითი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მეთოდი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მიდგომა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მიზანი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოდელი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოთხოვნა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოსაზრება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოწყობილობა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ნიმუში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პასუხი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პირობა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პრინციპი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პროგრამა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "რეკომენდაცია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "საკითხი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სიტყვა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ფორმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შედეგი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეკითხვა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ჩანაწერი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წერილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წესი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წინადადება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "learn": [
+      {
+        "noun": "გაკვეთილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ვარჯიში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მეთოდი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მიდგომა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პრინციპი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სიტყვა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წესი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "open": [
+      {
+        "noun": "გვერდი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "კარი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          128,
+          256
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "საქაღალდე",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ფაილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ფანჯარა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ყუთი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ჩანთა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წიგნი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "explain": [
+      {
+        "noun": "ამოცანა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "გაკვეთილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "განმარტება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          256,
+          512
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "გეგმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დავალება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ვარჯიში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "თემა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მეთოდი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მიდგომა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მიზანი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოთხოვნა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოსაზრება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პასუხი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პირობა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პროგრამა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "საკითხი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სიტყვა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შედეგი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეკითხვა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წესი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "close": [
+      {
+        "noun": "კარი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "საქაღალდე",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ფანჯარა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ყუთი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წიგნი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "lock": [
+      {
+        "noun": "კარი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ფანჯარა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "კარადა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ყუთი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ჩანთა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      }
+    ],
+    "draw": [
+      {
+        "noun": "ესკიზი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "რუკა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სურათი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ილუსტრაცია",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მოდელი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ნახაზი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სქემა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      }
+    ],
+    "build": [
+      {
+        "noun": "კონსტრუქცია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ოთახი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სახლი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          256,
+          512
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შენობა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          128,
+          256
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "make": [
+      {
+        "noun": "თარო",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მაგიდა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოდელი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სკამი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ჩარჩო",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "assemble": [
+      {
+        "noun": "კონსტრუქცია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოდელი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "თარო",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "კარადა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მაგიდა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მაკეტი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მოწყობილობა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სკამი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ხელსაწყო",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      }
+    ],
+    "arrange": [
+      {
+        "noun": "მაგიდა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ოთახი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სახლი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დერეფანი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ეზო",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "თარო",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "რვეული",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სათავსო",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "საქაღალდე",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სახელოსნო",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ყუთი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "წიგნი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      }
+    ],
+    "clean": [
+      {
+        "noun": "ეზო",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ოთახი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სახლი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დერეფანი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "თარო",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მაგიდა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მოწყობილობა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სათავსო",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სახელოსნო",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ფანჯარა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ყუთი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ხელსაწყო",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      }
+    ],
+    "wash": [
+      {
+        "noun": "ტანსაცმელი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ქსოვილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დანა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ვაშლი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "თეფში",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "კარტოფილი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "კოვზი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მსხალი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "პირსახოცი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "პომიდორი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სტაფილო",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ქვაბი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ჩანგალი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ჭიქა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ჯამი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      }
+    ],
+    "wipe": [
+      {
+        "noun": "თარო",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ფანჯარა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ეკრანი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "კარადა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "კლავიატურა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მაგიდა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მოწყობილობა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სკამი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ხელსაწყო",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      }
+    ],
+    "cut": [
+      {
+        "noun": "ლენტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პური",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ქსოვილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ვაშლი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "თოკი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "კარტოფილი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მსხალი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ნაჭერი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "პომიდორი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ფიცარი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ფურცელი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ქაღალდი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      }
+    ],
+    "measure": [
+      {
+        "noun": "მოწყობილობა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დეტალი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "თოკი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "კარადა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ლენტი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მაგიდა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ოთახი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ფიცარი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ქაღალდი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ქსოვილი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ჯოხი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      }
+    ],
+    "count": [
+      {
+        "noun": "მონაცემი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ნიმუში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წიგნი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ბარათი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "დეტალი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "კონვერტი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "რვეული",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ფურცელი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ყუთი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      }
+    ],
+    "distribute": [
+      {
+        "noun": "რესურსი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სამუშაო",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ბარათი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "დავალება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მასალა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ფურცელი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ყუთი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "წიგნი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      }
+    ],
+    "collect": [
+      {
+        "noun": "ბარათი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დეტალი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დოკუმენტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მასალა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მონაცემი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          128,
+          256
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ნიმუში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ცნობა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წიგნი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "sort": [
+      {
+        "noun": "ანგარიში",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ანკეტა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "აქტი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "აღწერა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ბარათი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ბიულეტენი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "განაცხადი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "განმარტება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "განრიგი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "განცხადება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "გრაფიკი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "დასკვნა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "დეტალი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "დოკუმენტი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ესკიზი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ინსტრუქცია",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "კალამი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "კითხვარი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "კონვერტი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მაკეტი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მასალა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მიმოხილვა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მოდელი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მონაცემი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მონახაზი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მოხსენება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ნიმუში",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "პასუხი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "რეზიუმე",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "რეკომენდაცია",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "რეცენზია",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "რვეული",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "საქაღალდე",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სერტიფიკატი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სია",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სტატია",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ტექსტი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ფაილი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ფანქარი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ფორმა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ფურცელი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ყუთი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "შეთანხმება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "შეკითხვა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "შენიშვნა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "შეტყობინება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ჩანაწერი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ჩანთა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ცნობა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ცხრილი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "წერილი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "წიგნი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "წინადადება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ხელსაწყო",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ხელშეკრულება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      }
+    ],
+    "combine": [
+      {
+        "noun": "მონაცემი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ნაწილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "რესურსი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "divide": [
+      {
+        "noun": "ნაწილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სამუშაო",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დავალება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "თოკი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ლენტი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მასალა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "პური",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ქაღალდი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ქსოვილი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      }
+    ],
+    "create": [
+      {
+        "noun": "აპლიკაცია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "არქივი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "გეგმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დოკუმენტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ილუსტრაცია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "კატალოგი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოდელი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          128,
+          256
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პლატფორმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          128,
+          256
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პროგრამა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          128,
+          256
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სისტემა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          256,
+          512
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სურათი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სქემა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ფაილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "change": [
+      {
+        "noun": "გეგმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დეტალი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "კოდი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მეთოდი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მიდგომა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          128,
+          256
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოთხოვნა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ნაწილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პაროლი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პირობა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პროგრამა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წესი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          256,
+          512
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "update": [
+      {
+        "noun": "გეგმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "გვერდი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ვერსია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მონაცემი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პროგრამა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სისტემა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "repeat": [
+      {
+        "noun": "ექსპერიმენტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ვარჯიში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მაგალითი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სიტყვა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          128,
+          256
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ცდა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წესი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "understand": [
+      {
+        "noun": "იდეა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მეთოდი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოთხოვნა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოსაზრება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პასუხი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პირობა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "საკითხი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეკითხვა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წესი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "recall": [
+      {
+        "noun": "გაკვეთილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მაგალითი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სიტყვა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეკითხვა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "establish": [
+      {
+        "noun": "ანგარიში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "აქტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "განრიგი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "გეგმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "გრაფიკი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დოკუმენტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეთანხმება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეფასება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ხელშეკრულება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "complete": [
+      {
+        "noun": "ამოცანა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დავალება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          256,
+          512
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ვარჯიში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოქმედება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პროგრამა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სამუშაო",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          512,
+          1024
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "begin": [
+      {
+        "noun": "აქტივობა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "გაკვეთილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "გამოცდა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დაკვირვება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დისკუსია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ექსპერიმენტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ვარჯიში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          128,
+          256
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "კონსულტაცია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოქმედება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          256,
+          512
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პროცესი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          1024,
+          2048
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სამუშაო",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          1024,
+          2048
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "საქმიანობა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          256,
+          512
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ღონისძიება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          128,
+          256
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შემოწმება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          128,
+          256
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეფასება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეხვედრა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          256,
+          512
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ცდა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "continue": [
+      {
+        "noun": "აქტივობა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "გაკვეთილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "გამოცდა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დაკვირვება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დისკუსია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ექსპერიმენტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ვარჯიში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "კონსულტაცია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოქმედება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          128,
+          256
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პროცესი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          1024,
+          2048
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სამუშაო",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          512,
+          1024
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "საქმიანობა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          256,
+          512
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ღონისძიება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          128,
+          256
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შემოწმება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეფასება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეხვედრა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          128,
+          256
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "translate": [
+      {
+        "noun": "დოკუმენტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ტექსტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წიგნი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ანგარიში",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ანკეტა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "აქტი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "აღწერა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ბიულეტენი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "განაცხადი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "განმარტება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "განრიგი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "განცხადება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "გვერდი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "გრაფიკი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "დასკვნა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ესკიზი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ინსტრუქცია",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "კითხვარი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მიმოხილვა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მონახაზი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მოხსენება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "პასუხი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "რეზიუმე",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "რეკომენდაცია",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "რეცენზია",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სერტიფიკატი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სია",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სიტყვა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სტატია",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ტერმინი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ფორმა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "შეთანხმება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "შეკითხვა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "შენიშვნა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "შეტყობინება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ჩანაწერი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ცნობა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ცხრილი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "წერილი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "წინადადება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ხელშეკრულება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      }
+    ],
+    "copy": [
+      {
+        "noun": "ანგარიში",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ანკეტა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "აქტი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "აღწერა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ბიულეტენი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ბმული",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "განაცხადი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "განმარტება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "განრიგი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "განცხადება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "გვერდი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "გრაფიკი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "დასკვნა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "დოკუმენტი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ესკიზი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ინსტრუქცია",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "კითხვარი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "კოდი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მიმოხილვა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მონახაზი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "მოხსენება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "პასუხი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "რეზიუმე",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "რეკომენდაცია",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "რეცენზია",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სერტიფიკატი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სია",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სტატია",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "სურათი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ტექსტი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ფაილი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ფორმა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ფოტო",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "შეთანხმება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "შეკითხვა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "შენიშვნა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "შეტყობინება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ჩანაწერი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ცნობა",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ცხრილი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "წერილი",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "წინადადება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      },
+      {
+        "noun": "ხელშეკრულება",
+        "evidence": "authored_semantic_compatibility",
+        "document_frequency_band": null,
+        "collection_support_floor": null
+      }
+    ],
+    "print": [
+      {
+        "noun": "ბარათი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სტატია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ფოტო",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წერილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წიგნი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "describe": [
+      {
+        "noun": "მეთოდი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოდელი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოთხოვნა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პირობა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პროგრამა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პროცესი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "საკითხი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სამუშაო",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სისტემა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სიტყვა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ტერმინი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შედეგი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეფასება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეხვედრა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წესი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "discuss": [
+      {
+        "noun": "ამოცანა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ანგარიში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "აქტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "განაცხადი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "განცხადება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "გეგმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          128,
+          256
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დასკვნა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "დოკუმენტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "თემა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "იდეა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მაგალითი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მეთოდი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მიდგომა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მიზანი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოთხოვნა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოსაზრება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პასუხი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პირობა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პრინციპი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პროგრამა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "რეკომენდაცია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "საკითხი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          1024,
+          2048
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სტატია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ტექსტი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ფორმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შედეგი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          64,
+          128
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეთანხმება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შეკითხვა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შენიშვნა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წერილი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წესი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "წინადადება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          128,
+          256
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ხელშეკრულება",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "study": [
+      {
+        "noun": "თემა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მასალა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მიდგომა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მონაცემი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "ნიმუში",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პირობა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პროცესი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "საკითხი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "შედეგი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      }
+    ],
+    "develop": [
+      {
+        "noun": "აპლიკაცია",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "იდეა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მეთოდი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          4,
+          8
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მიდგომა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "მოდელი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პლატფორმა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "პროგრამა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          16,
+          32
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "რესურსი",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          8,
+          16
+        ],
+        "collection_support_floor": 2
+      },
+      {
+        "noun": "სისტემა",
+        "evidence": "corpus_context_cooccurrence",
+        "document_frequency_band": [
+          32,
+          64
+        ],
+        "collection_support_floor": 2
+      }
+    ]
+  }
+}

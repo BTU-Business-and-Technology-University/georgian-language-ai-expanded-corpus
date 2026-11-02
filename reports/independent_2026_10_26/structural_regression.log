@@ -1,0 +1,18 @@
+test_audit_refuses_optimized_python (__main__.ReleaseChecks.test_audit_refuses_optimized_python) ... ok
+test_correction_may_change_only_actor_case (__main__.ReleaseChecks.test_correction_may_change_only_actor_case) ... ok
+test_export_split_and_negative_layer_isolation (__main__.ReleaseChecks.test_export_split_and_negative_layer_isolation) ... ok
+test_export_zero_limit_and_no_overwrite_under_optimization (__main__.ReleaseChecks.test_export_zero_limit_and_no_overwrite_under_optimization) ... ok
+test_extra_provenance_field_is_rejected (__main__.ReleaseChecks.test_extra_provenance_field_is_rejected) ... ok
+test_incorrect_answer_is_rejected (__main__.ReleaseChecks.test_incorrect_answer_is_rejected) ... ok
+test_incorrect_token_count_is_rejected (__main__.ReleaseChecks.test_incorrect_token_count_is_rejected) ... skipped 'Requires real tokenizer; never substitute stored counts'
+test_manifest_layer_count_is_checked (__main__.ReleaseChecks.test_manifest_layer_count_is_checked) ... ok
+test_presupposing_question_is_rejected (__main__.ReleaseChecks.test_presupposing_question_is_rejected) ... ok
+test_repeated_sentence_is_rejected (__main__.ReleaseChecks.test_repeated_sentence_is_rejected) ... ok
+test_target_head_groups_inflections_and_constructions (__main__.ReleaseChecks.test_target_head_groups_inflections_and_constructions) ... ok
+test_transport_corruption_is_rejected (__main__.ReleaseChecks.test_transport_corruption_is_rejected) ... ok
+test_valid_fixture_and_split_coverage (__main__.ReleaseChecks.test_valid_fixture_and_split_coverage) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 1.548s
+
+OK (skipped=1)

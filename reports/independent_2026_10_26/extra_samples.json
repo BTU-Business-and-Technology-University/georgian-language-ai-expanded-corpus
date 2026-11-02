@@ -1,0 +1,587 @@
+{
+  "role_tasks/time": {
+    "n": 253703,
+    "rows": [
+      {
+        "id": "qa00434527",
+        "context_id": "ka01520848",
+        "task": "extract_role",
+        "role": "time",
+        "question_ka": "ამოიღე ტექსტიდან დროის აღმნიშვნელი გამოთქმა.",
+        "answer_ka": "მომავალ კვირას",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "მომავალ კვირას დამთვალიერებლის შემაჯამებელი კითხვარები კარადაში არ იქნება."
+      },
+      {
+        "id": "qa00199289",
+        "context_id": "ka00697515",
+        "task": "extract_role",
+        "role": "time",
+        "question_ka": "ამოიღე ტექსტიდან დროის აღმნიშვნელი გამოთქმა.",
+        "answer_ka": "ახლა",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "— ახლა ტექნიკოსის გრძელი პრინტერი სად არის?\n— ახლა ტექნიკოსის გრძელი პრინტერი ოთახში არის."
+      },
+      {
+        "id": "qa01539315",
+        "context_id": "ka05387606",
+        "task": "extract_role",
+        "role": "time",
+        "question_ka": "ამოიღე ტექსტიდან დროის აღმნიშვნელი გამოთქმა.",
+        "answer_ka": "მომდევნო გაკვეთილის შემდეგ",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "მომდევნო გაკვეთილის შემდეგ საჭირო მაგიდა დასასვენებელ ოთახში მშენებლის მიერ ზუსტად გასუფთავდება."
+      },
+      {
+        "id": "qa01142237",
+        "context_id": "ka03997833",
+        "task": "extract_role",
+        "role": "time",
+        "question_ka": "ამოიღე პირველი წინადადებიდან დროის აღმნიშვნელი გამოთქმა.",
+        "answer_ka": "გუშინ",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "დირექტორმა გუშინ სასწავლო ცენტრში ძველი წიგნები ყურადღებით თარგმნა. ზეგ დილით ის სასწავლო ცენტრში ამ წიგნებს კიდევ ერთხელ ყურადღებით თარგმნის."
+      }
+    ]
+  },
+  "role_tasks/place": {
+    "n": 253703,
+    "rows": [
+      {
+        "id": "qa00448978",
+        "context_id": "ka01571423",
+        "task": "extract_role",
+        "role": "place",
+        "question_ka": "ამოიღე ტექსტიდან ადგილის აღმნიშვნელი გამოთქმა.",
+        "answer_ka": "სახლში",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "მომავალ შაბათს მწვანე ფანჯარა სახლში ინჟინრის მიერ არ გაიხსნება."
+      },
+      {
+        "id": "qa00217520",
+        "context_id": "ka00761320",
+        "task": "extract_role",
+        "role": "place",
+        "question_ka": "ამოიღე ტექსტიდან ადგილის აღმნიშვნელი გამოთქმა.",
+        "answer_ka": "სამკითხველო დარბაზში",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "— ამ დილით ადმინისტრატორის ლურჯი კოვზი სად არის?\n— ამ დილით ადმინისტრატორის ლურჯი კოვზი სამკითხველო დარბაზში არის."
+      },
+      {
+        "id": "qa00894158",
+        "context_id": "ka03129553",
+        "task": "extract_role",
+        "role": "place",
+        "question_ka": "ამოიღე ტექსტიდან ადგილის აღმნიშვნელი გამოთქმა.",
+        "answer_ka": "ელექტრონულ საცავში",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "დღეს ჟურნალისტის მნიშვნელოვანი ვერსია ელექტრონულ საცავში არ არის."
+      },
+      {
+        "id": "qa00427826",
+        "context_id": "ka01497391",
+        "task": "extract_role",
+        "role": "place",
+        "question_ka": "ამოიღე ტექსტიდან ადგილის აღმნიშვნელი გამოთქმა.",
+        "answer_ka": "დაწესებულებაში",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "მომდევნო გაკვეთილის შემდეგ საბოლოო სიები დაწესებულებაში კოორდინატორის მიერ ეტაპობრივად გაერთიანდება."
+      }
+    ]
+  },
+  "role_tasks/agent": {
+    "n": 441994,
+    "rows": [
+      {
+        "id": "qa01482099",
+        "context_id": "ka05187350",
+        "task": "extract_role",
+        "role": "agent",
+        "question_ka": "ამოიღე ტექსტიდან მოქმედი პირის აღმნიშვნელი ფორმა.",
+        "answer_ka": "მკითხველმა",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "წინა კვირას მკითხველმა, რომელიც უნივერსიტეტში მუშაობს, საბოლოო პროცესი გულდასმით გამოიკვლია სასწავლო ოთახში."
+      },
+      {
+        "id": "qa00745425",
+        "context_id": "ka02608991",
+        "task": "extract_role",
+        "role": "agent",
+        "question_ka": "ამოიღე ტექსტიდან მოქმედი პირის აღმნიშვნელი ფორმა.",
+        "answer_ka": "ბიბლიოთეკარმა",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "გუშინ საღამოს ბიბლიოთეკარმა, რომელიც ოფისში მუშაობს, პრაქტიკული რეკომენდაცია სწორად დაწერა სამუშაო მაგიდასთან."
+      },
+      {
+        "id": "qa01088881",
+        "context_id": "ka03811087",
+        "task": "extract_role",
+        "role": "agent",
+        "question_ka": "ამოიღე ტექსტიდან მოქმედი პირის აღმნიშვნელი ფორმა.",
+        "answer_ka": "მდივანი",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "დღეს საერთო სამუშაო სივრცეში მდივანი დეტალურ ფოტოებს სწორად ბეჭდავს."
+      },
+      {
+        "id": "qa00046531",
+        "context_id": "ka00162862",
+        "task": "extract_role",
+        "role": "agent",
+        "question_ka": "ამოიღე ტექსტიდან მოქმედი პირის აღმნიშვნელი ფორმა.",
+        "answer_ka": "შენ",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "შენ ვრცელი პასუხები გუშინ დილით საერთო სამუშაო სივრცეში არ წაიკითხე."
+      }
+    ]
+  },
+  "role_tasks/patient": {
+    "n": 441994,
+    "rows": [
+      {
+        "id": "qa00948406",
+        "context_id": "ka03319421",
+        "task": "extract_role",
+        "role": "patient",
+        "question_ka": "ამოიღე ტექსტიდან მოქმედების ობიექტის აღმნიშვნელი ფორმა.",
+        "answer_ka": "სატესტო გაკვეთილს",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "ყოველ დილით ბიბლიოთეკაში პროგრამისტი სატესტო გაკვეთილს დამოუკიდებლად აგრძელებს."
+      },
+      {
+        "id": "qa00612344",
+        "context_id": "ka02143204",
+        "task": "extract_role",
+        "role": "patient",
+        "question_ka": "ამოიღე ტექსტიდან მოქმედების ობიექტის აღმნიშვნელი ფორმა.",
+        "answer_ka": "ძველი წიგნები",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "ამ დროს სახლში ლაბორანტმა ძველი წიგნები ეტაპობრივად უნდა დათვალოს."
+      },
+      {
+        "id": "qa00612512",
+        "context_id": "ka02143792",
+        "task": "extract_role",
+        "role": "patient",
+        "question_ka": "ამოიღე ტექსტიდან მოქმედების ობიექტის აღმნიშვნელი ფორმა.",
+        "answer_ka": "მეორე ინსტრუქციები",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "დღეს სასწავლო ცენტრში მცხობელმა მეორე ინსტრუქციები ჩუმად უნდა წაიკითხოს."
+      },
+      {
+        "id": "qa01206782",
+        "context_id": "ka04223737",
+        "task": "extract_role",
+        "role": "patient",
+        "question_ka": "ამოიღე ტექსტიდან მოქმედების ობიექტის აღმნიშვნელი ფორმა.",
+        "answer_ka": "დიდ წიგნებს",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "დირექტორი ხვალ სამუშაო მაგიდასთან დიდ წიგნებს ფრთხილად გაანაწილებს."
+      }
+    ]
+  },
+  "role_tasks/experiencer": {
+    "n": 91213,
+    "rows": [
+      {
+        "id": "qa01198821",
+        "context_id": "ka04195877",
+        "task": "extract_role",
+        "role": "experiencer",
+        "question_ka": "რომელ პირს ეხება წინადადება? ამოიღე ტექსტში გამოყენებული ფორმა.",
+        "answer_ka": "მოხალისეებს",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "ახლა მოხალისეებს მოკლე ცნობა სჭირდებათ."
+      },
+      {
+        "id": "qa00859235",
+        "context_id": "ka03007326",
+        "task": "extract_role",
+        "role": "experiencer",
+        "question_ka": "რომელ პირს ეხება წინადადება? ამოიღე ტექსტში გამოყენებული ფორმა.",
+        "answer_ka": "მზარეულს",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "ახლა მზარეულს ოფიციალური აღწერა მოსწონს."
+      },
+      {
+        "id": "qa01382669",
+        "context_id": "ka04839345",
+        "task": "extract_role",
+        "role": "experiencer",
+        "question_ka": "რომელ პირს ეხება წინადადება? ამოიღე ტექსტში გამოყენებული ფორმა.",
+        "answer_ka": "კურიერს",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "წინა თვეში კურიერს სატესტო ფორმები ახსოვდა."
+      },
+      {
+        "id": "qa01545725",
+        "context_id": "ka05410041",
+        "task": "extract_role",
+        "role": "experiencer",
+        "question_ka": "რომელ პირს ეხება წინადადება? ამოიღე ტექსტში გამოყენებული ფორმა.",
+        "answer_ka": "მოხალისეებს",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "მომავალ კვირას მოხალისეებს დამატებითი წერილები დააინტერესებთ."
+      }
+    ]
+  },
+  "role_tasks/stimulus": {
+    "n": 91213,
+    "rows": [
+      {
+        "id": "qa00587864",
+        "context_id": "ka02057524",
+        "task": "extract_role",
+        "role": "stimulus",
+        "question_ka": "რომელ საგანს ან საკითხს ეხება განცდა ან საჭიროება? ამოიღე შესაბამისი ფორმა.",
+        "answer_ka": "მესამე კითხვარები",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "მომავალ კვირას მდივნებს მესამე კითხვარები დააინტერესებთ."
+      },
+      {
+        "id": "qa01627756",
+        "context_id": "ka05697146",
+        "task": "extract_role",
+        "role": "stimulus",
+        "question_ka": "რომელ საგანს ან საკითხს ეხება განცდა ან საჭიროება? ამოიღე შესაბამისი ფორმა.",
+        "answer_ka": "დამატებითი ჩანართები",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "წინა თვეში მგზავრებს დამატებითი ჩანართები აინტერესებდათ."
+      },
+      {
+        "id": "qa00942414",
+        "context_id": "ka03298449",
+        "task": "extract_role",
+        "role": "stimulus",
+        "question_ka": "რომელ საგანს ან საკითხს ეხება განცდა ან საჭიროება? ამოიღე შესაბამისი ფორმა.",
+        "answer_ka": "საინფორმაციო ესკიზი",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "ახლა ოპერატორებს საინფორმაციო ესკიზი ახსოვთ."
+      },
+      {
+        "id": "qa00484346",
+        "context_id": "ka01695211",
+        "task": "extract_role",
+        "role": "stimulus",
+        "question_ka": "რომელ საგანს ან საკითხს ეხება განცდა ან საჭიროება? ამოიღე შესაბამისი ფორმა.",
+        "answer_ka": "სატესტო შეტყობინება",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "წინა კვირას ხელოსნებს სატესტო შეტყობინება სჭირდებოდათ."
+      }
+    ]
+  },
+  "role_tasks/possessor": {
+    "n": 60412,
+    "rows": [
+      {
+        "id": "qa01538231",
+        "context_id": "ka05383812",
+        "task": "extract_role",
+        "role": "possessor",
+        "question_ka": "რომელ პირზეა საუბარი? ამოიღე ტექსტში გამოყენებული ფორმა.",
+        "answer_ka": "მე",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "ხვალ მე ჩანთაში შესწორებული დასკვნა არ მექნება."
+      },
+      {
+        "id": "qa01177701",
+        "context_id": "ka04121957",
+        "task": "extract_role",
+        "role": "possessor",
+        "question_ka": "რომელ პირზეა საუბარი? ამოიღე ტექსტში გამოყენებული ფორმა.",
+        "answer_ka": "ჩვენ",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "ამ დილით ჩვენ სამუშაო მაგიდაზე პატარა ნიმუში არ გვაქვს."
+      },
+      {
+        "id": "qa00529115",
+        "context_id": "ka01851906",
+        "task": "extract_role",
+        "role": "possessor",
+        "question_ka": "რომელ პირზეა საუბარი? ამოიღე ტექსტში გამოყენებული ფორმა.",
+        "answer_ka": "კონსულტანტს",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "წინა თვეში კონსულტანტს ოთახში პატარა ხელსაწყოები არ ჰქონდა."
+      },
+      {
+        "id": "qa00737159",
+        "context_id": "ka02580060",
+        "task": "extract_role",
+        "role": "possessor",
+        "question_ka": "რომელ პირზეა საუბარი? ამოიღე ტექსტში გამოყენებული ფორმა.",
+        "answer_ka": "კოორდინატორს",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "წინა თვეში კოორდინატორს ჩანთაში საბოლოო ფორმები ჰქონდა."
+      }
+    ]
+  },
+  "role_tasks/possessed": {
+    "n": 60412,
+    "rows": [
+      {
+        "id": "qa00481544",
+        "context_id": "ka01685404",
+        "task": "extract_role",
+        "role": "possessed",
+        "question_ka": "რომელ საგანზეა საუბარი? ამოიღე ტექსტში გამოყენებული ფორმა.",
+        "answer_ka": "მეორე შეტყობინება",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "წინა კვირას თქვენ სამუშაო მაგიდაზე მეორე შეტყობინება გქონდათ."
+      },
+      {
+        "id": "qa01348766",
+        "context_id": "ka04720681",
+        "task": "extract_role",
+        "role": "possessed",
+        "question_ka": "რომელ საგანზეა საუბარი? ამოიღე ტექსტში გამოყენებული ფორმა.",
+        "answer_ka": "ტექნიკური ფოტოები",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "მომავალ თვეში მშენებელს კარადაში ტექნიკური ფოტოები არ ექნება."
+      },
+      {
+        "id": "qa01087916",
+        "context_id": "ka03807706",
+        "task": "extract_role",
+        "role": "possessed",
+        "question_ka": "რომელ საგანზეა საუბარი? ამოიღე ტექსტში გამოყენებული ფორმა.",
+        "answer_ka": "პირველი ბლოკი",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "ამ დილით ავტორებს სახელოსნოში პირველი ბლოკი აქვთ."
+      },
+      {
+        "id": "qa00971492",
+        "context_id": "ka03400222",
+        "task": "extract_role",
+        "role": "possessed",
+        "question_ka": "რომელ საგანზეა საუბარი? ამოიღე ტექსტში გამოყენებული ფორმა.",
+        "answer_ka": "საერთო სტატია",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "ამ დილით მასწავლებლებს ოფისში საერთო სტატია აქვთ."
+      }
+    ]
+  },
+  "role_tasks/mover": {
+    "n": 17833,
+    "rows": [
+      {
+        "id": "qa00296379",
+        "context_id": "ka01037330",
+        "task": "extract_role",
+        "role": "mover",
+        "question_ka": "ვის გადაადგილებას ან დარჩენას ეხება ტექსტი? ამოიღე შესაბამისი ფორმა.",
+        "answer_ka": "მოსწავლე",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "ზოგჯერ მოსწავლე ბიბლიოთეკიდან სამკითხველო დარბაზში არ მიდის."
+      },
+      {
+        "id": "qa01029649",
+        "context_id": "ka03603775",
+        "task": "extract_role",
+        "role": "mover",
+        "question_ka": "ვის გადაადგილებას ან დარჩენას ეხება ტექსტი? ამოიღე შესაბამისი ფორმა.",
+        "answer_ka": "კურატორები",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "წინა თვეში კურატორები ოფისიდან შეხვედრის ოთახში წავიდნენ."
+      },
+      {
+        "id": "qa01159701",
+        "context_id": "ka04058957",
+        "task": "extract_role",
+        "role": "mover",
+        "question_ka": "ვის გადაადგილებას ან დარჩენას ეხება ტექსტი? ამოიღე შესაბამისი ფორმა.",
+        "answer_ka": "თანამშრომლები",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "ყოველ დილით თანამშრომლები უნივერსიტეტიდან ლაბორატორიაში ბრუნდებიან."
+      },
+      {
+        "id": "qa00658261",
+        "context_id": "ka02303917",
+        "task": "extract_role",
+        "role": "mover",
+        "question_ka": "ვის გადაადგილებას ან დარჩენას ეხება ტექსტი? ამოიღე შესაბამისი ფორმა.",
+        "answer_ka": "პროგრამისტი",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "ხვალ დილით პროგრამისტი სამუშაო ოთახიდან სახელოსნოში წავა."
+      }
+    ]
+  },
+  "role_tasks/destination": {
+    "n": 17833,
+    "rows": [
+      {
+        "id": "qa00807414",
+        "context_id": "ka02825949",
+        "task": "extract_role",
+        "role": "destination",
+        "question_ka": "ამოიღე ტექსტიდან დანიშნულების ან დარჩენის ადგილი.",
+        "answer_ka": "უნივერსიტეტში",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "ხვალ მკითხველი სახელოსნოდან უნივერსიტეტში წავა."
+      },
+      {
+        "id": "qa00127842",
+        "context_id": "ka00447447",
+        "task": "extract_role",
+        "role": "destination",
+        "question_ka": "ამოიღე ტექსტიდან დანიშნულების ან დარჩენის ადგილი.",
+        "answer_ka": "სამუშაო ოთახში",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "მომდევნო გაკვეთილის შემდეგ ტექნიკოსები სტუდიიდან სამუშაო ოთახში წავლენ."
+      },
+      {
+        "id": "qa00112228",
+        "context_id": "ka00392798",
+        "task": "extract_role",
+        "role": "destination",
+        "question_ka": "ამოიღე ტექსტიდან დანიშნულების ან დარჩენის ადგილი.",
+        "answer_ka": "უნივერსიტეტში",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "ყოველ დილით პროგრამისტები სამუშაო ოთახიდან უნივერსიტეტში მიდიან."
+      },
+      {
+        "id": "qa00747450",
+        "context_id": "ka02616075",
+        "task": "extract_role",
+        "role": "destination",
+        "question_ka": "ამოიღე ტექსტიდან დანიშნულების ან დარჩენის ადგილი.",
+        "answer_ka": "ბიბლიოთეკაში",
+        "origin": "derived_from_synthetic",
+        "context_text_ka": "ზეგ მენეჯერები ოფისიდან ბიბლიოთეკაში წავლენ."
+      }
+    ]
+  },
+  "orthography_tasks/letter_count": {
+    "n": 60209,
+    "rows": [
+      {
+        "id": "orth0120988",
+        "task": "letter_count",
+        "wordform": "რამდენჯერ",
+        "question_ka": "რამდენი ასოა მოცემულ ფორმაში: რამდენჯერ?",
+        "answer_ka": "9",
+        "origin": "algorithmic_from_source_aggregate",
+        "spelling_gold": false,
+        "included_in_primary_token_headline": false
+      },
+      {
+        "id": "orth0175507",
+        "task": "letter_count",
+        "wordform": "ჭერის",
+        "question_ka": "რამდენი ასოა მოცემულ ფორმაში: ჭერის?",
+        "answer_ka": "5",
+        "origin": "algorithmic_from_source_aggregate",
+        "spelling_gold": false,
+        "included_in_primary_token_headline": false
+      },
+      {
+        "id": "orth0060343",
+        "task": "letter_count",
+        "wordform": "ვაქცინა",
+        "question_ka": "რამდენი ასოა მოცემულ ფორმაში: ვაქცინა?",
+        "answer_ka": "7",
+        "origin": "algorithmic_from_source_aggregate",
+        "spelling_gold": false,
+        "included_in_primary_token_headline": false
+      },
+      {
+        "id": "orth0164989",
+        "task": "letter_count",
+        "wordform": "შხაპს",
+        "question_ka": "რამდენი ასოა მოცემულ ფორმაში: შხაპს?",
+        "answer_ka": "5",
+        "origin": "algorithmic_from_source_aggregate",
+        "spelling_gold": false,
+        "included_in_primary_token_headline": false
+      }
+    ]
+  },
+  "orthography_tasks/join_chunks": {
+    "n": 60209,
+    "rows": [
+      {
+        "id": "orth0129923",
+        "task": "join_chunks",
+        "wordform": "საფეხურს",
+        "question_ka": "შეაერთე ასოითი ნაწილები: სა + ფე + ხუ + რს",
+        "answer_ka": "საფეხურს",
+        "origin": "algorithmic_from_source_aggregate",
+        "spelling_gold": false,
+        "included_in_primary_token_headline": false
+      },
+      {
+        "id": "orth0053105",
+        "task": "join_chunks",
+        "wordform": "დიზაინერებისა",
+        "question_ka": "შეაერთე ასოითი ნაწილები: დი + ზა + ინ + ერ + ებ + ის + ა",
+        "answer_ka": "დიზაინერებისა",
+        "origin": "algorithmic_from_source_aggregate",
+        "spelling_gold": false,
+        "included_in_primary_token_headline": false
+      },
+      {
+        "id": "orth0145364",
+        "task": "join_chunks",
+        "wordform": "ურთიერთობათა",
+        "question_ka": "შეაერთე ასოითი ნაწილები: ურ + თი + ერ + თო + ბა + თა",
+        "answer_ka": "ურთიერთობათა",
+        "origin": "algorithmic_from_source_aggregate",
+        "spelling_gold": false,
+        "included_in_primary_token_headline": false
+      },
+      {
+        "id": "orth0156560",
+        "task": "join_chunks",
+        "wordform": "შეგეძლოთ",
+        "question_ka": "შეაერთე ასოითი ნაწილები: შე + გე + ძლ + ოთ",
+        "answer_ka": "შეგეძლოთ",
+        "origin": "algorithmic_from_source_aggregate",
+        "spelling_gold": false,
+        "included_in_primary_token_headline": false
+      }
+    ]
+  },
+  "orthography_tasks/space_letters": {
+    "n": 60209,
+    "rows": [
+      {
+        "id": "orth0101598",
+        "task": "space_letters",
+        "wordform": "მომღერალ",
+        "question_ka": "გამოყავი მოცემული ფორმის ასოები გამოტოვებებით: მომღერალ",
+        "answer_ka": "მ ო მ ღ ე რ ა ლ",
+        "origin": "algorithmic_from_source_aggregate",
+        "spelling_gold": false,
+        "included_in_primary_token_headline": false
+      },
+      {
+        "id": "orth0079389",
+        "task": "space_letters",
+        "wordform": "კლინიკაშია",
+        "question_ka": "გამოყავი მოცემული ფორმის ასოები გამოტოვებებით: კლინიკაშია",
+        "answer_ka": "კ ლ ი ნ ი კ ა შ ი ა",
+        "origin": "algorithmic_from_source_aggregate",
+        "spelling_gold": false,
+        "included_in_primary_token_headline": false
+      },
+      {
+        "id": "orth0169203",
+        "task": "space_letters",
+        "wordform": "ცისანა",
+        "question_ka": "გამოყავი მოცემული ფორმის ასოები გამოტოვებებით: ცისანა",
+        "answer_ka": "ც ი ს ა ნ ა",
+        "origin": "algorithmic_from_source_aggregate",
+        "spelling_gold": false,
+        "included_in_primary_token_headline": false
+      },
+      {
+        "id": "orth0004602",
+        "task": "space_letters",
+        "wordform": "ამზადებენ",
+        "question_ka": "გამოყავი მოცემული ფორმის ასოები გამოტოვებებით: ამზადებენ",
+        "answer_ka": "ა მ ზ ა დ ე ბ ე ნ",
+        "origin": "algorithmic_from_source_aggregate",
+        "spelling_gold": false,
+        "included_in_primary_token_headline": false
+      }
+    ]
+  }
+}

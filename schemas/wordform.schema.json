@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pooled observed wordform",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "origin": {
+      "const": "source_aggregate"
+    },
+    "form": {
+      "type": "string",
+      "pattern": "^[ა-ჰ]{2,30}$"
+    },
+    "char_length": {
+      "type": "integer",
+      "minimum": 2,
+      "maximum": 30
+    },
+    "document_frequency_band": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
+    "clipped_occurrence_band": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      }
+    }
+  },
+  "required": [
+    "id",
+    "origin",
+    "form",
+    "char_length",
+    "document_frequency_band",
+    "clipped_occurrence_band"
+  ]
+}

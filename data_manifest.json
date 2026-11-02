@@ -1,0 +1,3049 @@
+{
+  "format": "UTF-8 JSONL; compression identified by file extension",
+  "layers": {
+    "corpus": {
+      "records": 6056086,
+      "shards": [
+        {
+          "path": "data/corpus/part-00001.jsonl.zst",
+          "records": 25000,
+          "bytes": 1542913,
+          "sha256": "adc58a4031f33357aa0b8f71a4a01e4ca4ee3e6a196a3e0ba0e86cf9d4d128ba",
+          "uncompressed_sha256": "7b719689062285ed64490598634696ec68bf9232e60ab3d9eba5c62bd883e95e",
+          "uncompressed_bytes": 21901369,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00002.jsonl.zst",
+          "records": 25000,
+          "bytes": 1545999,
+          "sha256": "63a51ff619b2ecff007e17ccccb347b3fedc0680ffad6e6d911566900a719efb",
+          "uncompressed_sha256": "715a154c4139208e2926f8b5e2ae9c090509de1b4245cd0f690d9d5d3aae8451",
+          "uncompressed_bytes": 21918310,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00003.jsonl.zst",
+          "records": 25000,
+          "bytes": 1544861,
+          "sha256": "d28148e76bf1cdbfe2b08f864dadd8facfab5113cfb5894207683f5b079baf41",
+          "uncompressed_sha256": "1f3872f22dbc4b89c7c7cc4b459e8a7ef665561b9685f84b3aa1031ef2c7a7dd",
+          "uncompressed_bytes": 21924922,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00004.jsonl.zst",
+          "records": 25000,
+          "bytes": 1546103,
+          "sha256": "7e66ba9228190178734771fac2272cb613b8cda6812c99005305049f258e3f0e",
+          "uncompressed_sha256": "0cb25512405a5268bcb11bda73fcb9f1f3afed2688dbfa3f2414f8a2a268cef4",
+          "uncompressed_bytes": 21941940,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00005.jsonl.zst",
+          "records": 25000,
+          "bytes": 1546278,
+          "sha256": "1ec5bd7f19bdbff974e0dc638dd41857135e26e68d6d9908eb97439dad4838e5",
+          "uncompressed_sha256": "ba9e3b213401488b8fcc51eb96a1d32abe0d7795b81a666ea9af18f07ef4066d",
+          "uncompressed_bytes": 21957040,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00006.jsonl.zst",
+          "records": 25000,
+          "bytes": 1548379,
+          "sha256": "6adc9caff4e1633475301dc66c110f93940b78291cd0e0b682007fd7d5b19a3d",
+          "uncompressed_sha256": "2004dbde02e6d38c806fc3c0a028cb38f3a6c39d6c29399240916f5d1fa75655",
+          "uncompressed_bytes": 21953543,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00007.jsonl.zst",
+          "records": 25000,
+          "bytes": 1546261,
+          "sha256": "0d53111a323d923055bfb145b7c4faae98cfc8638e321e8f6b4c3aec035875d6",
+          "uncompressed_sha256": "bf78c535a0f553f41e2560058136123421a483aea2ac8f4ed0480c1fcc5f19e1",
+          "uncompressed_bytes": 21966110,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00008.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550141,
+          "sha256": "90782fe5baf9e744b15167ccf5cd4d65c84d563734a7ae7b8165f8d5569d2a71",
+          "uncompressed_sha256": "b3da4cc0f79512560c270d2f986a5e39310f6eccacd0808a1a3e1af688d983a8",
+          "uncompressed_bytes": 21991668,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00009.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549280,
+          "sha256": "d3b646354592291b5c6d410070935c09b0163c61dc3e79346376cbf089d0e719",
+          "uncompressed_sha256": "5599ff90b7fde181e9c5f3149f846ee151d8d4e65bdf51a32dc5d85426a1baee",
+          "uncompressed_bytes": 21986414,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00010.jsonl.zst",
+          "records": 25000,
+          "bytes": 1551017,
+          "sha256": "365fc03d0e9508436134f6109127268c1c63cec4522f6ca80cf7df37c1ce99d2",
+          "uncompressed_sha256": "e31c11b094ac4e65d2a3529f4d289933670eec6e0fcaf3203d89c482d8cd9e16",
+          "uncompressed_bytes": 21996636,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00011.jsonl.zst",
+          "records": 25000,
+          "bytes": 1551551,
+          "sha256": "1ba45d9744e858e221dbeb2ad0960310887f50aebf3886688d2996328a9523e0",
+          "uncompressed_sha256": "6d8840170ff0bd89aea0d811e83926f3c10c2ce0a90db163ffa9f08d43b0aac2",
+          "uncompressed_bytes": 22025664,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00012.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553464,
+          "sha256": "d44b91d1e06a9c0ffa49acad16d7c895a5429064f34809b8c6fe84774701bcd6",
+          "uncompressed_sha256": "88e00065116760dd098a994a26e5c36089b884cdbd90c6161b6c8e1dea70fd64",
+          "uncompressed_bytes": 22028320,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00013.jsonl.zst",
+          "records": 25000,
+          "bytes": 1548948,
+          "sha256": "31ad9aea108ce73aba63639d97c9434d7960d37e2afbfdee1a8e8ad8f4ad84b7",
+          "uncompressed_sha256": "5e6ac46b6238311cb2144f3b89bfbae9b218a525301b4e4d23774744be06bd2b",
+          "uncompressed_bytes": 22020094,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00014.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553575,
+          "sha256": "77949919d7fc64f46871e5c0a65cffa192c8ded833cea5a4d1107df6717bba1c",
+          "uncompressed_sha256": "044cbe15cc7340990a4729db97567e33c79a02813e6e91e112ce804ba7ddc426",
+          "uncompressed_bytes": 22023058,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00015.jsonl.zst",
+          "records": 25000,
+          "bytes": 1552480,
+          "sha256": "928dc56df54df9d283c7c7bbd3f302e814f2314f132df9007a44008cc7f5cb12",
+          "uncompressed_sha256": "b491f035f7bde7f710e0b0197c465dfee84fd718efe31b4a0792c25485231d08",
+          "uncompressed_bytes": 22030933,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00016.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554514,
+          "sha256": "13a1497539f937a39e9b1f1a170993e9236e3895a204a32466326d36fc0cc422",
+          "uncompressed_sha256": "905de5e446a7c9ff3505c4dc9fdfa7f3a548cb86b35a08fe3196a034a51014fd",
+          "uncompressed_bytes": 22049218,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00017.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554577,
+          "sha256": "c27a2e402bf675f70c32ebc519047fdde8b3f62dbd7c8863d9d671fbd78a76cb",
+          "uncompressed_sha256": "e12a6c02a2d441fc44fcc8b8be72121e80733b4ffd286e155970c978ade1c4a6",
+          "uncompressed_bytes": 22064712,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00018.jsonl.zst",
+          "records": 25000,
+          "bytes": 1555044,
+          "sha256": "be6079698d8d9fa83dcd4dc273e09e3cf7251a6d5de50c4268b300ad43e0189a",
+          "uncompressed_sha256": "8537ec3368ccadead53be6060e13e4c2fbc0c3c2dd852e9f629f05f283607e04",
+          "uncompressed_bytes": 22058871,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00019.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553252,
+          "sha256": "a00f0abfe2f309478c18c5830b146775e0c1653f437af452c34fadc926c923ec",
+          "uncompressed_sha256": "aedf4b70bfd6404dd475422129f15b7f1570dd732ac0f693a838db8ae9671898",
+          "uncompressed_bytes": 22062835,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00020.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553521,
+          "sha256": "3a89333f01f97adace61a88c8258331f7d273fbc7ffb4a8ca47f3cfdcac4207c",
+          "uncompressed_sha256": "a12cd40cde3b1baec3c61a5bbe6d7063d47a39ba888dc45d389587f0b054244c",
+          "uncompressed_bytes": 22065110,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00021.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553867,
+          "sha256": "883ed0e49996bef0437d9602589e539661acc413b3c321db5551e2cda9fe2b98",
+          "uncompressed_sha256": "504f9bfe19c85664ff22b57f6595f989c86ab1f54813dd14a524a14f578f17fa",
+          "uncompressed_bytes": 22075155,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00022.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553733,
+          "sha256": "f893c74d41bc1d17797344e9e94b2387ab7545e109bfb60ab46bf313c66816c4",
+          "uncompressed_sha256": "ae1058e4b7fdcee88c1117ea6d7eb44917974b18f08dc86c166ce76ce6f5dd85",
+          "uncompressed_bytes": 22063417,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00023.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554103,
+          "sha256": "6d21ccd76c9f67d3b33b00e650065542d142c798c1cdc79319a68561431230f1",
+          "uncompressed_sha256": "93895aebacd081f07af84fedf14e811a242d699b424e3806fac18dcf0b3451a4",
+          "uncompressed_bytes": 22080635,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00024.jsonl.zst",
+          "records": 25000,
+          "bytes": 1552701,
+          "sha256": "4e1dcc5dc2a55111f69badf87a0495e9fcbca99e60cd663f4297f41675ccb02e",
+          "uncompressed_sha256": "e1c43719f9278f7ac9de7ff68ccfcf77e31c41dacf1027ced8195a2bb31c11f7",
+          "uncompressed_bytes": 22073642,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00025.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553682,
+          "sha256": "4ed64196e22b30f01e07bf5d82e8b5240f557c77babdb1b54c0c6d8a057e9544",
+          "uncompressed_sha256": "4db2bfc89e57d3709777cf1689f2f250ec07fecfb99ef2ed3818de2fbdb3eb07",
+          "uncompressed_bytes": 22077285,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00026.jsonl.zst",
+          "records": 25000,
+          "bytes": 1557066,
+          "sha256": "dc7f1d6d3a86899eb80d9460e18867709b510a6107ee8156e3069ccb9be70f38",
+          "uncompressed_sha256": "44ce0c4d6b1abcd63d92f11827622d40f0bd62ed9695dc2ad80b8f5a198855b9",
+          "uncompressed_bytes": 22110244,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00027.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553484,
+          "sha256": "304b5c56746aed9becc5221bedb245a68b79102e6ea65db3f9f0f39c209bea28",
+          "uncompressed_sha256": "88eeca5799cbac206605123afd07198d170c0719054fd898ba3ec55dd550c4f8",
+          "uncompressed_bytes": 22087558,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00028.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554185,
+          "sha256": "e0cc68012a16ad4a1825fab6b7a604fa94da4aa81a68d6abc9a5cbd767475393",
+          "uncompressed_sha256": "8e21f1b74436116290618f3b2f6ba5506d8484f50216a057fc1ec97deb902fe2",
+          "uncompressed_bytes": 22107902,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00029.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554649,
+          "sha256": "d0a717041a600f61001cd9db2d568b38ad1f48219cae9aab1a5d60fa95e2dbcd",
+          "uncompressed_sha256": "32d0be9aaf98e3fb8bd06277c44e33cf5a62e958d18d4fa7bcf42bddbbf92ab6",
+          "uncompressed_bytes": 22111365,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00030.jsonl.zst",
+          "records": 25000,
+          "bytes": 1555284,
+          "sha256": "26664126262331c0b54099412f0f54cfaeff35fc7ad5710f65a5784e6bd36d62",
+          "uncompressed_sha256": "5c334b88f1233f30fdc862e5f508e8a8f71c08db56a5d3e52c829acb0173601a",
+          "uncompressed_bytes": 22096546,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00031.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554571,
+          "sha256": "66cdc98b8a0ea35ddc1ffd99d4029aa9936aa52ec5a50ca1fff92a5f185c3e36",
+          "uncompressed_sha256": "cd212a51b967b3c3e482bccd30fe54241353346a37e010d049a1517ba6ea621f",
+          "uncompressed_bytes": 22096594,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00032.jsonl.zst",
+          "records": 25000,
+          "bytes": 1557508,
+          "sha256": "c6eaaa74d2b3f314be04c178d820399a0c1dfbb70cf2358458547c740a4114bd",
+          "uncompressed_sha256": "526123aa12c2132886c18bf086e117d04de711079d15ed4905232ad51ef66cb9",
+          "uncompressed_bytes": 22096775,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00033.jsonl.zst",
+          "records": 25000,
+          "bytes": 1556352,
+          "sha256": "5f656116b3646fadbfa9a6309d4baff743822640a6c74f71ee8cac0d30f7d21b",
+          "uncompressed_sha256": "641af3b785c4cb82c284bde16a7be522fda12a1df515f38bba262b0536c15737",
+          "uncompressed_bytes": 22133991,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00034.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553603,
+          "sha256": "4504e2ca6c00a44573b31b12264189230f064e1439171e279cb2f2fcea85d385",
+          "uncompressed_sha256": "6e0ab8d89d5a83681b46dcb7e84426e378c2597edc9d1a5254bb11570ff1091d",
+          "uncompressed_bytes": 22104029,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00035.jsonl.zst",
+          "records": 25000,
+          "bytes": 1558379,
+          "sha256": "d531e79632f950c2456ed800f201a61c58e88c762441ab9a015d9ec06ddc8717",
+          "uncompressed_sha256": "2f67e9825f1ce1121af824675e5c46e2d3c78350cb4d77c994f5c2115daddc81",
+          "uncompressed_bytes": 22106227,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00036.jsonl.zst",
+          "records": 25000,
+          "bytes": 1558564,
+          "sha256": "5e87e41386462abec02ebb1f7cd704afcc43b8d1038ddf4db2ad7b40eaf31ee4",
+          "uncompressed_sha256": "2cc421b54cea451f1ff564213a6468dbc8c1763955a670c508ceb2dbb938d7d5",
+          "uncompressed_bytes": 22124441,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00037.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554964,
+          "sha256": "4940461ad19113f8bd5653b2c429506dd4e57cded0dd2deb4adb5ba8b3508f19",
+          "uncompressed_sha256": "5ee51aa27cc516c1be4ef0e158e0acf88f8c619b41d653ee0b014dc9a6460957",
+          "uncompressed_bytes": 22125168,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00038.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554726,
+          "sha256": "84140960ba742ceda4fa720484323d9c6223c5368428c61256e39b43da309b1d",
+          "uncompressed_sha256": "1425eaf51e6461ffc172df444a7c2aa26123c398274a846554f7105a4d57c53e",
+          "uncompressed_bytes": 22124480,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00039.jsonl.zst",
+          "records": 25000,
+          "bytes": 1556446,
+          "sha256": "a2e74842a9b52de875e73f207acec8df00e43825dd4d4cc5822f2223081fbf2c",
+          "uncompressed_sha256": "a0e33b56fd49db8119bdadefa39714106154b3b61e470a76bf1340209bc31d7b",
+          "uncompressed_bytes": 22143352,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00040.jsonl.zst",
+          "records": 25000,
+          "bytes": 1557103,
+          "sha256": "5b36a98381289e26dc498702d7e932d0ee442cc74fa08a05df8485329ff394f3",
+          "uncompressed_sha256": "ee46cf35c565c835198373883db4d5b7f95fa2c36ea4f077130f93b5a6d732ec",
+          "uncompressed_bytes": 22143773,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00041.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554137,
+          "sha256": "eb5ed59702cc320b612c16a2279f2f6f83ff247370297a46e6b2c0c68460c5af",
+          "uncompressed_sha256": "3581eb802d7ecd11e2acf06a6d7cc3c6328dca39c14520382f9fb6c5850ffbb0",
+          "uncompressed_bytes": 22126152,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00042.jsonl.zst",
+          "records": 25000,
+          "bytes": 1555319,
+          "sha256": "d5c38edffb8b8dc4ea43ec3bee7ba07582a8ba3bcf62f26f546132aec046c51b",
+          "uncompressed_sha256": "66503d255c0cfe8e1a60710f8b087770292b703649df8305d377729a72fdc55d",
+          "uncompressed_bytes": 22133061,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00043.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554643,
+          "sha256": "952575e99fa2986ec3601a7c153b274dea156c17b45ca78bf05ca5eb2e0d1b24",
+          "uncompressed_sha256": "e096a4ce71a75182fc5849d8aefbd6080612d68a40595b4e88c31282f2086471",
+          "uncompressed_bytes": 22138663,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00044.jsonl.zst",
+          "records": 25000,
+          "bytes": 1556717,
+          "sha256": "96731a846451b2a05574e3fc8e60cf49eeef74db913fbb1068d8be67bd4e1ea2",
+          "uncompressed_sha256": "b6e5c8ba10898993bc75d39c0baac8e3f33e6948ff3e31346a41f2f4d9fa9023",
+          "uncompressed_bytes": 22139230,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00045.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553828,
+          "sha256": "5771f5475e0461de32f108de033b8b44524c0a44b80736e8af28aa3e687b2812",
+          "uncompressed_sha256": "bbd549fbd7b85f8cd1e11814be44dc5a8acf571ddb70f46e5d3c9295834748bd",
+          "uncompressed_bytes": 22149079,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00046.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553989,
+          "sha256": "edcba34d4067b4dc3a77a3780dcb798de5e1bcd85c881b5e26d53d50b5b82ace",
+          "uncompressed_sha256": "4a7ba4ff43b366e1aa896f1dc3b60c20710f65deb532178fd180f9963a477f55",
+          "uncompressed_bytes": 22133099,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00047.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553812,
+          "sha256": "926688ac4f5dbe4c7e78e719ece1594ef7723d7127645bb95363e26ea745d8fa",
+          "uncompressed_sha256": "164df76c6d39bd19a287b802aae76ba81de1df0133ad04374b51032f0dbe2523",
+          "uncompressed_bytes": 22138084,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00048.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554297,
+          "sha256": "97c660ac47305cff126c3a861331bb417f4e3d88eff7f520c6b76e3a506f1c86",
+          "uncompressed_sha256": "3151e43d5ce84c6c274f8d6938ba4183af1e38d99a3b33501cab15f6bb55ea0f",
+          "uncompressed_bytes": 22137115,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00049.jsonl.zst",
+          "records": 25000,
+          "bytes": 1552664,
+          "sha256": "a764ac945ff828a34fca12b21aa95b8663f46e75a4e95e425ac87bf2e5e9b8cc",
+          "uncompressed_sha256": "eeb133e23044ec30df502bfb3430cf8d53eb63fae0153224c2aa4d26d70d766f",
+          "uncompressed_bytes": 22134911,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00050.jsonl.zst",
+          "records": 25000,
+          "bytes": 1555016,
+          "sha256": "e7f57756a3525ae8a31df4b1d28e55d7e04bb0d56f57724d59739a33c5b00214",
+          "uncompressed_sha256": "184749e7116f935f324aacb064a7ee107c0a93b3d6ec8818884eb2a4b768f629",
+          "uncompressed_bytes": 22162449,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00051.jsonl.zst",
+          "records": 25000,
+          "bytes": 1555904,
+          "sha256": "db59a4c08893967d30e0d6c2b78f02f2004b2e85c7081f753381945a5a248696",
+          "uncompressed_sha256": "d24c3c5b825c08e57d20e1b19ed15615f9dc499d8c9444ef88a18e5b3f19c3a5",
+          "uncompressed_bytes": 22147402,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00052.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553277,
+          "sha256": "5999a0ccd3a06c093c98eb8637e248e2865b284606723c65d9746c653d130112",
+          "uncompressed_sha256": "ad30615ec3553a3193e732a8671dcc30b07add7027a339f9a36bedb7f91ac165",
+          "uncompressed_bytes": 22158353,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00053.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554275,
+          "sha256": "bdc0f16f17cf3bb920e4955f9976a67ce2f210c3e79799f8893efb5329b06cf4",
+          "uncompressed_sha256": "8b36741afaed1685bea347b3f92f267d22c509d69ec5c66d5d4cb6c93b6b0a16",
+          "uncompressed_bytes": 22162775,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00054.jsonl.zst",
+          "records": 25000,
+          "bytes": 1556693,
+          "sha256": "a416763c529b3a3408a348122c82d07d88abf4980570a59c5dcdd050992634f6",
+          "uncompressed_sha256": "14106c02863f9eea9895219ba2c1337537548ff80845ab00804398965b852a52",
+          "uncompressed_bytes": 22141097,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00055.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554006,
+          "sha256": "5ece2012126ad0940dded85a0ce9fbc3c97c33fe3855ab51fdb88cb5e5d81fd5",
+          "uncompressed_sha256": "b779f18980ebed62fcce271edf56c09e88fbc31393e348cbcb480bba506d3a67",
+          "uncompressed_bytes": 22164593,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00056.jsonl.zst",
+          "records": 25000,
+          "bytes": 1555388,
+          "sha256": "7848942e57c2b909d91344e9d6502f79f084b53b771bf28662d1a9d8f326ae3a",
+          "uncompressed_sha256": "d65f52da4f4dd5a8b854dd0b654be4da1c14a3e5a7c72e52f8494ab3a057616a",
+          "uncompressed_bytes": 22149354,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00057.jsonl.zst",
+          "records": 25000,
+          "bytes": 1556322,
+          "sha256": "c068adb2d54cd7b37317d9cb10ffb85fcdf799008e6e1f946d2f2c633414af29",
+          "uncompressed_sha256": "dcf20b1fa3eb377ae3e5c72e3284201ac0d83bedd340212707902262e6ab3926",
+          "uncompressed_bytes": 22170695,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00058.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554513,
+          "sha256": "cf956ba735976ab254d481511e560de717b16f2771a4473b19a386497131335a",
+          "uncompressed_sha256": "7757fe253644b8835fdb52452b53349629ab1a50305f2cb0e5ba29e98affe377",
+          "uncompressed_bytes": 22178036,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00059.jsonl.zst",
+          "records": 25000,
+          "bytes": 1555085,
+          "sha256": "4815bb25a23bad9279987eb5f78b5127c8ed2ddb2b38ff02f991ba473d05610f",
+          "uncompressed_sha256": "1d8eb852cd8025a7746a74cdc312c95585a0b5e9b2165191fcef984ff7389567",
+          "uncompressed_bytes": 22144575,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00060.jsonl.zst",
+          "records": 25000,
+          "bytes": 1555092,
+          "sha256": "3c88f89657b99bf727f8ae38c5adced5ae6ace43f006fc1d4237cafb6b8de374",
+          "uncompressed_sha256": "0e19079da5b9bfccf386970085307c20de22983dfc52a23b67d9fff1958a7d99",
+          "uncompressed_bytes": 22166194,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00061.jsonl.zst",
+          "records": 25000,
+          "bytes": 1558607,
+          "sha256": "0ed7044a2460876b3cf59dfb9d7e287b8c0cfc195aacc92b77bdad9b65c313ba",
+          "uncompressed_sha256": "f65e6b1bb715c8beedb0454f755053f630ed5112d6d2c9b128b089d4a9771db1",
+          "uncompressed_bytes": 22159624,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00062.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554668,
+          "sha256": "b7b1bcbd48412b7c02e2c8769bb3c0dd71ecc3a2d38d80b4c8741803c50d3f27",
+          "uncompressed_sha256": "3eebe6c169e1fe3edc7ec831bafd1d60998ca1f6f4f9c89a205a26ac80b9d1cd",
+          "uncompressed_bytes": 22148846,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00063.jsonl.zst",
+          "records": 25000,
+          "bytes": 1555214,
+          "sha256": "e0edafc76dcb2878f532ece68f7cf7b234b970c4800085f49806f78938e564ba",
+          "uncompressed_sha256": "b62f096d77182b9010cb85890c6219872d4aabc2729d4f219617ecf35c853b75",
+          "uncompressed_bytes": 22152384,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00064.jsonl.zst",
+          "records": 25000,
+          "bytes": 1555383,
+          "sha256": "99d5357d132cb8357efc996653ab373a06a8e40ca3c37a5fcf10bd11d8c41a9a",
+          "uncompressed_sha256": "deadf81f60e3f556fba7d7d388cc0199f5de4cfe7f22cae4b6dc4b987aa8842a",
+          "uncompressed_bytes": 22188636,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00065.jsonl.zst",
+          "records": 25000,
+          "bytes": 1555766,
+          "sha256": "9f4512b4421cc25884f3cf5da877c8ba491952a8e690cce336157b163b41294c",
+          "uncompressed_sha256": "4f0e29a8713571cb59475ca908dd4e85fdf1f1983347b9789415cd6b168ce777",
+          "uncompressed_bytes": 22181923,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00066.jsonl.zst",
+          "records": 25000,
+          "bytes": 1551736,
+          "sha256": "95004db26e8dbe836b04aa2e532af01eda64a428748a76eb91e3bdf925f4309e",
+          "uncompressed_sha256": "c453df050ab1b9b3e9502cef67fe314b3373ea85b4ac8d30f13b6336ce0937c0",
+          "uncompressed_bytes": 22174276,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00067.jsonl.zst",
+          "records": 25000,
+          "bytes": 1557046,
+          "sha256": "1be1c74bf1195a0c4ee7ec1f439037e2694766951a0f391cdbdf5f6fbab9d070",
+          "uncompressed_sha256": "333f8ee2c31a7e291c60735c2f0e5fe36e2b50da284622e2fde4fd00696a706a",
+          "uncompressed_bytes": 22177705,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00068.jsonl.zst",
+          "records": 25000,
+          "bytes": 1552892,
+          "sha256": "426bfd4e0fe027483fa22a1ca1c20360eef92b80de2315c0a096a631a6d704d9",
+          "uncompressed_sha256": "618688d5e4480872cb8cf4ac5a1642b7d0365ecf63dcc2b5394d89cdca9888cb",
+          "uncompressed_bytes": 22165443,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00069.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554979,
+          "sha256": "f2f62509032783bac856236d8de5b5fa6e3bed8e8d728202a49c6bf17958b3a0",
+          "uncompressed_sha256": "1e7a4ee574613b755a37d1d63b518074dad7a79cc5e24ad2a01706d3b6cc4b14",
+          "uncompressed_bytes": 22171223,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00070.jsonl.zst",
+          "records": 25000,
+          "bytes": 1555253,
+          "sha256": "b45c2a995839e912221bba8b3a3c482c8d7e9f7821cb6601fbd9a5067bafb07f",
+          "uncompressed_sha256": "66aa0386fa7854cbb3635c97bad7e0275ed78adb2fded6676efde7205d4a7d9b",
+          "uncompressed_bytes": 22182782,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00071.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553248,
+          "sha256": "673d9c70f443019d764c59a4fe481bd7c03a754b12dba2c73021a5adda1868cd",
+          "uncompressed_sha256": "2b5fe43c98713f55d84ba36a2b399c86f2dbaa7600b8a53b80997c95df0615a1",
+          "uncompressed_bytes": 22167927,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00072.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554034,
+          "sha256": "b839799d819a3631d80255541b34cf25e61b1d5ddf7777d074fed2d102d2513b",
+          "uncompressed_sha256": "e9dfb476bba94c5f0db06b52b4b56772cee8c5f27554bcf3c53be0c67ceeaebc",
+          "uncompressed_bytes": 22178255,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00073.jsonl.zst",
+          "records": 25000,
+          "bytes": 1555153,
+          "sha256": "db445d9ae608e2adafe07f3add8c25f3e0ca8fcfe657fb84d939f922c6f80655",
+          "uncompressed_sha256": "c433b1ac3eed8e49dce1f67b1a2b40a3a8de21ccea054f55c04a47da14984359",
+          "uncompressed_bytes": 22186096,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00074.jsonl.zst",
+          "records": 25000,
+          "bytes": 1552847,
+          "sha256": "9c19567a42b2adca8e848b6b667a89fa25ab53a65bb156d01b201bf38be7cb20",
+          "uncompressed_sha256": "2e0e6922230bb139f44b0884247c8209c4dd91c8b9afc01d76d899be0b6af6a9",
+          "uncompressed_bytes": 22164872,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00075.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554779,
+          "sha256": "329ba750003fc8d204d31aa4f33b53e97de38960aa3e75176b044507c98512d3",
+          "uncompressed_sha256": "4f271ad2b94fc8ca47392aff5dbcbe9771d010100c7909ab421b42c216a9ae69",
+          "uncompressed_bytes": 22173919,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00076.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554166,
+          "sha256": "6df690c35b90bc4dfd3577fb02325ee6ab18cf691b5b7bb1625a25da8894430b",
+          "uncompressed_sha256": "9d92adc07edbdb052be90f970076e23bb18555045d77a3938ef3cbd16dfabb86",
+          "uncompressed_bytes": 22168678,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00077.jsonl.zst",
+          "records": 25000,
+          "bytes": 1555104,
+          "sha256": "691450d896f2e65673df6fbaaf67844e647d825b8ff75411f0629fdebb242947",
+          "uncompressed_sha256": "20497eb7debeaa60d1678087237479ec911221a4b9841aebc264c3a9fa15744d",
+          "uncompressed_bytes": 22170761,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00078.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553923,
+          "sha256": "2d8ecb80e1c89e408320dec696c69feaf4cab3b5d44a2c42727186eb9b9fab05",
+          "uncompressed_sha256": "433be7f82d7ea7e102adbb484fd92faeef6b1b818b3323ffa325ae1f27cb6736",
+          "uncompressed_bytes": 22206335,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00079.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554582,
+          "sha256": "07f83b381df50227ca5fcde7581cbbcf9b01d53d4cb004b586a9f09ed32cbe0b",
+          "uncompressed_sha256": "0f8a4323d483239e96e23db4e918e343254bff933124f799728aaf5874c410f3",
+          "uncompressed_bytes": 22194690,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00080.jsonl.zst",
+          "records": 25000,
+          "bytes": 1551901,
+          "sha256": "445e31bfc47e87b78cd9fa5e3cee3ee6593c6cd0ce0be2f343a92f93376ecc9d",
+          "uncompressed_sha256": "32129d720270e74d51eb2002e9b8101556266018b556f5384223ccb22fd92105",
+          "uncompressed_bytes": 22171920,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00081.jsonl.zst",
+          "records": 25000,
+          "bytes": 1552722,
+          "sha256": "25ee7e81d70cd28cdccde6daebe6423a088ec66ca55a810b77807c42a0e69d02",
+          "uncompressed_sha256": "24b171e66e0ea96704bef5b053f6743c372a011d51b934dfa697af2412f4175a",
+          "uncompressed_bytes": 22194484,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00082.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553705,
+          "sha256": "f13d1f05ce1ef4626b768a0ac30497bfdaaea894282947cc125e342902f25136",
+          "uncompressed_sha256": "4cdfec067426504b30bb74dd357b37365007542b0cc24fa88c82adf520762083",
+          "uncompressed_bytes": 22193489,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00083.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553624,
+          "sha256": "1e5ccaed2b1a9e4293e15a129aaa673e650b822fac3b665542a20138722b16fc",
+          "uncompressed_sha256": "1ed1b9f9937b18881d58ab4e3a7140426e67eeb9b3fa1b18cf583868e68acc00",
+          "uncompressed_bytes": 22196295,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00084.jsonl.zst",
+          "records": 25000,
+          "bytes": 1557730,
+          "sha256": "1d5a0b957cbd58eb01ab68c7663508f6364c2ff43af6e0938a34f767913624fa",
+          "uncompressed_sha256": "20eaf98c0ff80b4ad600a50e9007ec72c4dae90c2b9a3603138127f5b991e3fd",
+          "uncompressed_bytes": 22215987,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00085.jsonl.zst",
+          "records": 25000,
+          "bytes": 1555334,
+          "sha256": "c9520017339668517079e3d7d4644e0b9da50522696fe42489f29659735f227f",
+          "uncompressed_sha256": "a50b47651f6d164a88810d8ea06d1ef13b6f927e4c3748f19631b20b9be84a56",
+          "uncompressed_bytes": 22189314,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00086.jsonl.zst",
+          "records": 25000,
+          "bytes": 1551753,
+          "sha256": "938aa66ba3303ce4b9b98292a83e87e01fe76c62ba7482d02feb25574984e246",
+          "uncompressed_sha256": "e5c2603b4aa6df7339cae7783cc8685800c77a58254d71934d4654c9dd43b380",
+          "uncompressed_bytes": 22200954,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00087.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554073,
+          "sha256": "6e4aacd9c189df977ea4a563e5963c153b0aa44e5a336b28d4dc31ff11d8ce5d",
+          "uncompressed_sha256": "71275fc7afac4e5fe43fead8fb481a97a247b493bdd0460b7d3864c42acc106e",
+          "uncompressed_bytes": 22189483,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00088.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554004,
+          "sha256": "98205c7f2055a67e8066f74786f178a0bf077d9dd5e56ec99bcd88a5bfdf1723",
+          "uncompressed_sha256": "1c11ec7ed6a659ede6de192704c3829cd5b10d639565a04ba4acb942b17f2d62",
+          "uncompressed_bytes": 22206418,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00089.jsonl.zst",
+          "records": 25000,
+          "bytes": 1552148,
+          "sha256": "30bc5b62ee5ea9fdcf829fac48090ad653ade17cdaa07d716d4eb67d01f69916",
+          "uncompressed_sha256": "78d189db0eaa7614a8c703b8b3ebc55f56a57e1fca83c748bd90094859cb3cb5",
+          "uncompressed_bytes": 22169889,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00090.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553828,
+          "sha256": "74e3b208a57ff47e99205de608107bd8f91246face73097c92dfcfd0715d86d9",
+          "uncompressed_sha256": "d356ce7d8be4d1fbae4a7ef637a50343ec90c7f912757c74f1b3387454fa1e9c",
+          "uncompressed_bytes": 22196810,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00091.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553243,
+          "sha256": "68ab0f556bda25166c58982275011e7db438c1f3191ffd0e5bec2c743182a2e4",
+          "uncompressed_sha256": "9018a2b5f43467bac3186cada6c1971996d2361b140e6361c36ffeb1f5d2ae3c",
+          "uncompressed_bytes": 22175435,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00092.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554390,
+          "sha256": "6f74a0253a125c3a010cb87ac330750f2301d7b905e91ac6dd373f32fcb33174",
+          "uncompressed_sha256": "0321acb9d2c06fd1af58ce6b8204c1c5e0e0a8f75f57b9c298cd5642daaf44f9",
+          "uncompressed_bytes": 22194796,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00093.jsonl.zst",
+          "records": 25000,
+          "bytes": 1552497,
+          "sha256": "ad1db0395d08c1af3ef1631b597bb6abdeddee8862ac5ac44ca9814d409ec54a",
+          "uncompressed_sha256": "b2e29843fef19baeeef6556cd3e156011b8de22398ea0f36f3c4ec260ace564f",
+          "uncompressed_bytes": 22200899,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00094.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554495,
+          "sha256": "dc46245b9062cb342321db6163920b3555bb507d448df3d2fa19d1d03fef2441",
+          "uncompressed_sha256": "7ac1c01d213f2a8b947958813324700e2b3b0b841d2fd39ab977f247ecac22a1",
+          "uncompressed_bytes": 22210685,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00095.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554925,
+          "sha256": "57b7f655f49038e63403142e08e960ea51ca38930a2a820871684bc3233516a7",
+          "uncompressed_sha256": "a1cae08f7caf7856e0ebe6463a7dda18c8caf01e6c7a6a5d8b98a7191ce2115d",
+          "uncompressed_bytes": 22207714,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00096.jsonl.zst",
+          "records": 25000,
+          "bytes": 1552772,
+          "sha256": "dfdeb374c214867ab870efc0e59081bbee5c223667c320edc9a38660a8875b3d",
+          "uncompressed_sha256": "9e307c732561b2868cfeb9895e297c27d91f0e03042feeafa4bb07044916d7e7",
+          "uncompressed_bytes": 22189001,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00097.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553320,
+          "sha256": "7173c78ed45cac33c6d4f94a746817692bc973b382ed86200f0eb24bee105f27",
+          "uncompressed_sha256": "0daab54304ec4748a0cc4a5247c48a906b8aa51bcc8b6a400a27038819faefe1",
+          "uncompressed_bytes": 22199863,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00098.jsonl.zst",
+          "records": 25000,
+          "bytes": 1552107,
+          "sha256": "b6538cc937f9e55de9a50578b7b6c855d70486e398f1bf6a36052db2d447c626",
+          "uncompressed_sha256": "5eb8be47c623baf92c882029913f8f6d82ccbb449863c74f4f4ba1feca06eb3a",
+          "uncompressed_bytes": 22203733,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00099.jsonl.zst",
+          "records": 25000,
+          "bytes": 1555226,
+          "sha256": "269a696aa76f502c5eff6002a8a734265071978bbfdbf964fc152ab88390715c",
+          "uncompressed_sha256": "d1c099579bbdad17f2eda9c37f1e5a6cf6bd03bdb131069eb8eae220a792e588",
+          "uncompressed_bytes": 22199590,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00100.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550079,
+          "sha256": "d383482fd94e065285510d967bc346b147487a4be19a8a45a9e92cd6ccaa141d",
+          "uncompressed_sha256": "72a10e804103a8a1b450fe89c0d113d95b1d242a6f6c1f2ecad0d306c3137ef4",
+          "uncompressed_bytes": 22183982,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00101.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553084,
+          "sha256": "f0915d0e3927c0661329fa02491ab5a5bfbb14fc3d5f07c02f37211818ee8fdb",
+          "uncompressed_sha256": "2ff6b8073464616fcb85c036b3619d0d344f94ee1b7a4c22d7be2c19659d374d",
+          "uncompressed_bytes": 22199310,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00102.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553823,
+          "sha256": "5e6f482c71cde8bd528516c1411bd01111e7092ea2a9570deef15e778ef397b1",
+          "uncompressed_sha256": "e0ba1bdd09cfd079f6e5b0860dcf799dbc13694c9641c5da293f3f350e8a5965",
+          "uncompressed_bytes": 22198335,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00103.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553938,
+          "sha256": "5c74c193e18f90f3505cc17321f4d1ea172900184414405d172a0a291b9199d8",
+          "uncompressed_sha256": "7c88f86a6e1cc7841fc3f55f4a2d8810ef9ecf4d9a45b67974f3287800f8c64d",
+          "uncompressed_bytes": 22211953,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00104.jsonl.zst",
+          "records": 25000,
+          "bytes": 1552327,
+          "sha256": "44d447aa0a01d472337c241591591efec61400a8047a97a265b76821a9d64a15",
+          "uncompressed_sha256": "44f22cf863c22c78af0b4b018e16210db24de35bb7e47d081d2e0aa869720fdb",
+          "uncompressed_bytes": 22234587,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00105.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553627,
+          "sha256": "55ff3b6b1a6fbe141f2beb254577348783763f0c785d95733002d49a7e021524",
+          "uncompressed_sha256": "5a53b4e468ee7afcaa4ea52968fc8e71dad6b0d8ae338c9d6bb59a192ef9dba2",
+          "uncompressed_bytes": 22206250,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00106.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553663,
+          "sha256": "0fc3eac5da8786851fd521d75669c536cf0563b1977a58b265ee616cb22d0fee",
+          "uncompressed_sha256": "c3440057374b69341ba507d6e156defb77a49eeb5c2358aef123bcd42b6266be",
+          "uncompressed_bytes": 22219296,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00107.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554751,
+          "sha256": "2986519ef72609a6a566d645e51696488c41560341da895e20d9e97232d911b6",
+          "uncompressed_sha256": "dd10b62962b59a39247d9b8ce25df93a233d533620615b25a4d366dd3cfe357a",
+          "uncompressed_bytes": 22211099,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00108.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553949,
+          "sha256": "af32e48a0e59428392a7d6333f84ba80cfea344b96921fcbaf292793f3aad4be",
+          "uncompressed_sha256": "93ec2f7116f9e22491087387bd9b98df454972f97b196e0c549dfa7b68f22a19",
+          "uncompressed_bytes": 22220009,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00109.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553854,
+          "sha256": "0b66717800b79286989ee63c105aa39675b5df692c6a2f227bfe9f14802384e9",
+          "uncompressed_sha256": "12007ea592f25ca6cf4180bf4f773901dfe3c8c00a46580305954967762b3da1",
+          "uncompressed_bytes": 22211471,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00110.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550066,
+          "sha256": "e48fe4ceed166b45db12a7dc44f29fd21a874631d5523eece18daa59e7566637",
+          "uncompressed_sha256": "6fa01ff99a616e83b48a926065187778c4e3ed287f94c7cce33dee41cfdc51ce",
+          "uncompressed_bytes": 22182864,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00111.jsonl.zst",
+          "records": 25000,
+          "bytes": 1551630,
+          "sha256": "061e54a3f43512dbc0eb908f36ec99ced5cee90ba0c1def0d01ba673a9322c2d",
+          "uncompressed_sha256": "775b083c93621d6c5ceae7fc1d399a6b270bba2da231e20f6c4ecc6c7748cfc5",
+          "uncompressed_bytes": 22197270,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00112.jsonl.zst",
+          "records": 25000,
+          "bytes": 1551079,
+          "sha256": "b5f970f0097d8ab8a122a847179c65c65252b3aef6d21452f5ddb2cd24867e85",
+          "uncompressed_sha256": "ad60e4ea8db93a0a53b24b8ec4c58d04c0b79e1058d81e54ec787037b5c2b195",
+          "uncompressed_bytes": 22198169,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00113.jsonl.zst",
+          "records": 25000,
+          "bytes": 1552852,
+          "sha256": "0da3cdda41407d4dbe89d64ffd8941ae0b23c3d31d71dce2f2442e561f4852b7",
+          "uncompressed_sha256": "c58627256653c4a9e22de7bd500a977873636e1c03619f0c610418e6ce5aa6da",
+          "uncompressed_bytes": 22205309,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00114.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553448,
+          "sha256": "48d58398c1c48024c88bf2a60c8ac38bb2d7923cdd8eb63564e4b323774e1223",
+          "uncompressed_sha256": "583556de0540fa16175dbc03d9ca88fe9f515cdcf477cd580a06da2a8b4aeaca",
+          "uncompressed_bytes": 22203796,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00115.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553298,
+          "sha256": "6c93e38a75a0e1ccb34c133e56fe52481106bbc7f2a506ec380619ee14b6b1ed",
+          "uncompressed_sha256": "4ca276378affa06f439bf65f031dc9d6c6d0f8e68e99e052125a63fcb04bbf09",
+          "uncompressed_bytes": 22199575,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00116.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550843,
+          "sha256": "fb326039430ebfbcc6360837b0d7282c46862c890b7fbbb50550c5fcacbfcc28",
+          "uncompressed_sha256": "148a29ce56dcdef1e6eb9bf651bca464656f58c542e2a06d481d78d3a41c4a6d",
+          "uncompressed_bytes": 22200578,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00117.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550977,
+          "sha256": "c9ceaa4287574d941476ba23bffd46b85cf17226666a13c88fa1523a03ce4794",
+          "uncompressed_sha256": "2b92d6be1f9f2086c3dcfd217a9082014520f445a577acbf8a3ffa214d597d8f",
+          "uncompressed_bytes": 22208531,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00118.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553296,
+          "sha256": "c90b0216b368fc10bed5181b6927367b295c2c4e79142532fe15526400328692",
+          "uncompressed_sha256": "679a7240c644d594405811b0ff8936a7306c3fab6e6a07d158680f4d880d905f",
+          "uncompressed_bytes": 22169029,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00119.jsonl.zst",
+          "records": 25000,
+          "bytes": 1551129,
+          "sha256": "817742eaf2ec8e1c25482cfaad0de25b9a0ef9bb10f01e5de32db8855efa914f",
+          "uncompressed_sha256": "6d8d08b94aa764930b6cc99efcb5ae2d7c34fbd843e97799ff5894f549cbf971",
+          "uncompressed_bytes": 22197516,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00120.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553366,
+          "sha256": "12556eb0579f4ea41d6536c6efcb1f31463c36e30d05d1daf727b6ce62b32b36",
+          "uncompressed_sha256": "a8a9813a5e4b6498b3285147fa894e90ad3d83de1eee41992b88a774f94eded5",
+          "uncompressed_bytes": 22198900,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00121.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550463,
+          "sha256": "f8445a58b33826088378c7ba2508fa9b6343143d262614c6aea78483a3d23036",
+          "uncompressed_sha256": "31bcfd6db664cea801a22b2e05dd6f7365c1b10ba98ad2080cf3a7ce823d61ac",
+          "uncompressed_bytes": 22203911,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00122.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550335,
+          "sha256": "91eb5a2a828b96546672f44e1af75b40a5cee0110f67b0668d4d955b492cb677",
+          "uncompressed_sha256": "a695c4ccf86b1f5df7ce60d5e4cd8e0accb85366eec0f5e604cacdf9c928c272",
+          "uncompressed_bytes": 22218477,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00123.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553993,
+          "sha256": "66137a6a727de75cc32d2176c4add68fe394246ece2293174909e80e059e33c9",
+          "uncompressed_sha256": "823e7641d70573cfbbde83c69231bdd34d8191d331b62b9531da50d272793e3f",
+          "uncompressed_bytes": 22228793,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00124.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550973,
+          "sha256": "f20df0770881c690dff7396f1b62f11c45c618e446991d47fda5e389d4842a31",
+          "uncompressed_sha256": "b522d16a07deb43fbc8d48bd78c6535037f3d43d1cebc5dc317e98ecbbe76f5a",
+          "uncompressed_bytes": 22230126,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00125.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550382,
+          "sha256": "9c476403aa65d9718cbe920881f19efdbafe478c6a3d7f9134bba56b5699e12e",
+          "uncompressed_sha256": "3030084e136ea2ac870f212b796ce6c16eccb852f7dd1ac876b6a940fcb99298",
+          "uncompressed_bytes": 22208312,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00126.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550976,
+          "sha256": "85a85a0361f08106021f8e333c7de57273a76b9e8fa2c7c85b1d12485e789bf1",
+          "uncompressed_sha256": "2e6c8c63b7bd37cc9894ad3727e78b82c120410702e3ce00ff4ccaa5973c219d",
+          "uncompressed_bytes": 22220462,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00127.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549859,
+          "sha256": "b517fdad2ad61e75fc83b18772ded46688efb27ed243593ed261f7f794664131",
+          "uncompressed_sha256": "4ac57db10d573c0f0790947176f6f8db6bb3f45c6b95231684afb5f9ed88678d",
+          "uncompressed_bytes": 22199904,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00128.jsonl.zst",
+          "records": 25000,
+          "bytes": 1555009,
+          "sha256": "fca476366f17bb0b23aae0faa6a7f46a0e827b23163b6add1a41fe2089c5f3ac",
+          "uncompressed_sha256": "b8fc600a1036638b726e304224798a3644794226a73b57d12f071db07fe953be",
+          "uncompressed_bytes": 22212466,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00129.jsonl.zst",
+          "records": 25000,
+          "bytes": 1553198,
+          "sha256": "b3e72950a14a1b757491958da5827213d2db276604b0032141cbb8fc21940163",
+          "uncompressed_sha256": "27248183450dedc1e6c4f135c9617590ade3e593bbeab6e69d037dc4ac58bd65",
+          "uncompressed_bytes": 22253831,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00130.jsonl.zst",
+          "records": 25000,
+          "bytes": 1551565,
+          "sha256": "27a8bff0c6a9920ff3fa09eb0bd7b0b232e9161a374a2e91a4f27743625c5a3e",
+          "uncompressed_sha256": "97457cfa7a4864475219c4386d6dade212134ece605a22d80d32493d370a3cc5",
+          "uncompressed_bytes": 22214316,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00131.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550174,
+          "sha256": "1a6f899c28ba2a4e45ee1fd27d6a59e7946846d1efcee5a2721f90299ad294dd",
+          "uncompressed_sha256": "ee7e6381deb00c17ecb8003b5422d464fecbf98a51fb5d828c55913b02103b49",
+          "uncompressed_bytes": 22228615,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00132.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550142,
+          "sha256": "217a6fa0249d57c500d4ccab44d756ab0386785537918f009b97bca2437f24e2",
+          "uncompressed_sha256": "45997912fc8166cbcf25ad11b2f5553b1385e80eb005a41ae9850a69399c6c4e",
+          "uncompressed_bytes": 22207317,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00133.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550687,
+          "sha256": "112579138c584e96c20658973887eb499f7762b6f24a9bc3926a06dcab536ce5",
+          "uncompressed_sha256": "757c39d9e5f62a1002d3cf72911e85ac07ffecda0fd73a02e4f0c86804e92296",
+          "uncompressed_bytes": 22205365,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00134.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549598,
+          "sha256": "7d17071c74486b2af78e75b0f3c64ff98d91f6a3a8faedfec47024ade8a14780",
+          "uncompressed_sha256": "3d5bf133e7904c7b82df940bf6267df2c4ebd98236a6d333c9ba95c6c28c69b2",
+          "uncompressed_bytes": 22202806,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00135.jsonl.zst",
+          "records": 25000,
+          "bytes": 1551053,
+          "sha256": "6887d2677ac7ae474535f59b3176ffbd8aaca756e4b2215bed59cc956247953a",
+          "uncompressed_sha256": "fb88b060861dbbab128dcffc3d5f31b1cc9e8ebdcbd8543c9ec4bd465ffb971d",
+          "uncompressed_bytes": 22187121,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00136.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549584,
+          "sha256": "38c1957cd8dab20a4b4d446039577700d09672a173c38a61f084173ab265cb62",
+          "uncompressed_sha256": "e16104fa07270df74ff34bb06b4495f5e4c1ecc1db9d8eefb8bfa911bda41b22",
+          "uncompressed_bytes": 22218096,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00137.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550123,
+          "sha256": "d26e82d09fadc00dd06351871a7697a224958be9355373cd52bdbb5935a6c329",
+          "uncompressed_sha256": "b8946f6e7c019772c09a3935e1cdc05f2de2c5ed85312e285c7bd63b0d9effe2",
+          "uncompressed_bytes": 22194721,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00138.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549968,
+          "sha256": "ef4c6016bea667956e71ed2d159011fbb7810f50b2cbd144262f603f97ba9856",
+          "uncompressed_sha256": "793ba74c0bb8aeb849e3ffa86b902ee742b373b30e184034e6434641fdc11f18",
+          "uncompressed_bytes": 22208435,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00139.jsonl.zst",
+          "records": 25000,
+          "bytes": 1551640,
+          "sha256": "0c561d691112f174a9a52d46ef0880940eed5a3cc09d30c5971f4edadb7ec4c9",
+          "uncompressed_sha256": "7a816817f68e345798378dd674bd9b399a9b351be99ef6a2e08b7876faa209ef",
+          "uncompressed_bytes": 22226909,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00140.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549965,
+          "sha256": "e1022d43e420e619fa7a0175c2a94bfd18ce5edf1451921d97f4b900ca97b095",
+          "uncompressed_sha256": "f5fca6bf49988221486d653a2dc4bd8c9cb2c84d86ee8932ee005d7cb9949b3b",
+          "uncompressed_bytes": 22195360,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00141.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554148,
+          "sha256": "db4740a02b30dd074b8ed0c28e59e801d1154d6b68076e29254c1f0d199d4fac",
+          "uncompressed_sha256": "0b74f98318dcb9714eb70d54ef97c2dd7c4c6749d9152423e9bfb3b8cf78c672",
+          "uncompressed_bytes": 22221807,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00142.jsonl.zst",
+          "records": 25000,
+          "bytes": 1551560,
+          "sha256": "5c2c7aad68ff532f52a9ae8396fcd998a8f11c7c39bd5a62aed3c7c9601d40bd",
+          "uncompressed_sha256": "1a6eeb15138ead79b5ff32d66dd895b7c0aed5cf7e1201e187a4a309fefea8cf",
+          "uncompressed_bytes": 22198739,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00143.jsonl.zst",
+          "records": 25000,
+          "bytes": 1551651,
+          "sha256": "5d803057c002892aa54f35c4fbb1f4af1d6e31f888dace99a08d9e215c020204",
+          "uncompressed_sha256": "7abdd25b15b4fd8c7a77e580bf9e317b43fc3d10ffdc13bec41bcbd6015dc304",
+          "uncompressed_bytes": 22202809,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00144.jsonl.zst",
+          "records": 25000,
+          "bytes": 1554923,
+          "sha256": "56f95cc20bdf9d1a9c044d7c6e53162543083b7ece1b0548ca06e47b205c2d4b",
+          "uncompressed_sha256": "1df46c8579b7c0a2180618838bcd5bf0ab179bd6f29613f091fa476293f03e2e",
+          "uncompressed_bytes": 22201888,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00145.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550472,
+          "sha256": "e0ba7629d2035e0a1317cbefd4d0a9537e97a9e91030d16b52932f341bd9bc1d",
+          "uncompressed_sha256": "e37ce31baa2eb37c991059cedc0f797f7af2cbeb225dfe73cde765ef6d7bd25c",
+          "uncompressed_bytes": 22209832,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00146.jsonl.zst",
+          "records": 25000,
+          "bytes": 1552417,
+          "sha256": "3ddd08708e453ca7a7fdcc398b487d1c05033bdb0f89c8bb66d2191d10ec309f",
+          "uncompressed_sha256": "106cad129a703232f46611947aa827486242cba7487993c9c384518f934c4835",
+          "uncompressed_bytes": 22204738,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00147.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549331,
+          "sha256": "314c7287128caaba606c10a8ffee72690534076d2a1253d95d3d2c1bfc26755f",
+          "uncompressed_sha256": "7ffad18a62311c08433610358173a64f3130ab20ec84621b2f8b6703a078fd53",
+          "uncompressed_bytes": 22222687,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00148.jsonl.zst",
+          "records": 25000,
+          "bytes": 1551991,
+          "sha256": "84e99e6ec980ebf192d9926d2f73ed8d5b2b25ce4eb3044edef6221d58d99316",
+          "uncompressed_sha256": "00851746ac048e02139ab8d7028e34cb5fe6a8acc8470e4d0d9958dbce119d86",
+          "uncompressed_bytes": 22200864,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00149.jsonl.zst",
+          "records": 25000,
+          "bytes": 1548753,
+          "sha256": "72b6d4e10d593a5b63d3deada749d9db8d7501c26f4c02cbb70fb2d6de01ff8f",
+          "uncompressed_sha256": "b29af55ea67fe420d5b6a9100f2f53e9da8288d2cf7e1268ac3591ee5cd7a6ae",
+          "uncompressed_bytes": 22190122,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00150.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550158,
+          "sha256": "cba375fc3627c21e4a4ac7797453b0dd320d83dcfdba64a90916ba3232094560",
+          "uncompressed_sha256": "4a793bfe9b3e0b47957bb7dcc981fbd78c4e3711a519c82a19414a17d836f25f",
+          "uncompressed_bytes": 22195181,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00151.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549584,
+          "sha256": "a04d8cd96e539ee38356cede3a02ff766fe48e70fb559bd9ac655ffe58f8e90b",
+          "uncompressed_sha256": "2ef4aae0b393aa9520bb638e33ef7d38d32f993b313f2a5a6d61787971283d50",
+          "uncompressed_bytes": 22200528,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00152.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549707,
+          "sha256": "059f92318b6903fe640ac66947dfe0bdcaf18fe67f20e1a99a056ad8ad6a81d8",
+          "uncompressed_sha256": "027930f4afca53909d2140d64fcac534a51e85a9a5aec97efe41b2dd4cf46b00",
+          "uncompressed_bytes": 22189407,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00153.jsonl.zst",
+          "records": 25000,
+          "bytes": 1551139,
+          "sha256": "a23a754063a92d5667a6c039293f57dcb476d8b00ae1397c7cb3d7d66cd99171",
+          "uncompressed_sha256": "8adfb6ca18a1dd523e07244900f9401b0534389eac96fbb1c9f8e422b27d0c06",
+          "uncompressed_bytes": 22202214,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00154.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550567,
+          "sha256": "29664cf00286fee8981cedc2b20ffcdefb29ff82dbbbf7032a339ae086097056",
+          "uncompressed_sha256": "0bc0bf9bcfc679d41f937a2eb8f9cf460420494502cb286164359f3a54448d71",
+          "uncompressed_bytes": 22219160,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00155.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549561,
+          "sha256": "9b57b8af19c7a954893db797f7e3634bc61b561500029e7be0592ffa70edb209",
+          "uncompressed_sha256": "974d0a16f4af1885fe41e6f7cadb3aefa47f2ff535b63d3c4bf4b2f849136e2c",
+          "uncompressed_bytes": 22218126,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00156.jsonl.zst",
+          "records": 25000,
+          "bytes": 1551276,
+          "sha256": "0ef46630942bd77c49a97f5f895d5151109340efee57e3ffb01950ed5a0ab834",
+          "uncompressed_sha256": "02d195c4a021d595af02f0fdafd043600a7adf51ecd8a59225c8aa86239ad4c5",
+          "uncompressed_bytes": 22215696,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00157.jsonl.zst",
+          "records": 25000,
+          "bytes": 1548672,
+          "sha256": "4e3b51b04a38960fe6ec0dff1a36e9384568a10bbe587218ce3aa8ec046ce4a6",
+          "uncompressed_sha256": "859f0c2345c0631ba3711d94d8ea03110dbcf1a5780f378a418f9a545ac9bf75",
+          "uncompressed_bytes": 22206510,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00158.jsonl.zst",
+          "records": 25000,
+          "bytes": 1547598,
+          "sha256": "ae1e6af6af4ccf135e43cb5295b7d2b9f39079bb766adfd9078eeb50b124b3e9",
+          "uncompressed_sha256": "b069901452c34f45bae4f94fb5d47e45c630d349c1f9a354090baf36774b2d83",
+          "uncompressed_bytes": 22197471,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00159.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549210,
+          "sha256": "7bd870c399a882ed656e2dec9bef32fe824db5bb0e43141d612a4f8e39de9b5d",
+          "uncompressed_sha256": "8c8d01827943d6aa71906eea99b61ccd77a5da34975f226912a18f52bb9c8c91",
+          "uncompressed_bytes": 22221879,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00160.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550225,
+          "sha256": "11589787b392039e13d726d0f280626001ec0ee38f5451b6141c3431d1d5873b",
+          "uncompressed_sha256": "7d607765969ebaed9c1ba6913206d00a2d5cafc9452922b35f36f6a472900610",
+          "uncompressed_bytes": 22194448,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00161.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549941,
+          "sha256": "739a32e153e3420fd0c55403e63802e18756769ee27ff857e838fb3ea02998bc",
+          "uncompressed_sha256": "0c922212766718f9c9555fadc60dcb1b3b367be732ea6daf56169a3d811377f7",
+          "uncompressed_bytes": 22188051,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00162.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549721,
+          "sha256": "7fb1c1ed168acb1971ba2ada6bf397e7e5d6336e6387379dd8484bf4f07bf620",
+          "uncompressed_sha256": "cb33be7cdf1c32156bf3c58ef8c60ee57a96bf367f920673d2b9c795030ea40c",
+          "uncompressed_bytes": 22202796,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00163.jsonl.zst",
+          "records": 25000,
+          "bytes": 1548410,
+          "sha256": "2ce0a930d24d37ec454ba5903de8baab2d794a9c8e191e746a9a2f02fc5f7a65",
+          "uncompressed_sha256": "44c76e00586eeafb5a502a904c5f6435d9c8155c0f8460cd4f7873f25199040c",
+          "uncompressed_bytes": 22211527,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00164.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550591,
+          "sha256": "adc7bfc12baa764df177b5075483de8c44e4d86702ead01e6d9b4370d3b42f08",
+          "uncompressed_sha256": "f036cea929605b55a08fccb0478371676bcfd077eff58447fe737a0ff7697855",
+          "uncompressed_bytes": 22221862,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00165.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550779,
+          "sha256": "54f267f8880e6cc33c353cfcfc5cff6739f378a62094fcaf07b96e85de20abb3",
+          "uncompressed_sha256": "626111c33dd78a420a32040cf8ad226b6fe24e0e9ca11dbd3549a89c86759266",
+          "uncompressed_bytes": 22214194,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00166.jsonl.zst",
+          "records": 25000,
+          "bytes": 1548985,
+          "sha256": "18c54a045a9f60e5d349771ac2fd4a09d6411588a1eeb7658c55a61c6d3e86d3",
+          "uncompressed_sha256": "da0dded03beff854d8158a7c6c70fd70d7008f86c97363aa5e75ca74cf1e1684",
+          "uncompressed_bytes": 22216837,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00167.jsonl.zst",
+          "records": 25000,
+          "bytes": 1548513,
+          "sha256": "fb3c2c4995dad7c1e458f7455b3787be5a721d1502ddb9d63dc3dc2ce30c1bd2",
+          "uncompressed_sha256": "68a78acc2f2d22bd1a344e0a572501dc43afd1fd28282762bc5d4c47132fd6bf",
+          "uncompressed_bytes": 22214637,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00168.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550932,
+          "sha256": "af7e3eebef7552291f9e411f6e2cd89a06e625a6f3175b2a5ffa261849d8257a",
+          "uncompressed_sha256": "392cffa4764632d43291620863f0fa8a0f548f5e9f39d25b9b8470296cc518a6",
+          "uncompressed_bytes": 22210397,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00169.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549037,
+          "sha256": "e7f12be02fbfa187541eb9b7983f6182d79f802668b2404cf2829f7b2d5912d3",
+          "uncompressed_sha256": "251573131f856202d1a7c910c62d16082aba8f4f03876a9d4b56ae766dc18ec1",
+          "uncompressed_bytes": 22223755,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00170.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550370,
+          "sha256": "265bbfae65bc9ed222704801c41292856689b08870b3486143c2c7d8f1a1fadd",
+          "uncompressed_sha256": "b4a4f8501b6c4cde9cc0107f4ca61db4c28b2d6ad86b698977ef3f735ab4967f",
+          "uncompressed_bytes": 22200685,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00171.jsonl.zst",
+          "records": 25000,
+          "bytes": 1548807,
+          "sha256": "fb126dcfffbc8b9bd86ccc7995262e325a7fbe74c588fded88d341e4000e6896",
+          "uncompressed_sha256": "5589c6579cbffcde1f257db9760f1d94f1a01bb0b50cf1e9f01d33425ab7257b",
+          "uncompressed_bytes": 22199653,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00172.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549022,
+          "sha256": "6cdefb7869ee9eefd26613cd33e893572f84153490c9bd0498c846f4f42123b8",
+          "uncompressed_sha256": "6cba2df47009023041f32c4c15dbb1449f1ad806c3683422e0da066ebdeba9ce",
+          "uncompressed_bytes": 22176479,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00173.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550722,
+          "sha256": "a917c77fbf681048f5d96f2e4a54833efde17ff199e63c6db1f100abd655a261",
+          "uncompressed_sha256": "933ac65f43a12eb89a36b72985eca117e142237d2c29fc33858d1b0569f76fe4",
+          "uncompressed_bytes": 22204695,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00174.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549229,
+          "sha256": "64f5a150e3e9e43df9cdfd4e7cfae0474dc4dc5d5ad61d6a9579febe21b489b1",
+          "uncompressed_sha256": "14a52a65a4d464570b7d061cf58b9f3b020515a257323142b546664e312cbb6f",
+          "uncompressed_bytes": 22221067,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00175.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550096,
+          "sha256": "871d1ed8bc472819f5ce27b3e559f8c138a8986fbaf45b19bf0604d7ecc20c3e",
+          "uncompressed_sha256": "2d3a733a5a07fe8129df571b201ce59b19e917b3ae1a6959d82b9c6e7863a7b2",
+          "uncompressed_bytes": 22222265,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00176.jsonl.zst",
+          "records": 25000,
+          "bytes": 1548178,
+          "sha256": "3f2f309d06b98b815673f3b74af746f298b2408428767617d9f25f0e4f23433e",
+          "uncompressed_sha256": "4db80db28ffe19fe9fde4af8362f33bb638dd762ac883f00e83aeb4d7c77e696",
+          "uncompressed_bytes": 22234880,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00177.jsonl.zst",
+          "records": 25000,
+          "bytes": 1548937,
+          "sha256": "b7eb44bdcc06b0ed2724432b8f1a2e0eb4a9eaabf011242dbf2f60cd462505ba",
+          "uncompressed_sha256": "5275fb061c1b5608705b12c7567c2f612851bddb2b4a3c420134476ca265be8c",
+          "uncompressed_bytes": 22227979,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00178.jsonl.zst",
+          "records": 25000,
+          "bytes": 1547658,
+          "sha256": "5102cd1282ca556c5a07eb6ab11999b35d76855a5f6c224f483f235ae6bfd11a",
+          "uncompressed_sha256": "3c9458c59acd257d3c8b3576334d75c1a209fdc491271e4efcad6b47de72789b",
+          "uncompressed_bytes": 22205918,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00179.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550538,
+          "sha256": "73ef3c8a67c56e8b929148bfc98677c4e89229bf3903dadc838348e64fd21271",
+          "uncompressed_sha256": "bbc66b15b3c939576568f2a05f0e087e0f2ec76e389147c5f2502ec6c872d76f",
+          "uncompressed_bytes": 22214654,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00180.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550417,
+          "sha256": "6263fe191e5c4ba427079a76e054123e002e2f821c66cdc55cec2c5c0ca45233",
+          "uncompressed_sha256": "19730c85786a581bcfbfa12981cad8cba1f84af3ac5522bd041fb02ab729f416",
+          "uncompressed_bytes": 22215232,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00181.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550458,
+          "sha256": "31b0338d5c04423d1a96fdafbefa14b5609b35c213aa558a5610852f41016857",
+          "uncompressed_sha256": "6d38fea135952cde01a100ea7158342a7076ac210a9038f42c66e4ef63193f64",
+          "uncompressed_bytes": 22213558,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00182.jsonl.zst",
+          "records": 25000,
+          "bytes": 1546230,
+          "sha256": "a1ce21b1574897cfc9846918d22d1ceaccd8dbfdbd65daa1b1566e6e1f666a4f",
+          "uncompressed_sha256": "44022296a90614fddfbd02ad243fd122e469b20b642bcda0de9c3a2dd6486eef",
+          "uncompressed_bytes": 22210725,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00183.jsonl.zst",
+          "records": 25000,
+          "bytes": 1548674,
+          "sha256": "763a9bbba529e6e1dddd5ccff06387b25aea195784f6e3c7647133aa225310bb",
+          "uncompressed_sha256": "c1cf0f84c59a3532932b0eee8b8e38db2e823cb29b59090813e8407bfd8ff0a0",
+          "uncompressed_bytes": 22186505,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00184.jsonl.zst",
+          "records": 25000,
+          "bytes": 1545441,
+          "sha256": "f373c4873aafdef2330dfd6cf2aa6c1fccb552aa21835601110ed7b44e6b7436",
+          "uncompressed_sha256": "dc60820511d98d94ff1c07e203ad42de013217a1ab2f7f48cdc9578fccafc336",
+          "uncompressed_bytes": 22200697,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00185.jsonl.zst",
+          "records": 25000,
+          "bytes": 1548929,
+          "sha256": "f40e2d99e6f846c346301505818a6463056b9537af653f0251a0982ea77973e7",
+          "uncompressed_sha256": "c2be3b04d8025dcddc3fd2107f7619f7284bbf7c5259994d1e15b7afbc8a4eb9",
+          "uncompressed_bytes": 22199824,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00186.jsonl.zst",
+          "records": 25000,
+          "bytes": 1483788,
+          "sha256": "471c1ff35fe61a5352baf70c7d83771b4f848014a22ad397ed890f6a81bc0cf4",
+          "uncompressed_sha256": "02485a081fb5a930e31d17075e4f195357fcefa7650450bb1bec677856259930",
+          "uncompressed_bytes": 23230018,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00187.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550684,
+          "sha256": "9300414eff514e20b3d92b2191691c1425b016f03561b4586a5205717b6cb303",
+          "uncompressed_sha256": "4ede156c7fba8b2221177edc8221a2ecff92470cc0e06fcb41e2cffdd4c30342",
+          "uncompressed_bytes": 22209798,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00188.jsonl.zst",
+          "records": 25000,
+          "bytes": 1551221,
+          "sha256": "fc8b3c583a6c8b0ae70c5ece0500063eff3b5fdfc90151eb4737a61df01102b4",
+          "uncompressed_sha256": "63b92b0bfe81e4dd5de44d1eddec8384bde7003d1f5e644ff50c6796f5f9c4fc",
+          "uncompressed_bytes": 22233868,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00189.jsonl.zst",
+          "records": 25000,
+          "bytes": 1546454,
+          "sha256": "6929d56fc00d0ee7f1ce0003470289b85948c8143547d6f473fa303f97b30102",
+          "uncompressed_sha256": "7a86ce4203df37380b309e0d07eb681449ec5a32bc53d95100e12a93088a5293",
+          "uncompressed_bytes": 22208359,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00190.jsonl.zst",
+          "records": 25000,
+          "bytes": 1547519,
+          "sha256": "c4e5766780e4aa9c85c38f5cc2d2bfa446c8a7b3405a83a6f4cd309c2ccb1058",
+          "uncompressed_sha256": "0763a2bf4e08e23a390b55c4398a071a716ad1e8dba9856518b3bb3b00bb7d25",
+          "uncompressed_bytes": 22192866,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00191.jsonl.zst",
+          "records": 25000,
+          "bytes": 1547692,
+          "sha256": "49ea74f3f7d80d5846d5ef66e20a5d720e0e2707f5690238974082766c3bf6ac",
+          "uncompressed_sha256": "8b21135c7927cb8275e3d801691e6313d98b316332aeb6ca1e556cbb7c850247",
+          "uncompressed_bytes": 22186745,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00192.jsonl.zst",
+          "records": 25000,
+          "bytes": 1551270,
+          "sha256": "445e04323fc80daf2aa077dc7f6371124712cdf2992408f0968298ed29facb47",
+          "uncompressed_sha256": "2f6511ab5ba660b3567841da62e22261ca7dd1c67589a4e92f98fe975e70c069",
+          "uncompressed_bytes": 22231322,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00193.jsonl.zst",
+          "records": 25000,
+          "bytes": 1547362,
+          "sha256": "297e83eb2f790946139c93fb8d327eed5de6a2f1bb3beaf4e4ebe7de20556ed2",
+          "uncompressed_sha256": "e4fb3921b262f3a5f165c9affe4aeadc048101a88fae5b52aa05e7bab6fbd391",
+          "uncompressed_bytes": 22205141,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00194.jsonl.zst",
+          "records": 25000,
+          "bytes": 1546389,
+          "sha256": "47279c7e90443fa1c4a91375803325ae53c3aa89c394821f63b0fec6178ea6a6",
+          "uncompressed_sha256": "bd377a5da77660a68ad9360f8287eb3091f59f44ec2638d4897ed2043bba3c1c",
+          "uncompressed_bytes": 22186799,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00195.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550358,
+          "sha256": "fad2f304e6fd84e43859039a95a9e1405fe9070d07b89664193ff7c097e9c9bc",
+          "uncompressed_sha256": "bb194dfa986214ca467245594a15d643c3282b0e2235bdb26599e140450f73f5",
+          "uncompressed_bytes": 22196290,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00196.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549154,
+          "sha256": "b1fff8a2ecdd8ce0bf4ce62dbc33afe38a71213b344a7e97d45b270e3f21212c",
+          "uncompressed_sha256": "4597a62920f2485d6fd160adb193e9593409c613bb0d4514e8ace4b854b7753b",
+          "uncompressed_bytes": 22199187,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00197.jsonl.zst",
+          "records": 25000,
+          "bytes": 1548762,
+          "sha256": "f5d0ea60c8fbc3d90a74e5fb460c244bcb000a43199add6de73184e7f2772ff2",
+          "uncompressed_sha256": "f4e6193456f4126d28d1cfbddd767599d88f685ddc7dc23337a9f3d68dc995be",
+          "uncompressed_bytes": 22217233,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00198.jsonl.zst",
+          "records": 25000,
+          "bytes": 1547305,
+          "sha256": "e64c8ebd30fe6cfa945c8b087f147aae4a57eb9b6ab8ffdc4d65af0ae418e12a",
+          "uncompressed_sha256": "4da18a4e563b92bb9f4814d65dc4bbb1067d873831177823123851e492b46a74",
+          "uncompressed_bytes": 22205708,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00199.jsonl.zst",
+          "records": 25000,
+          "bytes": 1544993,
+          "sha256": "6faab57aec81532d88b02cc57c7b32a27b1cd2a8a9cc1920ac42eba48f4cdd81",
+          "uncompressed_sha256": "18b948990edb74d9476a1293e248b943f9112cc42f28513526db6d8d318667d4",
+          "uncompressed_bytes": 22184894,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00200.jsonl.zst",
+          "records": 25000,
+          "bytes": 1547466,
+          "sha256": "bae1b8e2de447550fd4cdb2956878d9464fcc13b8653c2c3ae7ff258d7be8f3d",
+          "uncompressed_sha256": "ba37485a2fcb9124bca4c73b3bbf989663c482d149bb9cbf02339f35167193ac",
+          "uncompressed_bytes": 22207864,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00201.jsonl.zst",
+          "records": 25000,
+          "bytes": 1548994,
+          "sha256": "68c04fb956ee02467f9c962b01bea90cb7b8b2d7d3b2def65b0cd333bf1a6974",
+          "uncompressed_sha256": "217d9c8b192dff3b4ad1c824e4d76d73ec3d1c74d0f02d6aa991785f081010a6",
+          "uncompressed_bytes": 22195891,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00202.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549026,
+          "sha256": "01c221a40a3a177e3e837a615152ad5e6669cc7d4987e6e6b87717713f7228b0",
+          "uncompressed_sha256": "fa57a83c441aec8422a700d5e4b429a91f2bef8c0250b6f15df9fc420aa291e8",
+          "uncompressed_bytes": 22194779,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00203.jsonl.zst",
+          "records": 25000,
+          "bytes": 1546912,
+          "sha256": "6578fa53cbe08d0df06f0c7d3c5d842a75369d65a66fd75c6b802b994f0121e6",
+          "uncompressed_sha256": "88cea81ba98e1f4ac46b96f777b1d898d70e03f4b690805f738c9892aad45094",
+          "uncompressed_bytes": 22188341,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00204.jsonl.zst",
+          "records": 25000,
+          "bytes": 1546089,
+          "sha256": "80f2966d6217858bbf1b21e0273227233e1bb4501fa9a8ae45e5d002b5f400b3",
+          "uncompressed_sha256": "a40c3e4a85d98b9da311443bde2f29f634ccae7432127452d8bd8dbf3b69708f",
+          "uncompressed_bytes": 22188566,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00205.jsonl.zst",
+          "records": 25000,
+          "bytes": 1548572,
+          "sha256": "a7363b9b76d8c21781ab92c746dffd317bd521f7c7f6af42be9f5972f26d0e0c",
+          "uncompressed_sha256": "c236cad086dbef6966476de98638eec35f4427f287bd060937ab5638aeb7e500",
+          "uncompressed_bytes": 22197353,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00206.jsonl.zst",
+          "records": 25000,
+          "bytes": 1546842,
+          "sha256": "ae47c570579f7b0d4cc3e534502452ae07f8f1e37dcf9066ebb475462a435d27",
+          "uncompressed_sha256": "e1151ddfc797c27e10aeae6a51e63f1286fef309f7e9c8295dacb603ec0dac7f",
+          "uncompressed_bytes": 22207113,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00207.jsonl.zst",
+          "records": 25000,
+          "bytes": 1545778,
+          "sha256": "16eb3a916a003dfcff1120bb1302fa89e12ce2da13c5cf35b48f744a9ea1cb66",
+          "uncompressed_sha256": "7e4d8173e437f8a601cb29a6b27c9897e5d3d279ad28729b9184c927902ccd75",
+          "uncompressed_bytes": 22192257,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00208.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549284,
+          "sha256": "b3a59609230a0f931b2a8d4501159c744a80eb0a29676dd5ccea8ece6a5eda1e",
+          "uncompressed_sha256": "5e2eac455aa3213556b661133fe777c38ed3e6bca1eed770bc19e6b27586eb5f",
+          "uncompressed_bytes": 22224852,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00209.jsonl.zst",
+          "records": 25000,
+          "bytes": 1550189,
+          "sha256": "acc9c1cd93d4b18b76c90ce68c5b015fdc7530fc609b701d7b54b74a563b10d6",
+          "uncompressed_sha256": "eddb9235d9e936cb15badd945052c8d4e7d3d1edd37eee0b541fb74afcc40093",
+          "uncompressed_bytes": 22213785,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00210.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549616,
+          "sha256": "c20a1e81dfd452e6d741f85b2658266c77a99332998779083af758f3944b47a4",
+          "uncompressed_sha256": "bad17d16395febe55b88c6e9495a69379d3760060df94ae73f7b2fb9dec24e35",
+          "uncompressed_bytes": 22177620,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00211.jsonl.zst",
+          "records": 25000,
+          "bytes": 1547961,
+          "sha256": "1d90f0819186d02f045222b8e1df7d70c4c598f357825c34e03734ef4a3227c0",
+          "uncompressed_sha256": "cb5b29356cefd92a335c181e9c36508629150a0e597fc70ef9f3720a901af6b3",
+          "uncompressed_bytes": 22203872,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00212.jsonl.zst",
+          "records": 25000,
+          "bytes": 1547897,
+          "sha256": "ec995fb5040719525061add560048c54c23027366667f44e94435dd815f91eb3",
+          "uncompressed_sha256": "8073534a48b0c1dd64dd0e36df6dd1bf9c9978560b5a669d573455ca22f76415",
+          "uncompressed_bytes": 22192332,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00213.jsonl.zst",
+          "records": 25000,
+          "bytes": 1545776,
+          "sha256": "3e10f7754bdc106bd7c32c50511f6d2951881febc689c8aeb496015d2b22d718",
+          "uncompressed_sha256": "0259da1147d19f1c77731e2088623f895fb1ebdcffa0d454b5f584af6effbd1d",
+          "uncompressed_bytes": 22211345,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00214.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549245,
+          "sha256": "f083c4306825fde1f23817477de08153a43f46b982146fcf921c56f9b46add33",
+          "uncompressed_sha256": "0471dbf9015187ce1a1f66517920a617cfe18f16129176f3f84af256dbf3e0af",
+          "uncompressed_bytes": 22198518,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00215.jsonl.zst",
+          "records": 25000,
+          "bytes": 1546514,
+          "sha256": "57d376390f809859f63e8d494372b3911a2ccfbaa14d5edee0212ef47c5ac361",
+          "uncompressed_sha256": "bc944e2fd64544222d77447ba32da545392cd32374e7553c95d402eb7f72054f",
+          "uncompressed_bytes": 22228874,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00216.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549318,
+          "sha256": "0fc524da58d5e5bcefc796a3cfa140dfd110568005de5721a4ef7cff705f5043",
+          "uncompressed_sha256": "9064c08623abdc9bc98010ec17e9a8ad5249a4232ae139b3795daad894d9a061",
+          "uncompressed_bytes": 22214500,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00217.jsonl.zst",
+          "records": 25000,
+          "bytes": 1545881,
+          "sha256": "e764f51d1dd38ba3257e8b42f69c2663e8e006c16a653a395487377ae1e55207",
+          "uncompressed_sha256": "a42f2519a85d8d4d4a4a3be04815ae1604e64c15a4740be70080cbc6fe311260",
+          "uncompressed_bytes": 22186475,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00218.jsonl.zst",
+          "records": 25000,
+          "bytes": 1549285,
+          "sha256": "942e478c8bdea109e424b8cdc32cae5bbfd13cecb1423f4f48ea0010edd1a46d",
+          "uncompressed_sha256": "f47cfa200e62f31566bb602bf2e4227a6cc91fa0a28cdce6990f9c0615268633",
+          "uncompressed_bytes": 22211408,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00219.jsonl.zst",
+          "records": 25000,
+          "bytes": 1546135,
+          "sha256": "b9b97b36a2f77264972cd82a18306f512894bf0a70afdcbf149277010bdd7d68",
+          "uncompressed_sha256": "30fed2f6895b1dd2056b180de63139d8270079b3d14041ca3d0ef5ac587da4ee",
+          "uncompressed_bytes": 22211254,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00220.jsonl.zst",
+          "records": 25000,
+          "bytes": 1546447,
+          "sha256": "ba79873d464d9bd4215d2f8b72cb60897c23971a0ca215eef4dc7414598ac6fc",
+          "uncompressed_sha256": "92c82a426a9a0fef4fb436c9508d11826e585e97ae7fc4d33601e0fa357c5d3e",
+          "uncompressed_bytes": 22212049,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00221.jsonl.zst",
+          "records": 25000,
+          "bytes": 1547950,
+          "sha256": "f0ad777526f29cf4b8370c9e26b63e60898e95db6dddeff3ca888a35080cd6f5",
+          "uncompressed_sha256": "a1179177f4643d60d8b6336a036f863e1d9e62434ecfd55cb1ee2f3e606a1569",
+          "uncompressed_bytes": 22224631,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00222.jsonl.zst",
+          "records": 25000,
+          "bytes": 1544881,
+          "sha256": "5e6f485355b2c1d2098601d5bb59f75b496674599b5f42f0d79f7f362b6b7f4c",
+          "uncompressed_sha256": "471d10a38481fce5250a43082eb1e492ff6eca8187cac8df4dfdcf219ad46598",
+          "uncompressed_bytes": 22202809,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00223.jsonl.zst",
+          "records": 25000,
+          "bytes": 1545807,
+          "sha256": "fb6ee2d29704e1a629404c6c836cb2d2df948c86a2cc16403f37606cf05023a1",
+          "uncompressed_sha256": "ee81917c5025589741dec995c0cd8c77126cee21a50c09e07159bf6c8ae3a565",
+          "uncompressed_bytes": 22174427,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00224.jsonl.zst",
+          "records": 25000,
+          "bytes": 1546641,
+          "sha256": "da919fbc6c6842982aaed04677baa5cb9997cc004714551a5e3816e481fb199e",
+          "uncompressed_sha256": "d4c3942f04395b7e03d78cc71b34bcf2dbef30e88954cbc5e87b4dc3cb572c79",
+          "uncompressed_bytes": 22193392,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00225.jsonl.zst",
+          "records": 25000,
+          "bytes": 1547608,
+          "sha256": "cf2c997dc89b5ef6ad9664d8e049737fe6668bbba29ad625b1ec60b50feaf478",
+          "uncompressed_sha256": "4735d9bb364cb96c9e9d3175ef490f605a2629b38c7260f75d0770a5c0d56cb5",
+          "uncompressed_bytes": 22210946,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00226.jsonl.zst",
+          "records": 25000,
+          "bytes": 1548202,
+          "sha256": "265249f4b8ac40847b8346f3d5c47e898d5508f0e42d9e5fd91a4eecac3dfe0b",
+          "uncompressed_sha256": "4d5e032983884b164823ff42109461ab5f4af7ff3bc37f18a6cdfbb44562347c",
+          "uncompressed_bytes": 22226811,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00227.jsonl.zst",
+          "records": 25000,
+          "bytes": 1546138,
+          "sha256": "fbd9518d52746e2358893c657926aa3329c2b9b7aa786c03144dd0825d864790",
+          "uncompressed_sha256": "49b1428a39e822e133d84e1797de5395589909e4eef16205599924d9af5dcb63",
+          "uncompressed_bytes": 22212857,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00228.jsonl.zst",
+          "records": 25000,
+          "bytes": 1547949,
+          "sha256": "0da4d7bfaf40b45c0a8f201e1e6a933a2671cdc9bb20c6869c74446aac57b4df",
+          "uncompressed_sha256": "edca39f2da2528f4cbf139e7c278173579cc02c3ede1505582c2e002e61c7687",
+          "uncompressed_bytes": 22177702,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00229.jsonl.zst",
+          "records": 25000,
+          "bytes": 1546404,
+          "sha256": "74835d0729413e32f343ce87cf17f5d8904a248bada7a02081e3894afb279ff9",
+          "uncompressed_sha256": "19b62bc4a3aaacabaa529133fe23136b72fcac2bb02993b3dd4b3adf461f0378",
+          "uncompressed_bytes": 22202200,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00230.jsonl.zst",
+          "records": 25000,
+          "bytes": 1544665,
+          "sha256": "027a04f51ce5d2876cf789379a73db85b4316118710db81eab79ebb60a41d639",
+          "uncompressed_sha256": "3adc28246e3cc3343f4e3b5ea0f63a0b4191a2ff44b256f0935c720a72306cc3",
+          "uncompressed_bytes": 22186055,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00231.jsonl.zst",
+          "records": 25000,
+          "bytes": 1544680,
+          "sha256": "088a2facf97e81883a40faa1d824b83aa2a86fcda9d804d6cfe460df0f8da7c7",
+          "uncompressed_sha256": "979eb846320036e6a69012893672f9845c9ec3fe42658424cf04e46b970f46f1",
+          "uncompressed_bytes": 22178838,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00232.jsonl.zst",
+          "records": 25000,
+          "bytes": 1546961,
+          "sha256": "f083647c28ed238902a9ee88ab4f3e528f0e1eb2957ca59bc56b747ebc8b7bde",
+          "uncompressed_sha256": "5e21912c9d7187c75057ba42e3efe60e379a329ef5ec7ad1c748d777bfbc2907",
+          "uncompressed_bytes": 22193241,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00233.jsonl.zst",
+          "records": 25000,
+          "bytes": 1545992,
+          "sha256": "583ccac2df346fb3d065e212ee37dc506b312f45426f209340c7790325b586c0",
+          "uncompressed_sha256": "20b85bc78ec23c15c3e7ca4af8f9cb86ff6fdac1d593911b7cfcd0c88019cb21",
+          "uncompressed_bytes": 22191248,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00234.jsonl.zst",
+          "records": 25000,
+          "bytes": 1545660,
+          "sha256": "413265f4e3cd261595c58e1c190f19afc6e9904bd1477ac6d41bdea3b6001b21",
+          "uncompressed_sha256": "b69bf8297918ccc5012e958957472ee228f560a58507e1759a7bc00bf2e7a992",
+          "uncompressed_bytes": 22183827,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00235.jsonl.zst",
+          "records": 25000,
+          "bytes": 1546965,
+          "sha256": "ff31efc380d045725a289252255c3bd1e322154e7b83b54bba1538ec2cf1ab7f",
+          "uncompressed_sha256": "05f90ac7c29d29590983f69c746cd78de2c7129bca119da9040d155a4a3c5cf1",
+          "uncompressed_bytes": 22188912,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00236.jsonl.zst",
+          "records": 25000,
+          "bytes": 1547766,
+          "sha256": "2250b59611f67ef6f93bb6e1cc1700a10b0136bf97cd7ec46c6eb27e48262f91",
+          "uncompressed_sha256": "42a195c1f8164a4778d573de856dd53218131097906258b99e065c27b4f69340",
+          "uncompressed_bytes": 22211134,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00237.jsonl.zst",
+          "records": 25000,
+          "bytes": 1545849,
+          "sha256": "701158843083b0de4cd8d0d43ade03646bc827673b9d78c7372f80b9ecde3a30",
+          "uncompressed_sha256": "8c50faff8424d9f5bc9af1d46e345acc5e9f17647100c11a0feee8728dc9bdce",
+          "uncompressed_bytes": 22206609,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00238.jsonl.zst",
+          "records": 25000,
+          "bytes": 1547008,
+          "sha256": "b245613d432739fdb00906cf2624160ae254e52e9224cf8ecc2f83873b0a7608",
+          "uncompressed_sha256": "76e19e460038c674990368f3cea903582a88c0a646b45b6e1191268b370c78ef",
+          "uncompressed_bytes": 22189339,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00239.jsonl.zst",
+          "records": 25000,
+          "bytes": 1545294,
+          "sha256": "4981c5a1ad2e3ac6644ae761b7db51f5235deff8a32aff7047c47939a9aff6c6",
+          "uncompressed_sha256": "aadc0951045c49a76014abcde5f97ffe2d83cbf4465dccf969098845fc53781f",
+          "uncompressed_bytes": 22196792,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00240.jsonl.zst",
+          "records": 25000,
+          "bytes": 1545989,
+          "sha256": "ddb09b03d319c19c6d3d66dfcf2774d78a1b210384c6269dc7e760385b64454c",
+          "uncompressed_sha256": "a52c6feeb591b3179c7f3e7d5d9b703a05fa665ab114e5c24b9aeb17c12cf2e5",
+          "uncompressed_bytes": 22203692,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00241.jsonl.zst",
+          "records": 25000,
+          "bytes": 1545517,
+          "sha256": "711a50abbac75215ca6b9ea14cdbc45d00c2a64fc42e852deef1f5dde6067ffd",
+          "uncompressed_sha256": "03d5c84593ade52cd00df9f87280863183ae506a279c884737a587c044524717",
+          "uncompressed_bytes": 22194483,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00242.jsonl.zst",
+          "records": 25000,
+          "bytes": 1544471,
+          "sha256": "5c83b6e3d44323fd442d1cf5992d0bfef5b6082fb1b8bdebec392489f40d686e",
+          "uncompressed_sha256": "5c29d47245a1cfb21d7308af876f5a5903badfeb2758ad329395bd52a6ff6872",
+          "uncompressed_bytes": 22208634,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/corpus/part-00243.jsonl.zst",
+          "records": 6086,
+          "bytes": 382274,
+          "sha256": "6df05c30dce6e2332d527a01a38add235b6beab1af0f65f56d57ce4176378dfa",
+          "uncompressed_sha256": "0c8f3118d476bf3df9050408e5a068291e93470c7a5e6600dcb4ca75313c8214",
+          "uncompressed_bytes": 5403882,
+          "compression": "zstandard"
+        }
+      ]
+    },
+    "role_tasks": {
+      "records": 1730310,
+      "question_policy": "neutral_span_extraction_v2.0.1",
+      "shards": [
+        {
+          "path": "data/role_tasks/part-00001.jsonl.zst",
+          "records": 25000,
+          "bytes": 258895,
+          "sha256": "59d809b882f90b22669367cb1ca15f07f2b9d35a22d3c245575f9da19803dc43",
+          "uncompressed_sha256": "75a3cb58d5f9c775075c8d66af11e7d8fdf4c7ef9382a43cebe4e4f98f985c95",
+          "uncompressed_bytes": 8251293,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00002.jsonl.zst",
+          "records": 25000,
+          "bytes": 258667,
+          "sha256": "4ead89e84ec00a183970fb0fe9ae828173722b64052a8afbfbdc54428e0bacc8",
+          "uncompressed_sha256": "30ea1814304d8776ac1a3663200235caf3e8d540d6a32b7217920891bcd776c1",
+          "uncompressed_bytes": 8254657,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00003.jsonl.zst",
+          "records": 25000,
+          "bytes": 258971,
+          "sha256": "e19d3c67825f0619d5c0cf78d5a5cb1a95c581c1d62eebde0bac8a819bc1ed53",
+          "uncompressed_sha256": "53bc288b5715d3cb832dce01d2a2525bede59bb0a45dab78da72400609df9964",
+          "uncompressed_bytes": 8250951,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00004.jsonl.zst",
+          "records": 25000,
+          "bytes": 258685,
+          "sha256": "6ce013b3d6cd468d98e4b6afa1a130daf8ac79b309f41a3bc5e8cee092efe3a5",
+          "uncompressed_sha256": "84d1a2b936e2366337fbd367e4ed73c0458efc0e84bf663a983862a74c0bdf25",
+          "uncompressed_bytes": 8245637,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00005.jsonl.zst",
+          "records": 25000,
+          "bytes": 258403,
+          "sha256": "6925a32d9505265d474da7e0977617fae1207e9a8529fe8a5e3358bffc0886c6",
+          "uncompressed_sha256": "3807d9d0e4fb416aa26892f437c09f06aa1087b979c0c72b6eefa17d3bc55a44",
+          "uncompressed_bytes": 8246644,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00006.jsonl.zst",
+          "records": 25000,
+          "bytes": 258555,
+          "sha256": "caf7fce3dba857d1f23eb2978c7bd49bec9ea42e7344fd97e994d595d94f24ce",
+          "uncompressed_sha256": "fc39ef847951e8d01621e47896510c3d20fbf1cb22844d0cfac2a9314ca277aa",
+          "uncompressed_bytes": 8249000,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00007.jsonl.zst",
+          "records": 25000,
+          "bytes": 260016,
+          "sha256": "f48e071831cab2b3af638620414a50427e82c7fb8d572fd2111fcc1ff0b4c936",
+          "uncompressed_sha256": "e3dbf1de99cd8ffb828675e7a6ddaee609c306bed013872359f16efaaba3bf69",
+          "uncompressed_bytes": 8255221,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00008.jsonl.zst",
+          "records": 25000,
+          "bytes": 260015,
+          "sha256": "dffb86eb7d7820eca805da830f3f7595b9a92062f8f3185302a0a99aab697c2c",
+          "uncompressed_sha256": "b5bd3244220f5bfed28b525dc6a73df4a8d1f728aa5dcca63ba8b1b634a16546",
+          "uncompressed_bytes": 8260698,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00009.jsonl.zst",
+          "records": 25000,
+          "bytes": 259293,
+          "sha256": "980d59b75bd26c400abc5d89cfa268d2d0ac3fe3f134bd12e6d132d11f2b4ca1",
+          "uncompressed_sha256": "fbe8986bdcb16d9a09491ff321dd1c4f534ad9312a56a201de3447d9c4a2b6e1",
+          "uncompressed_bytes": 8251156,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00010.jsonl.zst",
+          "records": 25000,
+          "bytes": 260521,
+          "sha256": "14ad9f7d3e3f51e396034c2f163189ad6bb0a80d2215d8504928a8a03c38f72a",
+          "uncompressed_sha256": "51dc73a9320bc5597ef7f9cde80cc94252f621e67621795e3eb574483ca26c2f",
+          "uncompressed_bytes": 8259873,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00011.jsonl.zst",
+          "records": 25000,
+          "bytes": 259488,
+          "sha256": "e47eb70e90e486f58e1a99f06dfdf5505976f5738f341df8507c1ac0b2ff3972",
+          "uncompressed_sha256": "8a3af7322416dc01511e51327527c30837126124d0e0db6850070f214b269571",
+          "uncompressed_bytes": 8259330,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00012.jsonl.zst",
+          "records": 25000,
+          "bytes": 258618,
+          "sha256": "eee07122f01882dd5b94bf4bb096ee7477472799f58a5836cee19cfec796c4a8",
+          "uncompressed_sha256": "6c96e7fe692a199b22e71574eb2b806c42e69752fbc95693d99ba8ddfa16d459",
+          "uncompressed_bytes": 8257750,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00013.jsonl.zst",
+          "records": 25000,
+          "bytes": 260503,
+          "sha256": "8a94297bd72be17f5318632698fabb94e858c05f58fc188535740446d0bdaa0f",
+          "uncompressed_sha256": "fe3d590720b326b4e039302b9f25bd53c45b7f573c12b0fea728d8c9d4bb7df4",
+          "uncompressed_bytes": 8269775,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00014.jsonl.zst",
+          "records": 25000,
+          "bytes": 260413,
+          "sha256": "2e87464e9297993b4115897cc5fdf1dd20f4265994b51e56837a930d63f803a3",
+          "uncompressed_sha256": "ff412cab918092b8242a1420529ee5c1c7cde5495c0d3e6656a66cfa6f556f31",
+          "uncompressed_bytes": 8259755,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00015.jsonl.zst",
+          "records": 25000,
+          "bytes": 260706,
+          "sha256": "a3e8bf55874bb86e09717e8e8da4658fe9bd9bf283ee1f1e5f0b5e228b08531e",
+          "uncompressed_sha256": "e7b9dfea67361030f38a65156dcc0ceb7eeb2e9bffc4b5fe617ab9207d13010b",
+          "uncompressed_bytes": 8263857,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00016.jsonl.zst",
+          "records": 25000,
+          "bytes": 261526,
+          "sha256": "f45ab77a2a7c9f950beb6775d56546d7f0199a6e3a70b2832ff22cbea470e7e9",
+          "uncompressed_sha256": "58b600b8397ce57f5fb762724816b59b41f54df5601fec40f0245b741cbd8f1d",
+          "uncompressed_bytes": 8263871,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00017.jsonl.zst",
+          "records": 25000,
+          "bytes": 259534,
+          "sha256": "c71c6dee38dc58acb8b7d7f71affbacd6d13c39b0bf428f8edee69e9938b8ba1",
+          "uncompressed_sha256": "ba9f6c15c227ca509d9d654459f54570541f7401c711820449cd772a21a80e0f",
+          "uncompressed_bytes": 8265876,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00018.jsonl.zst",
+          "records": 25000,
+          "bytes": 260351,
+          "sha256": "b89cb77f052ed85b55a66c267124f40f15ce9ccfb4289a3a8cc4281015c91743",
+          "uncompressed_sha256": "39425173069fadccecaeb2b8d4027b06c26c78f75b7979cde27f3cc770f84f3e",
+          "uncompressed_bytes": 8271184,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00019.jsonl.zst",
+          "records": 25000,
+          "bytes": 260589,
+          "sha256": "a85182dbe050d487ed4b6bd9c9b7deb0eed5d991b76e079d97fe0fc17fe085eb",
+          "uncompressed_sha256": "f9ba05785bca88ed4813903c0b0f19400441242c7cb2b2a38232d4ae521cdadd",
+          "uncompressed_bytes": 8266793,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00020.jsonl.zst",
+          "records": 25000,
+          "bytes": 259717,
+          "sha256": "dccc8e2263abbe7565d35860c5ec7ae3f48bca9718e19876783913099ddb24e1",
+          "uncompressed_sha256": "3279b60c46ebbd488f2849472962c2f41daeaf509f8981a7f78683c1ac6c0301",
+          "uncompressed_bytes": 8264510,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00021.jsonl.zst",
+          "records": 25000,
+          "bytes": 260232,
+          "sha256": "bfb0f14bec417b5cce732715d19983f89b486ba8b208e809fcd69add8ba80f0e",
+          "uncompressed_sha256": "d5befae56eb1f92cb24d2d5564ce9c268e24565c873a98b82d41d7ed79698143",
+          "uncompressed_bytes": 8274344,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00022.jsonl.zst",
+          "records": 25000,
+          "bytes": 261163,
+          "sha256": "5f6b3cf3bcf28af96e5bf2548906c376438969438f648dc0e5d4a3b725bd7ae5",
+          "uncompressed_sha256": "d4a8621c583e9ef572cc014bb104fa1baf420ff2511fea2a3f24c15f4b86b86a",
+          "uncompressed_bytes": 8265962,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00023.jsonl.zst",
+          "records": 25000,
+          "bytes": 261393,
+          "sha256": "555413f7907342b316ec86c4248b25061a09e3d55aaf6d669e01e34596a85c5d",
+          "uncompressed_sha256": "c916875cfaa42c0e8731099c61f857a9f817f62fcbf7659e15150c3b85853f5d",
+          "uncompressed_bytes": 8275544,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00024.jsonl.zst",
+          "records": 25000,
+          "bytes": 261417,
+          "sha256": "4a0c0119cab6678c8fef2aae43d126000f8cb75244f83db6573536bb78409d0e",
+          "uncompressed_sha256": "f50c735fb2906c3312c7bc3cab28987e61f286105d09e6316c82774f5f8edc36",
+          "uncompressed_bytes": 8278272,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00025.jsonl.zst",
+          "records": 25000,
+          "bytes": 261504,
+          "sha256": "5a9a93f8f3c44a981850dccd0fb91e3f8e2696a0b52a880979ae6fff1881f44a",
+          "uncompressed_sha256": "3283f9ce61180a2887d2bca8cbdcff80f005388453de36f60eea43a2272ba1ed",
+          "uncompressed_bytes": 8277332,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00026.jsonl.zst",
+          "records": 25000,
+          "bytes": 261561,
+          "sha256": "3754bb21a6eccb153c99a2a33bca67af3b3f4fb06e0fa2955cc55179bd23e784",
+          "uncompressed_sha256": "b79a01539a68d86634cb764bf85dd2ca71bc1b87b81a4236cb9aa7fc74fe60b3",
+          "uncompressed_bytes": 8280266,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00027.jsonl.zst",
+          "records": 25000,
+          "bytes": 261662,
+          "sha256": "803b6c3cf51a6f4ef27d2f3a09fc55b3664a21ccbe386a921b987e7bbc011268",
+          "uncompressed_sha256": "2c1ae04db74494458a25b52d2150759e2cec53339e4e4d3adcaf2b9a716ffbc1",
+          "uncompressed_bytes": 8283019,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00028.jsonl.zst",
+          "records": 25000,
+          "bytes": 261180,
+          "sha256": "0393a5eed63d77fc61ebc3369b551224e284412de7b3b7a7f555d0b7ef91fb50",
+          "uncompressed_sha256": "49645865e0b8b3350315b05309f2e1c659d56d523e1b8394c6d8e200e11bd33d",
+          "uncompressed_bytes": 8281547,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00029.jsonl.zst",
+          "records": 25000,
+          "bytes": 261219,
+          "sha256": "edc00de2544cc4d187da8ff42eaa68538e133921b3a43955b6008d31ee548981",
+          "uncompressed_sha256": "a34177d2bc1a107eb46884983f7c3a46ad00bb9a6968ac5ce7936096b44b386f",
+          "uncompressed_bytes": 8280880,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00030.jsonl.zst",
+          "records": 25000,
+          "bytes": 261292,
+          "sha256": "7d021dcb6095b1b662b798ab6e50600b344d2e62aceca22868653dba5d370362",
+          "uncompressed_sha256": "a37529c94529eac4946c43dd601ddaf0c708442bdfb829f52ce6607de1a42caa",
+          "uncompressed_bytes": 8282328,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00031.jsonl.zst",
+          "records": 25000,
+          "bytes": 261831,
+          "sha256": "5e9b3a45fe9de6b301478121cacbd7228edacc825ca9ddd21d670bfaffa3cd32",
+          "uncompressed_sha256": "fa92747c31a8c2879443533faafef0d50b4528805bbc1af7a1f66cc6cc8fb41e",
+          "uncompressed_bytes": 8286210,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00032.jsonl.zst",
+          "records": 25000,
+          "bytes": 261816,
+          "sha256": "09e73f574990e660c11d3f0d4b3a6ad53ccdaaab8e3ec2525f8f9db240bbd101",
+          "uncompressed_sha256": "637c4c479ce082fc1ce4b937e21eaaa80887770915509ba9f9bec52ef2958e1e",
+          "uncompressed_bytes": 8285346,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00033.jsonl.zst",
+          "records": 25000,
+          "bytes": 261092,
+          "sha256": "6742f274cc0e266203e94ff8628c95ef5dd44b699e623e358ab2f3b2f93833cb",
+          "uncompressed_sha256": "47a75ecc34581f21753007a334469d26d6f2530c85024e5c99fa98c45e58adad",
+          "uncompressed_bytes": 8282745,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00034.jsonl.zst",
+          "records": 25000,
+          "bytes": 261239,
+          "sha256": "8570c529b64f04d185fadc77c9f14f91227acab8f411c8a50742518c4ca38331",
+          "uncompressed_sha256": "fa3865f257b02b758b93b3f2dfb5ddac9d226bb10a9ca493959ee0f05d045911",
+          "uncompressed_bytes": 8288114,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00035.jsonl.zst",
+          "records": 25000,
+          "bytes": 260791,
+          "sha256": "70a86e33299fc88712372164399a24ecf5cdcdfcd1b2728455e042b1cb71f6c6",
+          "uncompressed_sha256": "078a9d743ae1bb087a05fa37485e14345f8fd95637301b41670d8f9d28dd859a",
+          "uncompressed_bytes": 8291731,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00036.jsonl.zst",
+          "records": 25000,
+          "bytes": 261373,
+          "sha256": "634b177c09ab71474bc12b2a3b51fcb44c1de689d57fac3402f1b71eefa838eb",
+          "uncompressed_sha256": "c9aec1d5223c25f3b9cd000d263e72d834b7bebbd74b2aae993539f27ed5f88c",
+          "uncompressed_bytes": 8298817,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00037.jsonl.zst",
+          "records": 25000,
+          "bytes": 261898,
+          "sha256": "700db3ba72b7dc837eded281491cf755973fdd32ac860fe0e3f7c852a1ef7ff3",
+          "uncompressed_sha256": "d5427a027faaa340adb1d0027dd08b3df7f41a09f1ed81faee1e02122eed6873",
+          "uncompressed_bytes": 8296785,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00038.jsonl.zst",
+          "records": 25000,
+          "bytes": 262158,
+          "sha256": "287d6b05ac157d8479183158c758ffdef82b3b609d9fae8a8f5e55a44a32b669",
+          "uncompressed_sha256": "fcaaa6e69fd31ad6a4b69d65b67f46c73a7c74a2308b431e4729ddd1d90d2291",
+          "uncompressed_bytes": 8296432,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00039.jsonl.zst",
+          "records": 25000,
+          "bytes": 262467,
+          "sha256": "a71622085540dff8c23d3eaee841438a68679e8edc81d0d42e7f9bfbbe75289d",
+          "uncompressed_sha256": "5ba55d080de5974ea990f75949a39ca31812e3a97b94f82837d9d86f4eb38640",
+          "uncompressed_bytes": 8294094,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00040.jsonl.zst",
+          "records": 25000,
+          "bytes": 262533,
+          "sha256": "441f92bf7469828c4c69a0e3fa7a897331f91f5d31d01415e4868df8d75e1535",
+          "uncompressed_sha256": "77e9f3c7fed8afcca26d42720958b2e5165323d25640fed4c2c356f6d831cdeb",
+          "uncompressed_bytes": 8293473,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00041.jsonl.zst",
+          "records": 25000,
+          "bytes": 262649,
+          "sha256": "646d7f7d830869f941129b4aeacdde2af7c1eebd93a9b51e4dea24324a4ea05d",
+          "uncompressed_sha256": "b051728ce20f7167e12a7489ec7b02deddf642303cc05a437d594f14b1930e8e",
+          "uncompressed_bytes": 8288002,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00042.jsonl.zst",
+          "records": 25000,
+          "bytes": 261944,
+          "sha256": "ce2ed58afc1dc963761ec4aad18bf084777dea1d88f5a07eaf39608aa657ac5f",
+          "uncompressed_sha256": "a19ec5b8526a2fa5d3efcb7731c5a4c7d6ac570e0100289198b77b92eac37d86",
+          "uncompressed_bytes": 8296805,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00043.jsonl.zst",
+          "records": 25000,
+          "bytes": 264023,
+          "sha256": "44e1368760844f49220eca476acc6f431d470df1b821626c21c15da587f7d11b",
+          "uncompressed_sha256": "e198b0e7458bb2a0daccf51a7db707f0284965593318cc845ed9977a67632872",
+          "uncompressed_bytes": 8299630,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00044.jsonl.zst",
+          "records": 25000,
+          "bytes": 263058,
+          "sha256": "6eeb534a1934ee8f499a493ad5d23903c8aa76b5864b7adca2acc73ecd36a0ee",
+          "uncompressed_sha256": "04c998dd2f90a6d790d17873880264ef2f456846c068147f7af2e564b3a88d5b",
+          "uncompressed_bytes": 8308203,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00045.jsonl.zst",
+          "records": 25000,
+          "bytes": 262266,
+          "sha256": "d861b176abb53eafe03bf4a5a29f19ac8adee797d7189d1b7dee4ac506862573",
+          "uncompressed_sha256": "29111e6f255b1808a9bc48dec0485aae2450f6ab6f254e404c20425ef4f37bb4",
+          "uncompressed_bytes": 8304037,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00046.jsonl.zst",
+          "records": 25000,
+          "bytes": 261481,
+          "sha256": "94d63ff610a2751b99a91e26650fa3796da2e348d3f5d836bc15a21344eaffab",
+          "uncompressed_sha256": "9bcec83ff17d5213144855e1659b42ee1edab5ce9ad36f7c13b2788bdd0909ad",
+          "uncompressed_bytes": 8301651,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00047.jsonl.zst",
+          "records": 25000,
+          "bytes": 262448,
+          "sha256": "a626b452246451b584ddd7e4d67390d40293667f1700e58cf157fb40c03aad5f",
+          "uncompressed_sha256": "a42eed70250637030c67afb031db42afcb8fe0a38009c1d7591e9d5bfa90ed40",
+          "uncompressed_bytes": 8306900,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00048.jsonl.zst",
+          "records": 25000,
+          "bytes": 263023,
+          "sha256": "8a737e885e9f10dc646d9e566ed1697107ec2d00f93687a819c56198e564662f",
+          "uncompressed_sha256": "eeb4049481b10437f8e1a04af65c0a8e3fdae35bd7179de195ed2d182def68da",
+          "uncompressed_bytes": 8304588,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00049.jsonl.zst",
+          "records": 25000,
+          "bytes": 262757,
+          "sha256": "772fa2bff458e7138011e83b4599e186b7ba2e0ce4fb132d8c47bf203184d305",
+          "uncompressed_sha256": "08561a44f6af43a722438e24d987a3c98e51c5f3d64b0ba388fc32c2909ded8b",
+          "uncompressed_bytes": 8308068,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00050.jsonl.zst",
+          "records": 25000,
+          "bytes": 263000,
+          "sha256": "6c852cf41f028e18aa79df2673fb5b8a13a73c90eca2faa03e56c0cbaaac73eb",
+          "uncompressed_sha256": "e825d583a5c226e8290e705b177b1e1897240975b763a3a08cf108b2d40b757e",
+          "uncompressed_bytes": 8317781,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00051.jsonl.zst",
+          "records": 25000,
+          "bytes": 262253,
+          "sha256": "d0a875b14167841ec33ff6d01df8061343acf91c3a9b72e291fd50de6c46a745",
+          "uncompressed_sha256": "dffbbbfedc181a63eb132888cfa2be134b664088025018abbdca0b5fc650d6f2",
+          "uncompressed_bytes": 8298479,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00052.jsonl.zst",
+          "records": 25000,
+          "bytes": 262029,
+          "sha256": "f3d3b6a0e93ebbd3e099daef94400836489c6498cbf789df29195193df9401cc",
+          "uncompressed_sha256": "5ec496be2c16b9a081a0ab98bad497e722cf9788969b82dc53f3ca484565d67a",
+          "uncompressed_bytes": 8306586,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00053.jsonl.zst",
+          "records": 25000,
+          "bytes": 261746,
+          "sha256": "0aefc05671cbce29c12273bfa0abb36f0a6cc2a6fa6fa73a57163ae4ba568bb1",
+          "uncompressed_sha256": "fdfc7255af7e0ce46d5ebd32d13c7bf7ddd140a1e0deb7e29c506525320812a8",
+          "uncompressed_bytes": 8314019,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00054.jsonl.zst",
+          "records": 25000,
+          "bytes": 261227,
+          "sha256": "b1360a72c461ff93b891a32b2add2cb8c223e761952a35c7ffe6290b2693a2b1",
+          "uncompressed_sha256": "d0aeb86c5af58e3ad06b655009c571f75cdcaee76da7619c4d04bfdc1b6fe90b",
+          "uncompressed_bytes": 8309481,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00055.jsonl.zst",
+          "records": 25000,
+          "bytes": 262942,
+          "sha256": "9128008bea043d8968b8c1f15db74f776c052476445520054a2ac279a6b5f3b3",
+          "uncompressed_sha256": "91ba61c89d13fad90d92ef10df0cc54724baffd421d3dce1dc267ab4f04baa2e",
+          "uncompressed_bytes": 8316444,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00056.jsonl.zst",
+          "records": 25000,
+          "bytes": 262533,
+          "sha256": "80cf7522fd8665bafb94c6ed6a081400cf5fa991f0eced9a81cb4b1a6ba9dc46",
+          "uncompressed_sha256": "a75d0760d6dd713136e6b5c09a5f9d90d2cb86d0a2e4bb533cee2b86bff35184",
+          "uncompressed_bytes": 8309553,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00057.jsonl.zst",
+          "records": 25000,
+          "bytes": 263079,
+          "sha256": "993e55f449be0db5009f64e4db75fa009023f97f3fbba315832bf2debc2b948a",
+          "uncompressed_sha256": "d4155cd4790fd1f34ed44175d52ee68ecfdd1c53302e9caafa5d4e0850ccbcc0",
+          "uncompressed_bytes": 8313083,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00058.jsonl.zst",
+          "records": 25000,
+          "bytes": 262857,
+          "sha256": "b9f79e2b0b3611410f1721c15f292f22b8da35d4c28516d55d6b2241831760b1",
+          "uncompressed_sha256": "8867f53f8491024b9e02f9f03c5677c41529e1347d89f7f05286359f1720a16b",
+          "uncompressed_bytes": 8311715,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00059.jsonl.zst",
+          "records": 25000,
+          "bytes": 263681,
+          "sha256": "7c67c98bed2e09a16656581b2dae251d964e2ce698401ff8682fe087340ac74e",
+          "uncompressed_sha256": "54bb22ffa5543ba1310d84c11b915a4d5ec31b0db576a81eb15a465c368d7855",
+          "uncompressed_bytes": 8320977,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00060.jsonl.zst",
+          "records": 25000,
+          "bytes": 262954,
+          "sha256": "41c92193eb20955d8b78ec246737ab320e467210361a0a80761fa3a1231aafe3",
+          "uncompressed_sha256": "fd61716987fb084f0d11727853bbdb4bab829a4e4d0e02ee4265638f1b47529f",
+          "uncompressed_bytes": 8320550,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00061.jsonl.zst",
+          "records": 25000,
+          "bytes": 262820,
+          "sha256": "9f7b445b7e427fc06cad8d4f4870269da3a7303fbdbcf24d6e1663bf498a4fea",
+          "uncompressed_sha256": "610140beddd0e8802ea838ff1762bb0863ac0505c271969cd80f0eccf50181aa",
+          "uncompressed_bytes": 8314335,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00062.jsonl.zst",
+          "records": 25000,
+          "bytes": 263509,
+          "sha256": "7170efac28bca1928e56816f5c0c32b4f75651cbc1f2ced2b21677acfd0401bb",
+          "uncompressed_sha256": "c49b9bbed4c0dcc82a0bea572a2b44a67295a5be929211b83930824bafc38567",
+          "uncompressed_bytes": 8316163,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00063.jsonl.zst",
+          "records": 25000,
+          "bytes": 262883,
+          "sha256": "1666e57de821fdade4462d825b4466fb6fe082c5e18ac1495f4a5f8a26406fab",
+          "uncompressed_sha256": "c907e94f507d009f82904a4cbe04a57aa94f11fce2d08d0ef5fe669301f620a2",
+          "uncompressed_bytes": 8337349,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00064.jsonl.zst",
+          "records": 25000,
+          "bytes": 263216,
+          "sha256": "e03f9ae839f066e2c05446ac74c0b60406352e6d8528b62eaca69b3f4232d487",
+          "uncompressed_sha256": "0a92857e06c9c221fe8749024d7b3f6f1e344161636932348c8cd33f5f0621ab",
+          "uncompressed_bytes": 8323217,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00065.jsonl.zst",
+          "records": 25000,
+          "bytes": 264747,
+          "sha256": "116bbb770ea46c695abaf1ad56f919a0527396536767cb85f31080a99a34d505",
+          "uncompressed_sha256": "3b5b1a54dbee48f26ae8a93ada04066ad68c18ec35ab3923eb07a9feff3a8c3e",
+          "uncompressed_bytes": 8329276,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00066.jsonl.zst",
+          "records": 25000,
+          "bytes": 263051,
+          "sha256": "de79714040ffdbdcbe85f70f3ae405c2b6d18b7b238816bed4606f9b130a318b",
+          "uncompressed_sha256": "501833c96b87f2957f9028bb8c9d0516a418ed7d26649b2410cfcf92aca8e411",
+          "uncompressed_bytes": 8320111,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00067.jsonl.zst",
+          "records": 25000,
+          "bytes": 263956,
+          "sha256": "34aea66937c2cd1711f4cdfd7202b62a11157a9fa6829c861e8632334d3083d9",
+          "uncompressed_sha256": "b3595f3c2b4c3eac77b00e3f524726760ab83918486b98388d459e0d0849c2b6",
+          "uncompressed_bytes": 8320273,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00068.jsonl.zst",
+          "records": 25000,
+          "bytes": 262570,
+          "sha256": "58df7d9470cdf1202c416c117a7a7804687519e757398f1dd7a3110b7009998b",
+          "uncompressed_sha256": "3602180cd4b8462b8dd2b9f9373ffeb4bd5e69cbe9bb8b2b399ad8ac0d281d88",
+          "uncompressed_bytes": 8327783,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00069.jsonl.zst",
+          "records": 25000,
+          "bytes": 262006,
+          "sha256": "39b139b4a1e435662a801a597d48c1b1b68a72f7b2657fea27663710007e3d45",
+          "uncompressed_sha256": "1d680e893f562049a253914ef05befb655cf8e859270dbd911c96b4c2384be51",
+          "uncompressed_bytes": 8323214,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/role_tasks/part-00070.jsonl.zst",
+          "records": 5310,
+          "bytes": 58180,
+          "sha256": "c66a0bd4147a3e6f6e7be86c5db7e169fe24662741f4846bf784b4cd48b4fc4d",
+          "uncompressed_sha256": "c18b46a8f5b74df274333b5f0b6c9da22a58c90c2fcab530af5d519a303ccef9",
+          "uncompressed_bytes": 1769310,
+          "compression": "zstandard"
+        }
+      ]
+    },
+    "case_corrections": {
+      "records": 42368,
+      "shards": [
+        {
+          "path": "data/case_corrections/part-00001.jsonl.zst",
+          "records": 25000,
+          "bytes": 634917,
+          "sha256": "6ed113c613bb850561f8acf0491afd6446d4efc54d863898de9e38e9f85d2832",
+          "uncompressed_sha256": "d2a69f9e30a4a29236d3867f2c469ee16f5b540ab90f994a328293bc21c46009",
+          "uncompressed_bytes": 13543030,
+          "compression": "zstandard"
+        },
+        {
+          "path": "data/case_corrections/part-00002.jsonl.zst",
+          "records": 17368,
+          "bytes": 444216,
+          "sha256": "201d38e1a656a04d300aaf01eeb8e04ce5deceff9599470cba2249b510ccff10",
+          "uncompressed_sha256": "699e6d4d3363d24e0843c036cb5afcf566a99c86ef367dfbdbf084ea412ad37a",
+          "uncompressed_bytes": 9427114,
+          "compression": "zstandard"
+        }
+      ]
+    },
+    "source_statistics/wordforms": {
+      "records": 128182,
+      "shards": [
+        {
+          "path": "data/source_statistics/wordforms/part-00001.jsonl.gz",
+          "records": 100000,
+          "bytes": 1104342,
+          "sha256": "4da8fa814cf97dc384595fbd72832669cc32bdb2ba73f9ee8b4176224faf153a"
+        },
+        {
+          "path": "data/source_statistics/wordforms/part-00002.jsonl.gz",
+          "records": 28182,
+          "bytes": 310096,
+          "sha256": "2db3bf8192c3443305b762abe09095602fbb32d40b218ca78893e52575b260c4"
+        }
+      ],
+      "origin": "source_aggregate",
+      "training_use": "pooled statistical features; not continuous prose or gold spelling labels"
+    },
+    "source_statistics/adjacent_pairs": {
+      "records": 261931,
+      "shards": [
+        {
+          "path": "data/source_statistics/adjacent_pairs/part-00001.jsonl.gz",
+          "records": 100000,
+          "bytes": 1117780,
+          "sha256": "b3461c4d7c830831ebfdea8fe064b641b99e6bfeedc0a23b4c7130f831f6ff52"
+        },
+        {
+          "path": "data/source_statistics/adjacent_pairs/part-00002.jsonl.gz",
+          "records": 100000,
+          "bytes": 1148312,
+          "sha256": "25a75de952e8b4ca20af3075a9b08fd7864471af6953e66c1564833a0036150e"
+        },
+        {
+          "path": "data/source_statistics/adjacent_pairs/part-00003.jsonl.gz",
+          "records": 61931,
+          "bytes": 710506,
+          "sha256": "be086665241c5e308a015728318511bcaa8f6c2de2479bed9bd005ef3d5184d2"
+        }
+      ],
+      "origin": "source_aggregate",
+      "training_use": "pooled statistical features; not continuous prose or gold spelling labels"
+    },
+    "source_statistics/context_pairs": {
+      "records": 1264393,
+      "shards": [
+        {
+          "path": "data/source_statistics/context_pairs/part-00001.jsonl.gz",
+          "records": 100000,
+          "bytes": 1186913,
+          "sha256": "4ec5e098325a06d7008e6af270ee2e6369d46634b6e2430a25d13c8dd99dc7c5"
+        },
+        {
+          "path": "data/source_statistics/context_pairs/part-00002.jsonl.gz",
+          "records": 100000,
+          "bytes": 1140038,
+          "sha256": "e9fc88b29306c1db446944cdb1832a521f29c1c50b051e4f4747de03dab94dab"
+        },
+        {
+          "path": "data/source_statistics/context_pairs/part-00003.jsonl.gz",
+          "records": 100000,
+          "bytes": 1250540,
+          "sha256": "111bfaf8c7c710773994bf500fcb4ca46add345f5075ff5d1974d8a2eb00a83b"
+        },
+        {
+          "path": "data/source_statistics/context_pairs/part-00004.jsonl.gz",
+          "records": 100000,
+          "bytes": 1270169,
+          "sha256": "87fd31731afb4d86365fe33ca7cf7c0ac777add40e027b2271c57a29c9171593"
+        },
+        {
+          "path": "data/source_statistics/context_pairs/part-00005.jsonl.gz",
+          "records": 100000,
+          "bytes": 1156572,
+          "sha256": "05e6e86f1c748e3bece03586da4386dc0c61bfb0c29911ce5e814a8356c35c18"
+        },
+        {
+          "path": "data/source_statistics/context_pairs/part-00006.jsonl.gz",
+          "records": 100000,
+          "bytes": 1251987,
+          "sha256": "b427f3d516254dbc99bfdc172b54fe4374893a42914687e1c9114ec89f056d0b"
+        },
+        {
+          "path": "data/source_statistics/context_pairs/part-00007.jsonl.gz",
+          "records": 100000,
+          "bytes": 1209121,
+          "sha256": "0d6715fbfbbd4e43778a32ebee9c2fb1b12101ae350a35e0d3632e0286d91b03"
+        },
+        {
+          "path": "data/source_statistics/context_pairs/part-00008.jsonl.gz",
+          "records": 100000,
+          "bytes": 1182530,
+          "sha256": "54832980b04149929f1fa39965d4488f39e39e5f8d95c75e32441703b20687a1"
+        },
+        {
+          "path": "data/source_statistics/context_pairs/part-00009.jsonl.gz",
+          "records": 100000,
+          "bytes": 1204786,
+          "sha256": "339dc6c5bede8126fefa729071367b84501013107e84c5b87037313bf3022e4e"
+        },
+        {
+          "path": "data/source_statistics/context_pairs/part-00010.jsonl.gz",
+          "records": 100000,
+          "bytes": 1243899,
+          "sha256": "f78b87c4da5f4b3716c1d2a3ee83b4fafe69938d2a79e92186246906dfbaf970"
+        },
+        {
+          "path": "data/source_statistics/context_pairs/part-00011.jsonl.gz",
+          "records": 100000,
+          "bytes": 1265100,
+          "sha256": "48e41654a021e52e998563e63dd4d470ec8882a3fac8e6c473a701d3028f0257"
+        },
+        {
+          "path": "data/source_statistics/context_pairs/part-00012.jsonl.gz",
+          "records": 100000,
+          "bytes": 1206202,
+          "sha256": "d03da3db24d750f5b865fcaf1f5829af0a114d18db0debf72657cf2ff658066d"
+        },
+        {
+          "path": "data/source_statistics/context_pairs/part-00013.jsonl.gz",
+          "records": 64393,
+          "bytes": 777920,
+          "sha256": "3163040bcf4ecd917ea61bd6ab8b0802137d073fcfdb5f33a5a0a7c470390abc"
+        }
+      ],
+      "origin": "source_aggregate",
+      "training_use": "pooled statistical features; not continuous prose or gold spelling labels"
+    },
+    "source_statistics/character_fragments": {
+      "records": 19781,
+      "shards": [
+        {
+          "path": "data/source_statistics/character_fragments/part-00001.jsonl.gz",
+          "records": 19781,
+          "bytes": 223941,
+          "sha256": "a6bd1ea9e27800209ccfb921cdd39406591215134b98558250bca3509f4bfe9d"
+        }
+      ],
+      "origin": "source_aggregate",
+      "training_use": "pooled statistical features; not continuous prose or gold spelling labels"
+    },
+    "source_statistics/affix_statistics": {
+      "records": 6322,
+      "shards": [
+        {
+          "path": "data/source_statistics/affix_statistics/part-00001.jsonl.gz",
+          "records": 6322,
+          "bytes": 61203,
+          "sha256": "34abb85e4c601f080734f26957e378cd6be5a1a0ea69443b760ec0856d6908f3"
+        }
+      ],
+      "origin": "source_aggregate",
+      "training_use": "pooled statistical features; not continuous prose or gold spelling labels"
+    },
+    "orthography_tasks": {
+      "records": 180627,
+      "shards": [
+        {
+          "path": "data/orthography_tasks/part-00001.jsonl.gz",
+          "records": 50000,
+          "bytes": 824147,
+          "sha256": "62f2f115814d4746c1d82ab5ca6a968b4241b36b782aec6521b5956d8ca4b680"
+        },
+        {
+          "path": "data/orthography_tasks/part-00002.jsonl.gz",
+          "records": 50000,
+          "bytes": 811855,
+          "sha256": "9a14e038a1edeebdc0be00e0883018cd58a031d0cb94406d9595b7763be7bd94"
+        },
+        {
+          "path": "data/orthography_tasks/part-00003.jsonl.gz",
+          "records": 50000,
+          "bytes": 812489,
+          "sha256": "70671e0243d0179d87b2a67ca2d12686a50cb03c8a620bce79b3ad259abf7711"
+        },
+        {
+          "path": "data/orthography_tasks/part-00004.jsonl.gz",
+          "records": 30627,
+          "bytes": 494179,
+          "sha256": "faaac1182187da90b8c9f64991b9f8d48db3f55026ebc20362f54ec8b827f30f"
+        }
+      ],
+      "origin": "algorithmic_from_source_aggregate"
+    }
+  },
+  "split_policy": {
+    "version": "target-head-v1",
+    "implementation": "scripts/split_policy.py",
+    "scope": "corpus and linked role/case tasks; auxiliary source statistics and orthography are not partitioned",
+    "details": "SPLITS.md"
+  },
+  "dataset": "BTU Georgian Language AI Expanded Corpus",
+  "version": "2.0.1"
+}

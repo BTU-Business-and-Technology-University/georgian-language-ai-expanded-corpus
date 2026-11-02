@@ -1,0 +1,13 @@
+{
+  "distribution_revision": "2.0.3-full-checked",
+  "data_version": "2.0.1",
+  "all_original_data_shards_byte_identical": 339,
+  "data_records_removed": 0,
+  "data_records_added": 0,
+  "selection_or_sampling_filter_in_export": false,
+  "original_exporter_restored_byte_for_byte": true,
+  "tokenizer_recount_completed": false,
+  "private_source_rescan_completed": false,
+  "human_linguist_review_completed": false,
+  "model_training_performed": false
+}

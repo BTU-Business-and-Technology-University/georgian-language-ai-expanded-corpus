@@ -1,0 +1,33 @@
+{
+  "dataset": "BTU Georgian Language AI Expanded Corpus",
+  "version": "2.0.1",
+  "date": "2026-10-26",
+  "primary_georgian_lexical_token_occurrences": 150080748,
+  "primary_full_text_tokens_with_punctuation": 158055340,
+  "primary_synthetic_records": 6056086,
+  "unique_normalized_sentences_or_utterances": 6805704,
+  "role_extraction_tasks": 1730310,
+  "intentional_error_correction_tasks": 42368,
+  "source_aggregate_records": 1680609,
+  "orthography_tasks": 180627,
+  "all_component_records": 9690000,
+  "data_shards": 339,
+  "compressed_data_bytes": 417846390,
+  "largest_shard_bytes": 1558607,
+  "headline_excludes_metadata_and_derived_tasks": true,
+  "primary_origin": "rule_synthetic",
+  "programmatic_checks": "PASS",
+  "independent_linguist_review_completed": false,
+  "model_quality_gain_verified": false,
+  "synthetic_seed_lexicon": {
+    "human_roles": 54,
+    "noun_lemmas": 167,
+    "active_verb_paradigms": 50,
+    "adjective_paradigm_entries": 41
+  },
+  "checked_source_eight_word_matches": 0,
+  "absolute_anonymity_guarantee": false,
+  "role_task_question_policy": "neutral_span_extraction_v2.0.1",
+  "split_policy": "target-head-v1",
+  "primary_payload_changed_since_v2_0_0": false
+}

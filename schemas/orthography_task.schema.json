@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Algorithmic string exercises, not a gold spelling dictionary",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "task": {
+      "enum": [
+        "letter_count",
+        "join_chunks",
+        "space_letters"
+      ]
+    },
+    "wordform": {
+      "type": "string",
+      "pattern": "^[ა-ჰ]{2,30}$"
+    },
+    "question_ka": {
+      "type": "string",
+      "minLength": 1
+    },
+    "answer_ka": {
+      "type": "string",
+      "minLength": 1
+    },
+    "origin": {
+      "const": "algorithmic_from_source_aggregate"
+    },
+    "spelling_gold": {
+      "const": false
+    },
+    "included_in_primary_token_headline": {
+      "const": false
+    }
+  },
+  "required": [
+    "id",
+    "task",
+    "wordform",
+    "question_ka",
+    "answer_ka",
+    "origin",
+    "spelling_gold",
+    "included_in_primary_token_headline"
+  ]
+}

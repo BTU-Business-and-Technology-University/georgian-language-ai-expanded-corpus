@@ -1,0 +1,86 @@
+{
+  "role_tasks": {
+    "records": 1730310,
+    "identity_fields": [
+      "context_id",
+      "task",
+      "question_ka",
+      "answer_ka"
+    ],
+    "duplicate_content_keys": 0,
+    "duplicate_ids": 0,
+    "examples": []
+  },
+  "case_corrections": {
+    "records": 42368,
+    "identity_fields": [
+      "context_id",
+      "task",
+      "incorrect_text_ka",
+      "correct_agent_ka"
+    ],
+    "duplicate_content_keys": 0,
+    "duplicate_ids": 0,
+    "examples": []
+  },
+  "source_statistics/wordforms": {
+    "records": 128182,
+    "identity_fields": [
+      "form"
+    ],
+    "duplicate_content_keys": 0,
+    "duplicate_ids": 0,
+    "examples": []
+  },
+  "source_statistics/adjacent_pairs": {
+    "records": 261931,
+    "identity_fields": [
+      "left",
+      "right"
+    ],
+    "duplicate_content_keys": 0,
+    "duplicate_ids": 0,
+    "examples": []
+  },
+  "source_statistics/context_pairs": {
+    "records": 1264393,
+    "identity_fields": [
+      "word_a",
+      "word_b"
+    ],
+    "duplicate_content_keys": 0,
+    "duplicate_ids": 0,
+    "examples": []
+  },
+  "source_statistics/character_fragments": {
+    "records": 19781,
+    "identity_fields": [
+      "fragment"
+    ],
+    "duplicate_content_keys": 0,
+    "duplicate_ids": 0,
+    "examples": []
+  },
+  "source_statistics/affix_statistics": {
+    "records": 6322,
+    "identity_fields": [
+      "position",
+      "fragment"
+    ],
+    "duplicate_content_keys": 0,
+    "duplicate_ids": 0,
+    "examples": []
+  },
+  "orthography_tasks": {
+    "records": 180627,
+    "identity_fields": [
+      "task",
+      "wordform",
+      "question_ka",
+      "answer_ka"
+    ],
+    "duplicate_content_keys": 0,
+    "duplicate_ids": 0,
+    "examples": []
+  }
+}
